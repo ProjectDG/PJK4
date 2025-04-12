@@ -1,0 +1,616 @@
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./images/japan.png);
+    background-color: rgb(58, 23, 31);
+    color: antiquewhite;
+}
+
+::backdrop {
+  background-image: url("./images/japan.png");
+  background-size: 105% 100%;
+}  
+
+button.missing {
+  opacity: 0.5;
+  /* color: #bbb; */
+  color: white;
+  /* pointer-events: none; Optional: disable clicking */
+}
+
+button{
+  border: .5vh outset rgb(227, 191, 127);
+  box-shadow: 0 0 15px #313131;
+  background-color: rgba(112, 73, 11, 0.907);
+  background-image: linear-gradient(rgba(200, 131, 21, 0.571), rgba(34, 22, 4, 0.116));
+  margin: 1%;
+  width: 45vw;
+  height: 9vh;
+  font-size: 3vh;
+  cursor: pointer;
+  color: antiquewhite;
+  position: relative;
+}
+
+.nav-buttons{
+  background-color: rgba(54, 45, 31, 0.809);
+  border-radius: 30px;
+}
+
+.drink-buttons{
+  border: .5vh outset rgb(227, 191, 127);
+  padding: 1.25%;
+  width: 16vw;
+  height: 25vh;
+  border-radius: 20%;
+}
+
+.missing-ingredient{
+  font-size: 2vh;
+  background-color: rgba(255, 0, 0, 0.9);
+  padding: 1vh;
+  position: absolute;
+  top: 150px;
+  right: 15px;
+  height: 3vh;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+#cocktails,
+#originals{
+  width: 47%;
+  height: 10vh;
+}
+
+#searchDrinks{
+  width: 96%;
+  height: 10vh;
+}
+
+#topNav,
+#bottomNav{
+  /* border: 2px outset red; */
+  padding: .1%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainContainer{
+  border: .5vh outset rgb(227, 191, 127);
+  background-color: #0000006e;
+  box-shadow: 0 0 15px #313131;
+  width: 95%;
+  height: 74%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+[id="Crouching Tiger"] {
+  background-color: rgb(156, 68, 0);
+  order: 8;
+}
+
+#searchDiv{
+  /* border: 2px solid red; */
+  margin: 0%;
+  width: 95%;
+  height: 15%;
+  position: absolute;
+  top: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchInput{
+  width: 80%;
+  padding: 1%;
+  font-size: 2.5vh;
+}
+
+#clearButton{
+  width: 10vw;
+  height: 7vh;
+}
+
+#searchListDiv{
+  /* border: 3px solid red; */
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 60%;
+  overflow: auto;
+}
+
+.error-message{
+  font-size: 6vh;
+  font-weight: bold;
+  text-shadow: 0 0 15px #000000;
+}
+
+#drinkInfoContainer{
+  /* border: 2px solid purple; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardTitle{
+  border-bottom: .5vh inset rgb(227, 191, 127);
+  background-color: #0000006e;
+  text-shadow: 0 0 15px #000000;
+  width: 98%;
+  height: 10vh;
+  padding: 0 2%;
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drinkInfo{
+  /* border: 2px solid orange; */
+  width: 100%;
+  height: 87%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-divs{
+  /* border: 1px solid red; */
+  box-shadow: 0 0 20px #313131;
+  border: .25vh outset rgb(227, 191, 127);
+  margin: .5%;
+  width: 23%;
+  height: 98%;
+}
+
+#drinkPhoto{
+  box-shadow: 0 0 15px #313131;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000006e;
+}
+
+.drink-photo{
+  border: 1px outset black;
+  box-shadow: 0 0 10px #000000;
+  max-width: 20vw;
+  max-height: 40vh;
+  overflow: hidden;
+}
+
+#drinkRecipeDiv{
+  /* border: 3px solid pink; */
+  width: 45%;
+  font-size: 2.5vh;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-color: rgb(0, 0, 0, .8);
+}
+
+.recipe-div{
+  /* border: 2px solid blue; */
+  /* margin: 3%; */
+  /* display: flex; */
+  /* text-decoration: underline; */
+  width: 100%;
+}
+
+.recipe-title-div{
+  /* border: 4px solid red; */
+  display: flex;
+}
+
+.recipe-title{
+  /* border: 2px solid orange; */
+  width: 22%;
+  margin: 0 0 2% 4%;
+  padding: 0%;
+  display: block;
+  text-align: left;
+  /* font-weight: 600; */
+  /* background-color: rgb(0, 0, 0, .8); */
+  color: antiquewhite;
+  /* text-decoration: underline; */
+}
+
+.drink-recipe{
+  max-width: 100%;
+}
+
+.recipe{
+  /* border: 1px solid green; */
+  max-width: 100%;
+  margin: 0%;
+  margin-bottom: 2%;
+  /* font-weight: 600; */
+  display: block;
+  text-align: left;
+  cursor: pointer;
+}
+
+#drinkInstructionsDiv{
+  /* border: 2px solid red; */
+  background-color: #0000006e;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  width: 28%;
+}
+
+#drinkInstructionsTitle{
+  border-bottom: .25vh inset rgb(227, 191, 127);
+  border-top: .25vh inset rgb(227, 191, 127);
+  width: 100%;
+  height: fit-content;
+  padding: 1vh 0;
+  font-size: 2.25vh;
+  font-weight: 600;
+  text-align: center;
+}
+
+.instructions{
+  /* text-align: center; */
+  margin: 8% 5%;
+  font-size: 2vh;
+}
+
+#modalBG{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalContent{
+  position: fixed;
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  border: .5vh outset rgb(227, 191, 127);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inventory-photo{
+  margin: 2vh;
+  max-height: 85vh;
+  max-width: 80vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modalBG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  color: #f5f5f5;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.modal-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+  text-align: center;
+}
+
+.modal-image {
+  display: block;
+  margin: 0 auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.modal-description {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.modal-alternatives {
+  margin-top: 2rem;
+}
+
+.modal-alt-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #ccc;
+}
+
+.modal-alt-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.modal-alt-list li {
+  margin: 0.25rem 0;
+  color: #bbb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+
+  ::backdrop {
+    background-image: url("./images/japan.png");
+    background-size: 199% 115%;
+    display: block;
+  }  
+
+  #drinkRecipeDiv{
+    width: 96%;
+    height: 64.5vh;
+  }
+
+  .info-divs{
+    width: 96%;
+    margin: 1% 0;
+  }
+
+  #drinkInstructionsDiv{
+    width: 96%;
+    height: fit-content;
+    order: 2;
+    font-size: 2vh;
+  }
+
+  .drink-recipe{
+    width: 75%;
+  }
+
+  .recipe{
+    max-width: 100%;
+  }
+
+  #drinkPhoto{
+    height: fit-content;
+    padding: 4% 0;
+    order: 1;
+  }
+
+  .drink-buttons{
+    width: 44vw;
+    height: 13vh;
+    padding: 3%;
+    border-radius: 70px;
+  }
+
+  #searchInput{
+    width: 70%;
+  }
+
+  #clearButton{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2.5vh;
+  }
+
+  .error-message{
+    font-size: 4vh;
+    text-align: center;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 1440px) and (orientation: portrait) {
+
+  body{
+    background-repeat: no-repeat;
+    background-size: 250% 120%;
+  }
+
+  ::backdrop {
+    background-image: url("./images/japan.png");
+    background-size: 199% 115%;
+    display: block;
+  }  
+
+  #drinkRecipeDiv{
+    width: 96%;
+    height: 64.5vh;
+  }
+
+  .info-divs{
+    width: 96%;
+    margin: 1% 0;
+  }
+
+  #drinkInstructionsDiv{
+    width: 96%;
+    height: fit-content;
+    order: 2;
+  }
+
+  .drink-recipe{
+    margin-left: 4%;
+    width: 100%;
+  }
+
+  .recipe-title-div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .recipe-title{
+    font-size: 2.5vh;
+    width: 100%;
+    text-decoration: underline;
+  }
+
+  .recipe{
+    max-width: 98%;
+  }
+
+  #drinkPhoto{
+    height: fit-content;
+    padding: 4% 0;
+    order: 1;
+  }
+
+  .drink-buttons{
+    width: 44vw;
+    height: 13vh;
+    padding: 3%;
+    border-radius: 70px;
+  }
+
+  #searchInput{
+    width: 70%;
+  }
+
+  #clearButton{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2.5vh;
+  }
+
+  .error-message{
+    font-size: 4vh;
+    text-align: center;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 3088px) and (orientation: landscape) {
+
+  body{
+    background-repeat: no-repeat;
+    background-size: 150%;
+  }
+
+  ::backdrop {
+    background-image: url("./images/japan.png");
+    background-size: 120% 100%;
+    display: block;
+  } 
+}
