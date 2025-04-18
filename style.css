@@ -369,26 +369,44 @@ button{
   color: #f5f5f5;
   font-family: sans-serif;
   box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  flex-wrap: wrap;
+}
+
+#modalTitleDiv{
+  width: 100%;
+  margin: 0%;
 }
 
 .modal-title {
   font-size: 2rem;
+  margin: 0%;
   margin-bottom: 1rem;
-  color: #ffd700;
+  color: antiquewhite;
   text-align: center;
+}
+
+.modal-flex{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-image {
   display: block;
   margin: 0 auto;
-  max-height: 300px;
+  max-height: 75vh;
   object-fit: contain;
-  border-radius: 8px;
+  border-radius: 20px;
+}
+
+.modal-right{
+  width: 50%;
 }
 
 .modal-description {
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -398,6 +416,7 @@ button{
 }
 
 .modal-alt-title {
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -413,6 +432,7 @@ button{
 .modal-alt-list li {
   margin: 0.25rem 0;
   color: #bbb;
+  font-size: 1.25rem;
 }
 
 

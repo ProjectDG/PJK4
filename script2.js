@@ -251,9 +251,14 @@ fetch('data.json')
         const camelCaseStringA = toCamelCase(a);
         const camelCaseStringB = toCamelCase(b);
     
-        if (camelCaseStringA === camelCaseStringB) {
+        // if (camelCaseStringA === camelCaseStringB) {
+        //   matchedItem = i;
+        // }
+
+        if (camelCaseStringB.includes(camelCaseStringA)) {
           matchedItem = i;
         }
+        
       });
     
       if (matchedItem) {
@@ -264,8 +269,14 @@ fetch('data.json')
           .attr("id", "modalContent")
           .attr("class", "modal-content");
 
+        const modalTitleDiv = d3.select(".modal-content")
+          .append("div")
+          .attr("id", "modalTitleDiv")
+          .attr("class", "modal-title-div");
+
+
         // Title above everything
-        modal.append("h2")
+        modalTitleDiv.append("h2")
           .attr("class", "modal-title")
           .text(matchedItem);
 
