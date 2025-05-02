@@ -364,8 +364,8 @@ button{
   background: #1a1a1a;
   padding: 2rem;
   border-radius: 12px;
-  width: 90%;
-  max-width: 600px;
+  max-width: 80%;
+  /* max-width: 600px; */
   color: #f5f5f5;
   font-family: sans-serif;
   box-shadow: 0 0 20px rgba(255,255,255,0.2);
@@ -395,13 +395,13 @@ button{
 .modal-image {
   display: block;
   margin: 0 auto;
-  max-height: 75vh;
+  max-height: 60vh;
   object-fit: contain;
   border-radius: 20px;
 }
 
 .modal-right{
-  width: 50%;
+  width: 80%;
 }
 
 .modal-description {
@@ -534,8 +534,6 @@ button{
     text-align: center;
   }
 
-
-
 }
 
 
@@ -614,6 +612,15 @@ button{
   .error-message{
     font-size: 4vh;
     text-align: center;
+  }
+
+
+  .modal-content{
+    max-width: 90vw;
+  }
+
+  .modal-image{
+    max-height: 30vh;
   }
 
 

@@ -486,6 +486,22 @@
                 "alt. batch" : null
             },
             {
+                "name" : "French Martini",
+                "glass" : ["Martini or Coupe Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Vodka - 2 oz"],
+                "liqueur" : ["Chambord - .25 oz"],
+                "vermouth" : null,
+                "mixers" : ["Pineapple Juice - 1.75 oz"],
+                "garnish" : null,
+                "section" : "searchDrinks",
+                "photo" : "frenchMartini",
+                "instructions" : ["Add the vodka, Chambord and pineapple juice into a shaker with ice and shake until well-chilled.", "Fine-strain into a chilled cocktail glass."],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
                 "name" : "Hugo Spritz",
                 "glass" : ["Wine Glass"],
                 "rim" : null,
@@ -530,6 +546,22 @@
                 "section" : "searchDrinks",
                 "photo" : "cadillac",
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Lime"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Mint Julep",
+                "glass" : ["Metal Julep Cup"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Bourbon - 2 oz"],
+                "liqueur" : null,
+                "vermouth" : null,
+                "mixers" : ["Mint Leaves - 8 (Muddled)", "Simple Syrup - .25 oz"],
+                "garnish" : ["Mint Sprig", "Bitters (Optional: Few Drops)"],
+                "section" : "searchDrinks",
+                "photo" : "mintJulep",
+                "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
                 "batch" : null,
                 "alt. batch" : null
             },
@@ -580,7 +612,53 @@
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
                 "batch" : null,
                 "alt. batch" : null
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "name" : "French 75",
+                "glass" : ["Champagne Flute"],
+                "rim" : null,
+                "wine" : ["Champagne - 3 oz"],
+                "liquor" : ["Gin - 1 oz"],
+                "liqueur" : null,
+                "vermouth" : null,
+                "mixers" : ["Lemon Juice - .5 oz", "Simple Syrup - .5 oz"],
+                "garnish" : ["Lemon Twist"],
+                "section" : null,
+                "photo" : "french75",
+                "instructions" : ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled", "Strain into a Champagne flute" ,"Top with the Champagne or sparkling wine of choice", "Garnish with a lemon twist"],
+                "batch" : null,
+                "alt. batch" : null
             }
+            
+            
 
 
 
@@ -613,9 +691,16 @@
                     "Soda Water",
 
 
+
+
+
+
                     "Angostura Bitters",
                     "lemon Bitters",
                     "Orange Bitters",
+
+
+
 
 
 
@@ -648,6 +733,9 @@
 
 
 
+
+
+
                     "Aperol",
                     "Aqua Perfecta Basil Brandy",
                     "Cafe Borghetti",
@@ -668,13 +756,22 @@
 
 
 
+
+
+
                     "Lillet Blanc",
                     "Living Jewel Sake",
                     "Sweet Vermouth",
 
 
 
+
+
+
+
                     "Albert Bichot Brut",
+
+
 
 
 
@@ -690,6 +787,9 @@
                     "Simple Syrup",
                     
                     
+
+
+
                     
                     
                     "Cranberry Juice",
@@ -703,6 +803,7 @@
 
 
                     "Egg White",
+                    "Mint Leaves",
                     "Mint Sprig",
                     "Shiso Leaf",
                     
