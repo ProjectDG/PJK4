@@ -200,66 +200,83 @@ fetch('data.json')
     });
 
     $('body').on("click", ".recipe", function () {
-      let thisID = this.id.toLowerCase();
+      const clickedIngredient = this.id;
+      const sanitizedClicked = sanitizeIngredient(clickedIngredient);
+      const camelClicked = toCamelCase(sanitizedClicked);
+    
       let matchedItem = null;
-
-      inventory.forEach(i => {
-        let a = thisID.replace(/[^a-zA-Z]|oz|float|dashes|\d/gi, ' ');
-        let b = i.toLowerCase().replace(/[^a-zA-Z]|oz|float|dashes|\d/gi, ' ');
-        const camelCaseStringA = toCamelCase(a);
-        const camelCaseStringB = toCamelCase(b);
-
-        if (camelCaseStringB.includes(camelCaseStringA)) {
-          matchedItem = i;
+      let matchedData = null;
+    
+      // Attempt to find a matching inventory item
+      for (let i of inventory) {
+        const sanitizedInventory = sanitizeIngredient(i.name || i);
+        const camelInventory = toCamelCase(sanitizedInventory);
+    
+        if (camelInventory === camelClicked || camelInventory.includes(camelClicked)) {
+          matchedItem = i.name || i;
+          matchedData = i;
+          break;
         }
-      });
-
-      if (matchedItem) {
-        d3.select("body").append("div").attr("id", "modalBG");
-
-        const modal = d3.select("#modalBG")
-          .append("div")
-          .attr("id", "modalContent")
-          .attr("class", "modal-content");
-
-        const modalTitleDiv = d3.select(".modal-content")
-          .append("div")
-          .attr("id", "modalTitleDiv")
-          .attr("class", "modal-title-div");
-
-        modalTitleDiv.append("h2")
-          .attr("class", "modal-title")
-          .text(matchedItem);
-
-        const modalFlex = modal.append("div")
-          .attr("class", "modal-flex");
-
-        modalFlex.append("img")
-          .attr("class", "modal-image")
-          .attr("src", "./images/" + toCamelCase(sanitizeIngredient(matchedItem)) + ".png");
-
-        const modalRight = modalFlex.append("div")
-          .attr("class", "modal-right");
-
-        modalRight.append("div")
-          .attr("class", "modal-alternatives")
-          .append("p")
-          .attr("class", "modal-alt-title")
-          .text("Similar or Alternative Options:");
-
-        modalRight.append("ul")
-          .attr("class", "modal-alt-list")
-          .selectAll("li")
-          .data(["Example Alternative 1", "Example Alternative 2"])
+      }
+    
+      // Use the clicked text if no inventory match found
+      const itemName = matchedItem || clickedIngredient;
+    
+      d3.select("body").append("div").attr("id", "modalBG");
+    
+      const modal = d3.select("#modalBG")
+        .append("div")
+        .attr("id", "modalContent")
+        .attr("class", "modal-content");
+    
+      const modalTitleDiv = d3.select(".modal-content")
+        .append("div")
+        .attr("id", "modalTitleDiv")
+        .attr("class", "modal-title-div");
+    
+      modalTitleDiv.append("h2")
+        .attr("class", "modal-title")
+        .text(itemName);
+    
+      const modalFlex = modal.append("div")
+        .attr("class", "modal-flex");
+    
+      // Image
+      modalFlex.append("img")
+        .attr("class", "modal-image")
+        .attr("src", "./images/" + camelClicked + ".png")
+        .on("error", function () {
+          d3.select(this).attr("src", "./images/placeholder.png"); // fallback image
+        });
+    
+      const modalRight = modalFlex.append("div")
+        .attr("class", "modal-right");
+    
+      // Alternatives
+      modalRight.append("div")
+        .attr("class", "modal-alternatives")
+        .append("p")
+        .attr("class", "modal-alt-title")
+        .text("Similar or Alternative Options:");
+    
+      const altList = modalRight.append("ul").attr("class", "modal-alt-list");
+    
+      if (matchedData && matchedData.alternatives && matchedData.alternatives.length > 0) {
+        altList.selectAll("li")
+          .data(matchedData.alternatives)
           .enter()
           .append("li")
           .text(d => d);
-
-        modalRight.append("p")
-          .attr("class", "modal-description")
-          .text("Description coming soon...");
+      } else {
+        altList.append("li").text("No alternatives available.");
       }
+    
+      // Description
+      modalRight.append("p")
+        .attr("class", "modal-description")
+        .text(matchedData && matchedData.description ? matchedData.description : "No description available.");
     });
+    
 
     $('body').on('click', '#modalBG', function() {
       $("#modalBG").remove();

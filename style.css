@@ -396,6 +396,7 @@ button{
   display: block;
   margin: 0 auto;
   max-height: 60vh;
+  max-width: 20vw;
   object-fit: contain;
   border-radius: 20px;
 }
