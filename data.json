@@ -534,6 +534,22 @@
                 "alt. batch" : null
             },
             {
+                "name" : "Manhattan",
+                "glass" : ["Martini or Coupe Glass"],
+                "rim" : null,
+                "wine" : ["Sweet Vermouth - 1 oz"],
+                "liquor" : ["Rye Whiskey - 2 oz"],
+                "liqueur" : null,
+                "vermouth" : null,
+                "mixers" : ["Angostura Bitters - 2 to 3 Dashes"],
+                "garnish" : ["Cherry or Lemon Twist"],
+                "section" : "searchDrinks",
+                "photo" : "manhattan",
+                "instructions" : ["Add the rye whiskey, sweet vermouth, and bitters into a mixing glass with ice and stir until well-chilled.", "Strain into a chilled martini or coupe glass." ,"Garnish with a brandied cherry (or a lemon twist, if preferred)."],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
                 "name" : "Margarita",
                 "glass" : ["Margarita Glass"],
                 "rim" : ["Salt"],
@@ -597,22 +613,7 @@
                 "batch" : null,
                 "alt. batch" : null
             },
-            {
-                "name" : "Siesta",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Tequila (Blanco) - 2 oz"],
-                "liqueur" : ["Campari - .5 oz"],
-                "vermouth" : null,
-                "mixers" : ["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave - .5 oz"],
-                "garnish" : ["Lime, Lemon or Grapefruit Wheel"],
-                "section" : "searchDrinks",
-                "photo" : "siesta",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
-                "batch" : null,
-                "alt. batch" : null
-            },
+            
 
 
 
@@ -654,6 +655,22 @@
                 "section" : null,
                 "photo" : "french75",
                 "instructions" : ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled", "Strain into a Champagne flute" ,"Top with the Champagne or sparkling wine of choice", "Garnish with a lemon twist"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Siesta",
+                "glass" : ["Coupe Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Tequila (Blanco) - 2 oz"],
+                "liqueur" : ["Campari - .5 oz"],
+                "vermouth" : null,
+                "mixers" : ["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave - .5 oz"],
+                "garnish" : ["Lime, Lemon or Grapefruit Wheel"],
+                "section" : null,
+                "photo" : "siesta",
+                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
                 "batch" : null,
                 "alt. batch" : null
             }
@@ -710,6 +727,7 @@
                     "Casamigos Reposado",
                     "Coconut Rum",
                     "Corazon Blanco",
+                    "Dark rum",
                     "Dos Hombres Mezcal",
                     "Drambuie",
                     "Gin",
@@ -720,7 +738,7 @@
                     "Rivi Gin",
                     "Rose Bud Infused Vodka",
                     "Rum",
-                    "Dark rum",
+                    "Rye Whiskey",
                     "St. George Botanivore",
                     "St. George Citrus",
                     "St. George Terrior",

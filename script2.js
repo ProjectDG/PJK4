@@ -25,7 +25,7 @@ fetch('data.json')
 
     function sanitizeIngredient(str) {
       return str.toLowerCase()
-        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|to taste|as needed|garnish(ed)?( with)?)\b/g, '')
+        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|to taste|to|as needed|garnish(ed)?( with)?)\b/g, '')
         .replace(/\d+(\.\d+)?\s*(oz|ml|tsp|tbsp|teaspoon|tablespoon|parts)?/gi, '')
         .replace(/\(.*?\)/g, '')
         .replace(/[^\w\s]/g, '')
@@ -178,7 +178,10 @@ fetch('data.json')
             renderDrinkButton(x, "#searchListDiv");
           });
         } else {
-          d3.select("#searchListDiv").append("p").text("...No drinks found...").attr("class", "error-message");
+          d3.select("#searchListDiv")
+            .append("p")
+            .text("...No drinks found...")
+            .attr("class", "error-message");
         }
       } else {
         $("#searchListDiv").empty();
