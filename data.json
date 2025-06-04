@@ -76,7 +76,7 @@
                 "glass" : ["Martini Glass"],
                 "rim" : null,
                 "wine" : ["Living Jewel Sake - 1.5 oz"],
-                "liquor" : ["Gin or Vodka - 1.5 oz"],
+                "liquor" : ["Vodka or Gin - 1.5 oz"],
                 "liqueur" : null,
                 "vermouth" : ["Lillet Blanc - .25 oz"],
                 "mixers" : null,
@@ -84,7 +84,7 @@
                 "section" : "cocktails",
                 "photo" : null,
                 "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Top With Plum Wine Foam & Dehydrated Plum"],
-                "batch" : ["Plum Wine - 6 oz", "Agave - 5 oz", "Lemon Juice - 3 oz"],
+                "batch" : ["Egg Whites - 2","Plum Wine - 6 oz", "Agave - 5 oz", "Lemon Juice - 3 oz"],
                 "alt. batch" : null
             },
             {
@@ -108,7 +108,7 @@
                 "alt. batch" : null
             },
             {
-                "name" : "PJ Killer",
+                "name" : "PJ Killa",
                 "glass" : ["Collins Glass"],
                 "rim" : null,
                 "wine" : null,
@@ -138,7 +138,7 @@
                 "glass" : ["Coupe Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Wheatly Vodka - 1.5 oz"],
+                "liquor" : ["Wheatley Vodka - 1.5 oz"],
                 "liqueur" : ["St. Germain - 1 oz"],
                 "vermouth" : null,
                 "mixers" : [
@@ -158,9 +158,9 @@
                 "glass" : ["Martini Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Wheatly Vodka - 2 oz"],
+                "liquor" : ["Wheatley Vodka - 2 oz"],
                 "liqueur" : [
-                    "Cafe Borghetti - .75 oz,",
+                    "Caffe Borghetti Espresso - .75 oz,",
                     "Montenegro - .25 oz"
                 ],
                 "vermouth" : null,
@@ -172,7 +172,7 @@
                 "section" : "cocktails",
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Martini Glass", "Garnish With 3 Espresso Beans"],
-                "batch" : null,
+                "batch" : ["Star Anise - 5 Pods", "Fennel Seeds - 1 Tbsp", "Cinnamon Stick - 1 ea", "Szechuan Peppercorn (or Black Pepper) - 1 Tbsp", "Ground spices into a powder.", "Water - 2 Cups", "Sugar - 1.75 Cups", "Add ingredients together and bring to a boil until thickened."],
                 "alt. batch" : null
             },
             {
@@ -215,7 +215,7 @@
                 "section" : "cocktails",
                 "photo" : null,
                 "instructions" : ["Build In Glass", "Stir Lightly", "Add Ice", "Garnish With Flower"],
-                "batch" : ["Coming Soon..."],
+                "batch" : ["Simple Syrup - 1 Quart", "Matcha - 1 Scoop", "Bring to a boil.", "Let cool."],
                 "alt. batch" : null
             },
 
@@ -276,7 +276,7 @@
                 "glass" : ["Coupe Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Wheatly Vodka - 1.5 oz"],
+                "liquor" : ["Wheatley Vodka - 1.5 oz"],
                 "liqueur" : ["Aqua Perfecta: Basil Brandy - 1 oz"],
                 "vermouth" : null,
                 "mixers" : ["Lime Juice - .75 oz,", "Simple Syrup - .75 oz"],
@@ -308,7 +308,7 @@
                 "glass" : ["Rocks Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Batch - 3 oz"],
+                "liquor" : ["My Oh Mai Tai Batch - 3 oz"],
                 "liqueur" : null,
                 "vermouth" : null,
                 "mixers" : null,
@@ -324,8 +324,8 @@
                 "glass" : ["Rocks Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Sesame Gin - 1 oz,", "St. George Terrior - 1 oz"],
-                "liqueur" : ["Domain De Canton - .5 oz,", "Dry Curacao - .25 oz"],
+                "liquor" : ["Sesame Gin - 1 oz,", "St. George Terroir - 1 oz"],
+                "liqueur" : ["Domaine De Canton - .5 oz,", "Dry Curacao - .25 oz"],
                 "vermouth" : ["Lillet Blanc - .25 oz"],
                 "mixers" : ["Lemon Bitters - 3 Dashes"],
                 "garnish" : ["Flashed Orange Peel"],
@@ -357,7 +357,7 @@
                 "rim" : null,
                 "wine" : ["Living Jewel Sake - 2 oz"],
                 "liquor" : null,
-                "liqueur" : ["Domain De Canton - .5 oz,", "Chambord - .25 oz,", "Dry Curacao - .25 oz"],
+                "liqueur" : ["Domaine De Canton - .5 oz,", "Chambord - .25 oz,", "Dry Curacao - .25 oz"],
                 "vermouth" : null,
                 "mixers" : ["Pineapple Juice - .75 oz,", "Pomegranate Juice - .75 oz,", "Lemon Juice - .5 oz"],
                 "garnish" : ["Pineapple Frond & Dehydrated Orange"],
@@ -373,7 +373,7 @@
                 "rim" : null,
                 "wine" : null,
                 "liquor" : ["Rittenhouse Rye - 2 oz"],
-                "liqueur" : ["Aperol - .5 oz,", "Fernet Branca - .5 oz"],
+                "liqueur" : ["Aperol - .5 oz,", "Fernet-Branca - .5 oz"],
                 "vermouth" : null,
                 "mixers" : ["Angostura Bitters - 1 Dash"],
                 "garnish" : ["Orange Peel"],
@@ -457,7 +457,7 @@
                 "name" : "Aperol Spritz",
                 "glass" : ["Wine Glass"],
                 "rim" : null,
-                "wine" : ["Dry Proseco - 3 oz"],
+                "wine" : ["Proseco - 3 oz"],
                 "liquor" : null,
                 "liqueur" : ["Aperol - 2 oz"],
                 "vermouth" : null,
@@ -554,7 +554,7 @@
                 "glass" : ["Margarita Glass"],
                 "rim" : ["Salt"],
                 "wine" : null,
-                "liquor" : ["Tequila - 2 oz"],
+                "liquor" : ["Blanco Tequila - 2 oz"],
                 "liqueur" : ["Cointreau - .5 oz"],
                 "vermouth" : null,
                 "mixers" : ["Agave - .75 oz", "Lime Juice - 1.5 oz"],
@@ -566,18 +566,18 @@
                 "alt. batch" : null
             },
             {
-                "name" : "Mint Julep",
-                "glass" : ["Metal Julep Cup"],
+                "name" : "Naked & Famous",
+                "glass" : ["Coupe Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Bourbon - 2 oz"],
-                "liqueur" : null,
+                "liquor" : ["Mezcal - .75 oz"],
+                "liqueur" : ["Aperol - .75 oz,", "Yellow Chartreuse - .75 oz"],
                 "vermouth" : null,
-                "mixers" : ["Mint Leaves - 8 (Muddled)", "Simple Syrup - .25 oz"],
-                "garnish" : ["Mint Sprig", "Bitters (Optional: Few Drops)"],
+                "mixers" : ["Lime Juice - .75 oz"],
+                "garnish" : null,
                 "section" : "searchDrinks",
-                "photo" : "mintJulep",
-                "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
+                "photo" : "nakedAndFamous",
+                "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain into a chilled coupe glass."],
                 "batch" : null,
                 "alt. batch" : null
             },
@@ -659,11 +659,27 @@
                 "alt. batch" : null
             },
             {
+                "name" : "Mint Julep",
+                "glass" : ["Metal Julep Cup"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Bourbon - 2 oz"],
+                "liqueur" : null,
+                "vermouth" : null,
+                "mixers" : ["Mint Leaves - 8 (Muddled)", "Simple Syrup - .25 oz"],
+                "garnish" : ["Mint Sprig", "Bitters (Optional: Few Drops)"],
+                "section" : null,
+                "photo" : "mintJulep",
+                "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
                 "name" : "Siesta",
                 "glass" : ["Coupe Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Tequila (Blanco) - 2 oz"],
+                "liquor" : ["Blanco Tequila - 2 oz"],
                 "liqueur" : ["Campari - .5 oz"],
                 "vermouth" : null,
                 "mixers" : ["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave - .5 oz"],
@@ -692,60 +708,59 @@
 
 
 
-        "inventory" : 
+        "inventory": 
         [
             {
+                "category": "Rim Garnishes",
                 "items": [
-
-                    "Salt",
-                    "Sugar",
-                    "Tajin",
-
-                    "Batch",
-
-
-                    "Club Soda",
-                    "Soda Water",
-
-
-
-
-
-
-                    "Angostura Bitters",
-                    "lemon Bitters",
-                    "Orange Bitters",
-
-
-
-
-
-
-
-                    "Bourbon",
-                    "Butterfly Pea Gin",
-                    "Casamigos Reposado",
-                    "Coconut Rum",
-                    "Corazon Blanco",
-                    "Dark rum",
-                    "Dos Hombres Mezcal",
-                    "Drambuie",
-                    "Gin",
-                    "Gin or Vodka",
-                    "Los Vecinos Mezcal",
-                    "Plantation Dark Rum",
-                    "Rittenhouse Rye",
-                    "Rivi Gin",
-                    "Rose Bud Infused Vodka",
-                    "Rum",
-                    "Rye Whiskey",
-                    "St. George Botanivore",
-                    "St. George Citrus",
-                    "St. George Terrior",
-                    "Tequila",
-                    "Vodka",
-                    "Wheatly Vodka",
-
+                    {
+                        "name": "Salt",
+                        "description": [
+                          "A common mineral used to enhance flavor and balance sweetness or acidity in cocktails.",
+                          "Often used to rim glasses, especially in drinks like Margaritas or Palomas.",
+                          "Can be added as a pinch in the drink itself to deepen complexity and round out flavors."
+                        ],
+                        "alternatives": [
+                          "Sea Salt",
+                          "Kosher Salt",
+                          "Flavored Salts (e.g., chili-lime salt)"
+                        ]
+                    }
+                    ,
+                    {
+                        "name": "Sugar",
+                        "description": [
+                          "A fundamental sweetener used to balance acidity and bitterness in cocktails.",
+                          "Typically used in granulated form, but also appears in cubes for classic drinks like the Old Fashioned.",
+                          "Essential for making simple syrup, a staple in many cocktails for smooth sweetness integration."
+                        ],
+                        "alternatives": [
+                          "Simple Syrup",
+                          "Honey",
+                          "Agave Syrup",
+                          "Maple Syrup",
+                          "Demerara Sugar"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Tajin",
+                        "description": [
+                          "A popular Mexican seasoning made from a blend of chili peppers, lime, and salt.",
+                          "Adds a tangy, spicy kick and vibrant color to cocktail rims and garnishes.",
+                          "Commonly used on the rim of margaritas and micheladas to enhance flavor and presentation."
+                        ],
+                        "alternatives": [
+                          "Chili-Lime Salt",
+                          "Chili Powder + Salt + Lime Zest",
+                          "Smoked Paprika + Sea Salt",
+                          "Tamarind Salt",
+                          "Sumac + Sea Salt"
+                        ]
+                      }
+                      
+                ]
+            },
 
 
 
@@ -754,20 +769,12 @@
 
 
 
-                    "Aperol",
-                    "Aqua Perfecta Basil Brandy",
-                    "Cafe Borghetti",
-                    "Campari",
-                    "Chambord",
-                    "Cointreau",
-                    "Chinola Passion Fruit",
-                    "Domain De Canton",
-                    "Dry Curacao",
-                    "Fernet Branca",
-                    "Grand Marnier",
-                    "Luxardo Cherry Liqueur",
-                    "Montenegro",
-                    "St. Germain",
+            {
+                "category": "Batch Components",
+                "items": [
+                { "name": "Batch", "description": [], "alternatives": [] }
+                ]
+            },
 
 
 
@@ -776,73 +783,864 @@
 
 
 
-
-                    "Lillet Blanc",
-                    "Living Jewel Sake",
-                    "Sweet Vermouth",
-
-
-
-
-
-
-
-                    "Albert Bichot Brut",
-                    "Champagne",
+            {
+                "category": "Sodas & Carbonated",
+                "items": [
+                { "name": "Club Soda", "description": [], "alternatives": [] },
+                { "name": "Soda Water", "description": [], "alternatives": [] }
+                ]
+            },
 
 
 
 
 
 
-                    "Agave",
-                    "Black Tea Syrup",
-                    "Demerara Syrup",
-                    "Five Spice Syrup",
-                    "Honey Syrup",
-                    "Lychee Syrup",
-                    "Matcha Syrup",
-                    "Orgeat", 
-                    "Simple Syrup",
+
+
+            {
+                "category": "Bitters",
+                "items": [
+                {
+                    "name": "Angostura Bitters",
+                    "description": [
+                        "44.7% ABV",
+                        "Produced in Trinidad and Tobago",
+                        "Angostura Bitters is a highly concentrated herbal alcoholic preparation, made from a proprietary blend of herbs and spices. It is widely used in classic cocktails for its deep, aromatic flavor with notes of clove, cinnamon, and baking spices."
+                    ],
+                    "alternatives": [
+                        "Peychaud’s Bitters",
+                        "Fee Brothers Old Fashion Aromatic Bitters",
+                        "Regans’ Orange Bitters No. 6",
+                        "Bitter Truth Aromatic Bitters"
+                    ]
+                    }
                     
-                    
+                    ,
+                    {
+                    "name": "Lemon Bitters",
+                    "description": [
+                        "Typically around 44% ABV",
+                        "Produced by various artisanal and commercial bitters makers worldwide",
+                        "Lemon bitters are a concentrated flavoring made by infusing alcohol with lemon peel, herbs, and spices. They add bright citrus complexity and subtle bitterness to cocktails, enhancing both aroma and flavor without overpowering the drink."
+                    ],
+                    "alternatives": [
+                        "Orange Bitters",
+                        "Citrus Bitters",
+                        "Peychaud’s Bitters with a lemon twist"
+                    ]
+                    }
+                    ,
+                    {
+                    "name": "Orange Bitters",
+                    "description": [
+                        "Typically around 40–45% ABV",
+                        "Produced by several brands including Regans’, Angostura, and Fee Brothers",
+                        "Orange bitters are a cocktail seasoning made by infusing alcohol with orange peel, spices, and botanicals. They provide a zesty, aromatic citrus flavor with a dry, bitter edge—commonly used in classics like the Martini or Old Fashioned to add depth and balance."
+                    ],
+                    "alternatives": [
+                        "Lemon Bitters",
+                        "Citrus Bitters",
+                        "Angostura Orange Bitters"
+                    ]
+                    }
+                ]
+            },
 
 
 
-                    
-                    
-                    "Cranberry Juice",
-                    "Lemon Juice",
-                    "Lime Juice",
-                    "Pineapple Juice",
-                    "Pomegranate Juice",
-                    "Yuzu",
-                    
-
-
-
-                    "Egg White",
-                    "Mint Leaves",
-                    "Mint Sprig",
-                    "Shiso Leaf",
-                    
-
-
-                    "Chili Tincture",
-                    "Espresso",
-
-
-
-                    "Mango Puree"
 
 
 
 
 
+            {
+                "category": "Spirits",
+                "items": [
+                {
+                    "name": "Bourbon",
+                    "description": [
+                        "Typically 40–50% ABV (alcohol by volume).",
+                        "Produced primarily in Kentucky, USA, but can be made anywhere in the U.S.",
+                        "A type of American whiskey made from at least 51% corn and aged in new charred oak barrels; known for its rich, sweet, and oaky flavor with notes of vanilla and caramel."
+                    ],
+                    "alternatives": [
+                        "Rye Whiskey",
+                        "Tennessee Whiskey",
+                        "Corn Whiskey"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Butterfly Pea Gin",
+                    "description": [
+                        "A floral-infused variation of Rivi Gin featuring butterfly pea flower and honeysuckle.",
+                        "Naturally colored with butterfly pea flower, which gives the gin a vibrant indigo hue that can change color with pH (e.g., when mixed with citrus).",
+                        "Offers a delicate balance of floral notes and subtle sweetness, making it ideal for visually striking cocktails."
+                    ],
+                    "alternatives": [
+                        "Empress 1908 Gin",
+                        "Bloom Jasmine & Rose Gin",
+                        "Lavender-Infused Gin"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Casamigos Reposado",
+                    "description": [
+                        "40% ABV",
+                        "Produced in Jalisco, Mexico",
+                        "Casamigos Reposado is a premium tequila aged for 7 months in American oak barrels, offering smooth, rich flavors with notes of caramel, cocoa, and soft oak, balanced by subtle hints of agave and spice."
+                    ],
+                    "alternatives": [
+                        "Espolòn Reposado",
+                        "Don Julio Reposado",
+                        "El Tesoro Reposado",
+                        "Cazadores Reposado"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Coconut Rum",
+                    "description": [
+                        "A sweet, tropical-flavored rum typically infused with natural coconut extracts.",
+                        "Often made with light rum as a base, offering a smooth and mildly warming finish.",
+                        "Popular in tropical and tiki cocktails, adding richness and a distinct coconut aroma."
+                    ],
+                    "alternatives": [
+                        "Malibu Original",
+                        "Parrot Bay Coconut Rum",
+                        "Kōloa Coconut Rum"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Corazon Blanco",
+                    "description": [
+                        "40% ABV",
+                        "Produced in Jalisco, Mexico",
+                        "Corazón Blanco is an unaged tequila made from 100% blue Weber agave. It features bright, clean agave flavors with hints of citrus, pepper, and a touch of vegetal earthiness. Crisp and smooth, it's ideal for sipping or mixing in cocktails like Margaritas or Palomas."
+                    ],
+                    "alternatives": [
+                        "Espolòn Blanco",
+                        "El Tesoro Blanco",
+                        "Cazadores Blanco"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Dark Rum",
+                    "description": [
+                        "Typically ranges from 40–50% ABV",
+                        "Produced in various Caribbean nations, including Jamaica, Barbados, and Guyana",
+                        "Dark Rum is aged longer than white or gold rums, often in charred oak barrels, which imparts deep, rich flavors and a dark amber to brown color. Expect notes of molasses, caramel, vanilla, spice, and sometimes smoke. Commonly used in classic cocktails like the Dark 'n Stormy or Mai Tai."
+                    ],
+                    "alternatives": [
+                        "Gosling's Black Seal",
+                        "Myers's Original Dark",
+                        "Plantation Original Dark"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Dos Hombres Mezcal",
+                    "description": [
+                        "42% ABV",
+                        "Produced in San Luis del Río, Oaxaca, Mexico",
+                        "Dos Hombres is an artisanal mezcal crafted from hand-selected Espadín agave. Created by actors Bryan Cranston and Aaron Paul, it offers a smooth, balanced profile with subtle smoke, notes of apple, mango, and wood, and a slightly sweet finish. It's approachable for mezcal newcomers while still satisfying for seasoned enthusiasts."
+                    ],
+                    "alternatives": [
+                        "Del Maguey Vida",
+                        "Montelobos Espadín",
+                        "Ilegal Joven Mezcal"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Drambuie",
+                    "description": [
+                        "40% ABV",
+                        "Produced in Scotland",
+                        "Drambuie is a golden-colored liqueur made from Scotch whisky, heather honey, herbs, and spices. It has a rich, smooth flavor with notes of honeyed sweetness, warm spices, and a hint of peat, making it a classic ingredient in cocktails like the Rusty Nail."
+                    ],
+                    "alternatives": [
+                        "Bénédictine",
+                        "Grand Marnier (for a citrus-honey twist)",
+                        "Licor 43"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Gin",
+                    "description": [
+                        "Typically 37.5%–47% ABV",
+                        "Produced globally, with notable styles from the UK, Netherlands, and USA",
+                        "Gin is a distilled spirit flavored predominantly with juniper berries, often accompanied by botanicals like coriander, citrus peel, angelica root, and orris root. It ranges in style from dry to floral to citrus-forward, and forms the base of many classic cocktails like the Martini and Negroni."
+                    ],
+                    "alternatives": [
+                        "London Dry Gin",
+                        "Old Tom Gin",
+                        "Plymouth Gin"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Vodka or Gin",
+                    "description": [
+                        "Gin: Typically 37.5%–47% ABV | Vodka: Typically 35%–50% ABV",
+                        "Gin is produced globally, notably in the UK, Netherlands, and USA. Vodka is produced worldwide, with key origins in Russia, Poland, and Sweden.",
+                        "Gin is a juniper-forward spirit infused with botanicals like coriander, citrus peel, and angelica root, ranging from dry to floral. Vodka is a neutral grain or potato-based spirit known for its purity and versatility in cocktails."
+                    ],
+                    "alternatives": [
+                        "London Dry Gin",
+                        "New Western Gin",
+                        "Wheat Vodka",
+                        "Potato Vodka"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Los Vecinos Mezcal",
+                    "description": [
+                    "45% ABV (alcohol by volume).",
+                    "Produced in Oaxaca, Mexico by master distillers using traditional methods.",
+                    "An artisanal mezcal made from 100% Espadín agave; known for its earthy, smoky flavor with hints of citrus and spice."
+                    ],
+                    "alternatives": [
+                    "Del Maguey Vida",
+                    "Montelobos Espadín",
+                    "El Silencio Espadín"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Mezcal",
+                    "description": [
+                    "Typically 40%–55% ABV",
+                    "Produced primarily in Oaxaca, Mexico, though other states like Durango and Guerrero also contribute",
+                    "Mezcal is a traditional Mexican spirit distilled from agave, often roasted in underground pits, giving it a distinctive smoky flavor. It encompasses a wide range of agave species, regions, and artisanal production techniques, making it a diverse and complex category."
+                    ],
+                    "alternatives": [
+                    "Espadín Mezcal",
+                    "Tobalá Mezcal",
+                    "Raicilla",
+                    "Sotol"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Plantation Dark Rum",
+                    "description": [
+                        "40% ABV",
+                        "Produced in the Caribbean (primarily Barbados and Jamaica), blended and finished in France by Maison Ferrand",
+                        "Plantation Dark Rum is a richly flavored rum known for its notes of ripe banana, tropical fruits, vanilla, and spice. Aged in both tropical and continental climates, it offers depth and complexity from double aging in bourbon and cognac casks."
+                    ],
+                    "alternatives": [
+                        "Diplomático Reserva Exclusiva",
+                        "Gosling’s Black Seal",
+                        "El Dorado 8 Year"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Rittenhouse Rye",
+                    "description": [
+                        "50% ABV (100 Proof)",
+                        "Produced in Kentucky, USA by Heaven Hill Distillery",
+                        "Rittenhouse Rye is a bold, bonded straight rye whiskey known for its spicy, dry profile with notes of cocoa, citrus peel, and baking spice. It's a favorite among bartenders for classic cocktails like the Manhattan or Old Fashioned."
+                    ],
+                    "alternatives": [
+                        "Wild Turkey 101 Rye",
+                        "Bulleit Rye",
+                        "Old Forester Rye"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Rivi Gin",
+                    "description": [
+                      "42% ABV",
+                      "Produced in Devon, England",
+                      "Rivi Gin is a modern British gin made with a blend of traditional botanicals and locally sourced Devon herbs, offering a smooth and floral profile with notes of citrus, juniper, and wildflowers."
+                    ],
+                    "alternatives": ["Bombay Sapphire", "Tanqueray No. Ten", "Sipsmith London Dry"]
+                  }
+                  ,
+                {
+                    "name": "Rum",
+                    "description": [
+                      "Typically ranges from 35% to 50% ABV",
+                      "Produced globally, especially in the Caribbean, Central and South America, and parts of Asia",
+                      "Rum is a distilled spirit made from sugarcane byproducts such as molasses or directly from sugarcane juice. It varies in style from light and crisp white rums to rich, aged dark rums, and is a cornerstone of tropical and tiki-style cocktails."
+                    ],
+                    "alternatives": [
+                      "Cachaça",
+                      "Aguardiente",
+                      "Overproof Rum"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Rye Whiskey",
+                    "description": [
+                      "Typically 40% to 50% ABV",
+                      "Primarily produced in the United States and Canada",
+                      "Rye whiskey is a spicy, bold spirit distilled from a mash bill containing at least 51% rye grain. Known for its peppery, dry character, it's a staple in classic cocktails like the Manhattan and Old Fashioned. American rye tends to be more robust, while Canadian rye is often smoother and more blended."
+                    ],
+                    "alternatives": [
+                      "Bulleit Rye",
+                      "Woodford Reserve Rye",
+                      "Knob Creek Rye"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "St. George Botanivore",
+                    "description": [
+                      "45% ABV",
+                      "Crafted in Alameda, California, USA",
+                      "St. George Botanivore is a vibrant American gin distilled with 19 botanicals, including bay laurel, coriander, and dill seed. It offers a fresh, herbaceous flavor profile with floral and citrus notes, making it highly versatile for both classic and modern cocktails."
+                    ],
+                    "alternatives": [
+                      "Hendrick's Gin",
+                      "The Botanist Islay Dry Gin",
+                      "Greenhook Ginsmiths American Dry"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "St. George Citrus",
+                    "description": [
+                      "40% ABV",
+                      "Distilled in Alameda, California, USA",
+                      "This vodka is infused with Valencia oranges, Seville oranges, and bergamot, offering a bright, zesty citrus profile with a clean finish. It’s made from real fruit with no added flavorings or sweeteners, making it ideal for light, citrus-forward cocktails."
+                    ],
+                    "alternatives": [
+                      "Ketel One Oranje",
+                      "Absolut Citron",
+                      "Grey Goose L’Orange"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "St. George Terroir",
+                    "description": [
+                      "45% ABV",
+                      "Distilled in Alameda, California, USA",
+                      "This unique gin captures the essence of California’s wilderness with botanicals like Douglas fir, California bay laurel, and coastal sage. It delivers a bold, earthy aroma and a resinous, forest-like flavor that makes it stand out in classic gin cocktails or sipped neat."
+                    ],
+                    "alternatives": [
+                      "St. George Botanivore",
+                      "Junipero Gin",
+                      "Hendrick's Orbium"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Blanco Tequila",
+                    "description": [
+                      "Typically around 38–40% ABV",
+                      "Produced primarily in Jalisco, Mexico",
+                      "Blanco Tequila, also known as silver or white tequila, is unaged and bottled shortly after distillation. It showcases the purest expression of blue Weber agave, often with notes of pepper, citrus, and earthy minerals. Ideal for cocktails like Margaritas or Tequila Sours."
+                    ],
+                    "alternatives": [
+                      "Espolòn Blanco",
+                      "Patrón Silver",
+                      "Olmeca Altos Plata"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Vodka",
+                    "description": [
+                      "Typically 40% ABV",
+                      "Produced worldwide, with notable producers in Russia, Poland, Sweden, and the USA",
+                      "Vodka is a clear, neutral spirit known for its clean taste and versatility in cocktails. Traditionally distilled from grains or potatoes, it serves as a base for countless drinks and is appreciated for its smoothness and subtle character."
+                    ],
+                    "alternatives": [
+                      "Tito's Handmade Vodka",
+                      "Belvedere Vodka",
+                      "Grey Goose"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Wheatley Vodka",
+                    "description": [
+                      "41% ABV",
+                      "Produced in Frankfort, Kentucky, USA",
+                      "Crafted at Buffalo Trace Distillery, Wheatley Vodka is a small-batch vodka made with wheat and distilled ten times for exceptional smoothness. It offers a crisp, clean profile with subtle hints of vanilla and a soft, rounded mouthfeel."
+                    ],
+                    "alternatives": [
+                      "Tito's Handmade Vodka",
+                      "Ketel One",
+                      "Absolut Elyx"
+                    ]
+                  }
+                  
+                ]
+            },
 
 
+
+
+
+
+
+
+            {
+                "category": "Liqueurs",
+                "items": [
+                    {
+                        "name": "Aperol",
+                        "description": [
+                          "11% ABV",
+                          "Produced in Padua, Italy",
+                          "Aperol is a vibrant Italian apéritif made from a secret blend of herbs and roots, including rhubarb and gentian. It’s known for its bright orange color and bittersweet, citrus-forward flavor, making it a key ingredient in the iconic Aperol Spritz."
+                        ],
+                        "alternatives": [
+                          "Campari (more bitter)",
+                          "Select Aperitivo",
+                          "Cappelletti Aperitivo"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Aqua Perfecta Basil Brandy",
+                        "description": [
+                          "40% ABV",
+                          "Produced by St. George Spirits in Alameda, California",
+                          "Aqua Perfecta Basil Brandy is a rare, herbaceous brandy distilled from fresh basil and fruit, capturing the intense aroma and flavor of just-picked basil. It's delicate, aromatic, and ideal for creative cocktails or sipping neat."
+                        ],
+                        "alternatives": [
+                          "St. George Pear Brandy",
+                          "Chartreuse (for herbal notes)",
+                          "Basil-infused vodka or gin"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Caffe Borghetti Espresso",
+                        "description": [
+                          "25% ABV",
+                          "Produced in Italy",
+                          "Caffè Borghetti is an authentic Italian coffee liqueur crafted from real espresso made with Arabica and Robusta beans. Based on a recipe dating back to 1860, it offers a rich, intense aroma and a sweet, enveloping taste with notes of freshly brewed coffee, dark chocolate, and hints of vanilla. Its smooth and velvety texture makes it ideal for sipping neat, over ice, or as a key ingredient in coffee-based cocktails."
+                        ],
+                        "alternatives": [
+                          "Mr Black Cold Brew Coffee Liqueur",
+                          "St. George NOLA Coffee Liqueur",
+                          "Kahlúa"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Campari",
+                        "description": [
+                          "24% ABV",
+                          "Produced in Italy",
+                          "Campari is a classic Italian apéritif known for its distinctive red color and bold, bittersweet flavor. Created in 1860, it's made from an infusion of herbs, aromatic plants, and fruit, though the exact recipe remains a closely guarded secret. Its complex profile of bitter orange, cherry, rhubarb, and spices makes it a key ingredient in iconic cocktails like the Negroni, Americano, and Boulevardier."
+                        ],
+                        "alternatives": [
+                          "Cappelletti Aperitivo",
+                          "Luxardo Bitter",
+                          "Contratto Bitter"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Chambord",
+                        "description": [
+                          "16.5% ABV",
+                          "Produced in the Loire Valley, France",
+                          "Chambord is a luxurious French black raspberry liqueur crafted with a blend of raspberries, blackberries, Madagascan vanilla, Moroccan citrus peel, honey, and cognac. Its rich, dark berry flavor with subtle notes of spice and vanilla makes it a versatile ingredient in cocktails or a decadent addition to desserts."
+                        ],
+                        "alternatives": [
+                          "Crème de Cassis",
+                          "Blackberry Brandy",
+                          "Giffard Framboise"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Cointreau",
+                        "description": [
+                          "40% ABV",
+                          "Produced in Angers, France",
+                          "Cointreau is a premium French triple sec made from a blend of sweet and bitter orange peels. Known for its crystal-clear appearance and vibrant, balanced citrus flavor, it is a staple in classic cocktails like the Margarita, Cosmopolitan, and Sidecar."
+                        ],
+                        "alternatives": [
+                          "Grand Marnier",
+                          "Combier Liqueur d’Orange",
+                          "Pierre Ferrand Dry Curaçao"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Chinola Passion Fruit",
+                        "description": [
+                          "21% ABV",
+                          "Produced in the Dominican Republic",
+                          "Chinola is a handcrafted liqueur made from real passion fruit juice blended with distilled spirits. It offers a bright, tangy, and slightly sweet flavor profile that highlights the tropical essence of fresh passion fruit, making it a standout addition to cocktails like spritzes, sours, and tropical riffs."
+                        ],
+                        "alternatives": [
+                          "Passoã Passion Fruit Liqueur",
+                          "Giffard Passion Fruit Liqueur",
+                          "Homemade passion fruit syrup with vodka or rum"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Domaine De Canton",
+                        "description": [
+                          "28% ABV",
+                          "Produced in Jarnac, France",
+                          "Domaine de Canton is a premium French ginger liqueur crafted from fresh baby ginger, Grand Champagne VSOP Cognac, Tahitian vanilla, and orange blossom honey from Provence. It offers a harmonious balance of spicy ginger warmth, subtle sweetness, and a smooth cognac finish, making it a versatile addition to both classic and contemporary cocktails."
+                        ],
+                        "alternatives": [
+                          "The King's Ginger",
+                          "Barrow’s Intense Ginger Liqueur",
+                          "Giffard Ginger of the Indies"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Dry Curacao",
+                        "description": [
+                          "Typically 30–40% ABV",
+                          "Often produced in France, the Netherlands, or the Caribbean",
+                          "Dry Curaçao is a traditional orange liqueur made from bitter orange peels, brandy or neutral spirit, and various spices. Known for its drier, more complex flavor compared to triple sec, it brings notes of citrus zest, spice, and a mild sweetness, making it ideal for classic cocktails like the Mai Tai or Sidecar."
+                        ],
+                        "alternatives": [
+                          "Pierre Ferrand Dry Curaçao",
+                          "Cointreau",
+                          "Grand Marnier"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Fernet-Branca",
+                        "description": [
+                          "39% ABV",
+                          "Produced in Milan, Italy",
+                          "Fernet-Branca is a bold and bitter Italian amaro made with a secret blend of 27 herbs, roots, and spices including myrrh, rhubarb, chamomile, and saffron. Known for its intense medicinal flavor and high alcohol content, it is often consumed as a digestif or used in cocktails like the Toronto or the Hanky Panky."
+                        ],
+                        "alternatives": [
+                          "Luxardo Fernet",
+                          "Fernet-Vallet",
+                          "Branca Menta (sweeter mint variation)"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Grand Marnier",
+                        "description": [
+                          "40% ABV",
+                          "Produced in France",
+                          "Grand Marnier is a premium French liqueur made from a blend of Cognac and bitter orange essence. It offers a rich, smooth flavor with notes of orange peel, oak, vanilla, and spices. Often used in classic cocktails like the Margarita, Sidecar, or B-52, it's also enjoyed neat or in desserts."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Pierre Ferrand Dry Curaçao",
+                          "Gran Gala"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Luxardo Cherry Liqueur",
+                        "description": [
+                          "32% ABV",
+                          "Produced in Torreglia, Italy",
+                          "Luxardo Cherry Liqueur, also known as Sangue Morlacco, is a deep red liqueur made from marasca cherries. It offers rich, sweet, and slightly tart cherry flavors with a velvety texture. Often used in classic cocktails like the Singapore Sling or the Blood and Sand, it can also be sipped neat or used in desserts."
+                        ],
+                        "alternatives": [
+                          "Heering Cherry Liqueur",
+                          "Giffard Cherry Brandy",
+                          "Bols Cherry Brandy"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Montenegro",
+                        "description": [
+                          "23% ABV",
+                          "Produced in Bologna, Italy",
+                          "Amaro Montenegro is a classic Italian herbal liqueur made from a secret blend of 40 botanicals, including spices, roots, and citrus peels. It has a bittersweet, complex flavor profile with notes of orange peel, vanilla, rose, and subtle spice, making it popular for sipping or mixing in cocktails like the Monte & Mezcal or Paper Plane."
+                        ],
+                        "alternatives": [
+                          "Averna Amaro",
+                          "Cynar",
+                          "Amaro Nonino"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "St. Germain",
+                        "description": [
+                          "20% ABV",
+                          "Produced in France",
+                          "St-Germain is an artisanal French liqueur crafted from fresh elderflower blossoms handpicked in the Alps. It offers a delicately sweet and floral profile with notes of pear, lychee, and citrus, making it a versatile addition to sparkling wine, gin, vodka, and tequila-based cocktails."
+                        ],
+                        "alternatives": [
+                          "Giffard Fleur de Sureau",
+                          "The Bitter Truth Elderflower Liqueur",
+                          "Homemade elderflower cordial (as a non-alcoholic substitute)"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Yellow Chartreuse",
+                        "description": [
+                          "40% ABV",
+                          "Produced in Voiron, France by Carthusian monks",
+                          "Yellow Chartreuse is a French herbal liqueur made from a secret blend of 130 plants, flowers, and herbs. It is milder and sweeter than Green Chartreuse, with notes of honey, saffron, anise, and citrus, and features a distinctive golden-yellow color derived from saffron."
+                        ],
+                        "alternatives": [
+                          "Benedictine",
+                          "Drambuie",
+                          "Dolín Genepy des Alpes"
+                        ]
+                      }
+                      
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Wines & Fortified",
+                "items": [
+                    {
+                        "name": "Lillet Blanc",
+                        "description": [
+                          "17% ABV",
+                          "Produced in Podensac, France",
+                          "Lillet Blanc is a French aromatized wine made from Bordeaux grapes blended with citrus liqueurs and quinine. It has a floral and honeyed aroma with flavors of orange peel, white fruit, and gentle herbal bitterness, often used in aperitif cocktails like the Vesper or served over ice."
+                        ],
+                        "alternatives": [
+                          "Cocchi Americano",
+                          "Dry Vermouth",
+                          "Dolin Blanc Vermouth"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Living Jewel Sake",
+                        "description": [
+                          "14.5% ABV",
+                          "Brewed in Japan by Yaegaki Corporation",
+                          "Living Jewel Sake is a Junmai sake made with premium rice and soft water, resulting in a well-balanced, smooth, and slightly dry profile. It features delicate notes of melon, pear, and rice with a clean finish, making it versatile for pairing with light dishes or enjoying chilled."
+                        ],
+                        "alternatives": [
+                          "Tozai Living Jewel Junmai",
+                          "Hakutsuru Junmai",
+                          "Sho Chiku Bai Classic Junmai"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Sweet Vermouth",
+                        "description": [
+                          "Typically 15–18% ABV",
+                          "Originated in Italy; now produced globally",
+                          "Sweet vermouth is a fortified wine aromatized with herbs, roots, and spices. It has a rich, slightly bitter-sweet flavor with notes of vanilla, caramel, spices, and dried fruit. Commonly used in classic cocktails like the Manhattan and Negroni."
+                        ],
+                        "alternatives": [
+                          "Carpano Antica Formula",
+                          "Cocchi Vermouth di Torino",
+                          "Martini & Rossi Rosso"
+                        ]
+                      }
+                      
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Champagne & Sparkling Wine",
+                "items": [
+                    {
+                        "name": "Albert Bichot Brut",
+                        "description": [
+                          "12% ABV",
+                          "Produced in Burgundy, France",
+                          "Albert Bichot Brut is a sparkling wine made in the traditional method, offering crisp acidity and fine bubbles with notes of green apple, citrus, white flowers, and a touch of brioche. A refined and elegant choice for celebratory occasions or cocktail bases."
+                        ],
+                        "alternatives": [
+                          "Gruet Brut",
+                          "Chandon Brut",
+                          "Lucien Albrecht Crémant d'Alsace"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Champagne",
+                        "description": [
+                          "Typically 12–12.5% ABV",
+                          "Produced in the Champagne region of France",
+                          "Champagne is a sparkling wine made using the traditional method (Méthode Champenoise), known for its fine bubbles, bright acidity, and complex flavors ranging from citrus and green apple to brioche, almond, and mineral notes. It is often used in celebratory toasts and elegant cocktails."
+                        ],
+                        "alternatives": [
+                          "Crémant",
+                          "Cava",
+                          "Prosecco (for a fruitier option)"
+                        ]
+                      }
+                      
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Syrups & Sweeteners",
+                "items": [
+                { "name": "Agave", "description": [], "alternatives": [] },
+                { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
+                { "name": "Demerara Syrup", "description": [], "alternatives": [] },
+                { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
+                { "name": "Honey Syrup", "description": [], "alternatives": [] },
+                { "name": "Lychee Syrup", "description": [], "alternatives": [] },
+                { "name": "Matcha Syrup", "description": [], "alternatives": [] },
+                {
+                    "name": "Orgeat",
+                    "description": [
+                      "Non-alcoholic",
+                      "Originally from France, now used globally",
+                      "Orgeat is a sweet almond syrup flavored with a hint of orange flower or rose water. It has a creamy, nutty profile and is essential in classic cocktails like the Mai Tai, lending richness and a floral backbone to drinks."
+                    ],
+                    "alternatives": [
+                      "Almond syrup (without floral notes)",
+                      "Falernum (for a spicier tropical twist)",
+                      "Homemade orgeat (DIY versions with varying nut and floral intensity)"
+                    ]
+                  }
+                  ,
+                { "name": "Simple Syrup", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Juices",
+                "items": [
+                { "name": "Cranberry Juice", "description": [], "alternatives": [] },
+                { "name": "Lemon Juice", "description": [], "alternatives": [] },
+                { "name": "Lime Juice", "description": [], "alternatives": [] },
+                { "name": "Pineapple Juice", "description": [], "alternatives": [] },
+                { "name": "Pomegranate Juice", "description": [], "alternatives": [] },
+                { "name": "Yuzu", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Fresh & Garnishes",
+                "items": [
+                { "name": "Egg White", "description": [], "alternatives": [] },
+                { "name": "Mint Leaves", "description": [], "alternatives": [] },
+                { "name": "Mint Sprig", "description": [], "alternatives": [] },
+                { "name": "Shiso Leaf", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Specialty & Misc",
+                "items": [
+                { "name": "Chili Tincture", "description": [], "alternatives": [] },
+                { "name": "Espresso", "description": [], "alternatives": [] },
+                { "name": "Mango Puree", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+            
+            {
+                "category": "Missing Ingredients",
+                "items": [
+                    {
+                        "name": "My Oh Mai Tai Batch",
+                        "description": [
+                          "ABV varies depending on the rum base and dilution",
+                          "Typically prepared in-house",
+                          "A modern twist on the classic Mai Tai, this clarified batch blends rum, lime, orgeat, and orange liqueur. The clarification process removes solids for a crystal-clear appearance while retaining the drink’s tropical depth, nutty richness, and citrus brightness."
+                        ],
+                        "alternatives": [
+                          "Classic Mai Tai (non-clarified)",
+                          "Clarified Daiquiri",
+                          "Clarified Rum Punch"
+                        ]
+                    }
+                    ,
+                    {
+                        "name": "Proseco",
+                        "description": [
+                          "11–12% ABV",
+                          "Produced primarily in the Veneto and Friuli Venezia Giulia regions of Italy",
+                          "Prosecco is a sparkling white wine made primarily from the Glera grape. It’s known for its light, crisp, and fruity character with notes of green apple, pear, and white flowers. It is typically less dry and more fruit-forward than Champagne, making it a popular choice for spritzes and celebratory cocktails."
+                        ],
+                        "alternatives": [
+                          "Cava",
+                          "Champagne",
+                          "Crémant"
+                        ]
+                    }
+                    ,                      
+                    {
+                        "name": "Rose Bud Infused Vodka",
+                        "description": [
+                        "Typically 35–40% ABV, depending on base vodka",
+                        "Homemade or craft-infused, often using premium neutral vodka as a base",
+                        "Rose Bud Infused Vodka features a delicate floral aroma and subtle sweetness, created by steeping dried rose buds in vodka. It's ideal for elegant cocktails, adding a romantic, botanical note to spritzes, fizzes, or martinis."
+                        ],
+                        "alternatives": [
+                        "Hibiscus-Infused Vodka",
+                        "Elderflower Vodka",
+                        "Lavender-Infused Vodka"
+                        ]
+                    }
                 ]
             }
-        ]
+        ]   
+
     }
 ]

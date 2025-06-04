@@ -1,4 +1,3 @@
-// Fetch the JSON data
 fetch('data.json')
 .then(response => {
   if (!response.ok) throw new Error('Network response was not ok');
@@ -39,6 +38,10 @@ fetch('data.json')
       }).join('');
     }
 
+    function toTitleCase(str) {
+      return str.replace(/\w\S*/g, txt => txt.charAt(0).toUpperCase() + txt.substr(1));
+    }
+
     function initialize() {
       d3.select("body").append("div").attr("id", "topNav");
       d3.select("#topNav").append("button").text("Cocktails").attr("class", "button nav-buttons").attr("id", "cocktails");
@@ -51,19 +54,35 @@ fetch('data.json')
     initialize();
 
     let drinkInfo = data[0].drinks;
-    let inventory = data[0].inventory[0].items;
+
+    // Flatten inventory structure
+    let inventoryRaw = data[0].inventory;
+    let inventoryItems = [];
+    let missingItems = [];
+
+    inventoryRaw.forEach(group => {
+      if (group.category === "Missing Ingredients") {
+        group.items.forEach(item => missingItems.push(item));
+      } else {
+        group.items.forEach(item => inventoryItems.push(item));
+      }
+    });
+
+    const allInventoryItems = inventoryItems.concat(missingItems);
+
+    const inventoryNamesCamel = inventoryItems.map(i => toCamelCase(sanitizeIngredient(i.name)));
+    const missingItemNamesCamel = missingItems.map(i => toCamelCase(sanitizeIngredient(i.name)));
 
     function renderDrinkButton(drink, containerSelector) {
-      let missingItems = [];
-      const camelCaseInventory = inventory.map(item => toCamelCase(sanitizeIngredient(item)));
+      let missingItemsFound = [];
 
       Object.keys(drink).forEach(key => {
         if (["wine", "liquor", "liqueur", "vermouth", "mixers"].includes(key) && Array.isArray(drink[key])) {
           const missing = drink[key].filter(item => {
             const normalizedItem = toCamelCase(sanitizeIngredient(item));
-            return !camelCaseInventory.includes(normalizedItem);
+            return !inventoryNamesCamel.includes(normalizedItem);
           });
-          missingItems = missingItems.concat(missing);
+          missingItemsFound = missingItemsFound.concat(missing);
         }
       });
 
@@ -73,11 +92,11 @@ fetch('data.json')
         .attr("class", "button drink-buttons")
         .attr("id", drink.name);
 
-      if (missingItems.length > 0) {
+      if (missingItemsFound.length > 0) {
         button.classed("missing", true);
       }
 
-      const strippedMissing = missingItems.map(item => sanitizeIngredient(item));
+      const strippedMissing = missingItemsFound.map(item => sanitizeIngredient(item));
       console.log(`${drink.name} missing:`, strippedMissing);
     }
 
@@ -144,22 +163,14 @@ fetch('data.json')
 
           drink[key].forEach(val => {
             const sanitized = toCamelCase(sanitizeIngredient(val));
-            const isMissing = !inventory.map(i => toCamelCase(sanitizeIngredient(i))).includes(sanitized);
+            const isMissing = !inventoryNamesCamel.includes(sanitized);
 
-            if (key !== "glass" && key !== "garnish") {
-              d3.select("#" + key + "Recipe")
-                .append("p")
-                .attr("id", val)
-                .attr("class", "recipe")
-                .style("color", isMissing ? "red" : null)
-                .text(val);
-            } else {
-              d3.select("#" + key + "Recipe")
-                .append("p")
-                .attr("id", val)
-                .attr("class", "recipe")
-                .text(val);
-            }
+            d3.select("#" + key + "Recipe")
+              .append("p")
+              .attr("id", val)
+              .attr("class", "recipe")
+              .style("color", key !== "glass" && key !== "garnish" && isMissing ? "red" : null)
+              .text(val);
           });
         }
       });
@@ -167,7 +178,6 @@ fetch('data.json')
 
     document.addEventListener("input", (e) => {
       let value = e.target.value;
-
       if (value && value.trim().length > 0) {
         value = value.trim().toLowerCase().replace(/[^\w\s]/gi, "");
         $("#searchListDiv").empty();
@@ -203,82 +213,75 @@ fetch('data.json')
     });
 
     $('body').on("click", ".recipe", function () {
+      const parentId = $(this).closest(".drink-recipe").attr("id");
+      const ignoredCategories = ["glassRecipe", "garnishRecipe", /*"mixersRecipe"*/];
+      if (ignoredCategories.includes(parentId)) return;
+
       const clickedIngredient = this.id;
       const sanitizedClicked = sanitizeIngredient(clickedIngredient);
       const camelClicked = toCamelCase(sanitizedClicked);
-    
+
       let matchedItem = null;
       let matchedData = null;
-    
-      // Attempt to find a matching inventory item
-      for (let i of inventory) {
-        const sanitizedInventory = sanitizeIngredient(i.name || i);
+
+      for (let i of allInventoryItems) {
+        const sanitizedInventory = sanitizeIngredient(i.name);
         const camelInventory = toCamelCase(sanitizedInventory);
-    
         if (camelInventory === camelClicked || camelInventory.includes(camelClicked)) {
-          matchedItem = i.name || i;
+          matchedItem = i.name;
           matchedData = i;
           break;
         }
       }
-    
-      // Use the clicked text if no inventory match found
-      const itemName = matchedItem || clickedIngredient;
-    
+
+      const itemName = toTitleCase(matchedItem || sanitizeIngredient(clickedIngredient));
+
       d3.select("body").append("div").attr("id", "modalBG");
-    
+
       const modal = d3.select("#modalBG")
         .append("div")
         .attr("id", "modalContent")
         .attr("class", "modal-content");
-    
+
       const modalTitleDiv = d3.select(".modal-content")
         .append("div")
         .attr("id", "modalTitleDiv")
         .attr("class", "modal-title-div");
-    
-      modalTitleDiv.append("h2")
-        .attr("class", "modal-title")
-        .text(itemName);
-    
-      const modalFlex = modal.append("div")
-        .attr("class", "modal-flex");
-    
-      // Image
+
+      modalTitleDiv.append("h2").attr("class", "modal-title").text(itemName);
+
+      const modalFlex = modal.append("div").attr("class", "modal-flex");
+
       modalFlex.append("img")
         .attr("class", "modal-image")
         .attr("src", "./images/" + camelClicked + ".png")
         .on("error", function () {
-          d3.select(this).attr("src", "./images/placeholder.png"); // fallback image
+          d3.select(this).attr("src", "./images/placeholder.png");
         });
-    
-      const modalRight = modalFlex.append("div")
-        .attr("class", "modal-right");
-    
-      // Alternatives
-      modalRight.append("div")
-        .attr("class", "modal-alternatives")
-        .append("p")
-        .attr("class", "modal-alt-title")
-        .text("Similar or Alternative Options:");
-    
-      const altList = modalRight.append("ul").attr("class", "modal-alt-list");
-    
-      if (matchedData && matchedData.alternatives && matchedData.alternatives.length > 0) {
-        altList.selectAll("li")
-          .data(matchedData.alternatives)
-          .enter()
-          .append("li")
-          .text(d => d);
+
+      const modalRight = modalFlex.append("div").attr("class", "modal-right");
+
+      const altDiv = modalRight.append("div").attr("class", "modal-alternatives");
+      altDiv.append("p").attr("class", "modal-alt-title").text("Similar or Alternative Options:");
+      const altList = altDiv.append("ul").attr("class", "modal-alt-list");
+
+      if (matchedData?.alternatives?.length > 0) {
+        altList.selectAll("li").data(matchedData.alternatives).enter().append("li").attr("class", "modal-li").text(d => d);
       } else {
         altList.append("li").text("No alternatives available.");
       }
-    
-      // Description
-      modalRight.append("p")
-        .attr("class", "modal-description")
-        .text(matchedData && matchedData.description ? matchedData.description : "No description available.");
+
+      const descDiv = modalRight.append("div").attr("class", "modal-alternatives");
+      descDiv.append("p").attr("class", "modal-alt-title").text("Description:");
+      const descList = descDiv.append("ul").attr("class", "modal-alt-list");
+
+      if (matchedData?.description?.length > 0) {
+        descList.selectAll("li").data(matchedData.description).enter().append("li").attr("class", "modal-li").text(d => d);
+      } else {
+        descList.append("li").text("No description available.");
+      }
     });
+
     
 
     $('body').on('click', '#modalBG', function() {

@@ -294,7 +294,7 @@ button{
 }
 
 .instructions{
-  /* text-align: center; */
+  text-align: left;
   margin: 8% 5%;
   font-size: 2vh;
 }
@@ -340,8 +340,14 @@ button{
 
 
 
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
 
-
+.modal-content{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 
 
@@ -365,11 +371,13 @@ button{
   padding: 2rem;
   border-radius: 12px;
   max-width: 80%;
+  max-height: 80%;
   /* max-width: 600px; */
   color: #f5f5f5;
   font-family: sans-serif;
   box-shadow: 0 0 20px rgba(255,255,255,0.2);
   flex-wrap: wrap;
+  overflow: scroll;
 }
 
 #modalTitleDiv{
@@ -387,9 +395,9 @@ button{
 
 .modal-flex{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .modal-image {
@@ -403,9 +411,10 @@ button{
 
 .modal-right{
   width: 80%;
+  margin: auto;
 }
 
-.modal-description {
+.modal-description, li {
   margin-top: 1.5rem;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -416,12 +425,13 @@ button{
   margin-top: 2rem;
 }
 
-.modal-alt-title {
+.modal-alt-title, .modal-desc-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
   text-align: center;
   color: #ccc;
+  text-decoration: underline;
 }
 
 .modal-alt-list {
@@ -431,10 +441,11 @@ button{
 }
 
 .modal-alt-list li {
-  margin: 0.25rem 0;
+  margin: 0.25rem 0 1.5rem;
   color: #bbb;
   font-size: 1.25rem;
 }
+
 
 
 
@@ -511,6 +522,10 @@ button{
     height: fit-content;
     padding: 4% 0;
     order: 1;
+  }
+
+  .drink-photo{
+    max-width: 90vw;
   }
 
   .drink-buttons{
