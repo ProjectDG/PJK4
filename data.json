@@ -1515,7 +1515,20 @@
                 { "name": "Demerara Syrup", "description": [], "alternatives": [] },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
                 { "name": "Honey Syrup", "description": [], "alternatives": [] },
-                { "name": "Lychee Syrup", "description": [], "alternatives": [] },
+                {
+                  "name": "Lychee Syrup",
+                  "description": [
+                    "Non-alcoholic",
+                    "Typically produced from lychee fruit concentrate or purée blended with sugar and water",
+                    "Lychee syrup is a sweet, fragrant syrup made from the tropical lychee fruit. It has a floral, slightly tart flavor with notes of rose and pear, making it an excellent addition to exotic or aromatic cocktails and mocktails."
+                  ],
+                  "alternatives": [
+                    "Elderflower syrup",
+                    "Rose syrup",
+                    "Passion fruit syrup"
+                  ]
+                }
+                ,
                 { "name": "Matcha Syrup", "description": [], "alternatives": [] },
                 {
                     "name": "Orgeat",
@@ -1546,10 +1559,36 @@
                 "category": "Juices",
                 "items": [
                 { "name": "Cranberry Juice", "description": [], "alternatives": [] },
-                { "name": "Lemon Juice", "description": [], "alternatives": [] },
+                {
+                  "name": "Lemon Juice",
+                  "description": [
+                    "Non-alcoholic",
+                    "Typically sourced from fresh lemons or bottled with minimal additives",
+                    "Lemon juice adds bright acidity and a refreshing tartness to cocktails. It balances sweetness, enhances flavors, and is a key ingredient in classics like the Whiskey Sour and Tom Collins."
+                  ],
+                  "alternatives": [
+                    "Lime juice",
+                    "Citric acid solution",
+                    "Yuzu juice"
+                  ]
+                }
+                ,
                 { "name": "Lime Juice", "description": [], "alternatives": [] },
                 { "name": "Pineapple Juice", "description": [], "alternatives": [] },
-                { "name": "Pomegranate Juice", "description": [], "alternatives": [] },
+                {
+                  "name": "Pomegranate Juice",
+                  "description": [
+                    "Non-alcoholic",
+                    "Typically made from fresh-pressed pomegranate seeds or available as bottled juice",
+                    "Pomegranate juice offers a deep ruby color, sweet-tart flavor, and antioxidant richness. It adds complexity and vibrant color to cocktails and mocktails, pairing well with spirits like vodka, gin, and rum."
+                  ],
+                  "alternatives": [
+                    "Cranberry juice",
+                    "Cherry juice",
+                    "Blackcurrant juice"
+                  ]
+                }
+                ,
                 { "name": "Yuzu", "description": [], "alternatives": [] }
                 ]
             },
