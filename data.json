@@ -643,6 +643,22 @@
 
 
             {
+              "name" : "Bahama Mama",
+              "glass" : ["Hurricane Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Dark Rum - 1 oz,", "Coconut Rum - 5 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Orange Juice - 2 oz,", "Pineapple Juice - 1 oz,", "Lime Juice - .5 oz,", "Grenadine - .5 oz"],
+              "garnish" : ["Pineapple & Cherry"],
+              "section" : null,
+              "photo" : "bahamaMama",
+              "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain Over Fresh Ice" ,"Garnish with Pineapple & Cherry"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
                 "name" : "French 75",
                 "glass" : ["Champagne Flute"],
                 "rim" : null,
@@ -1514,6 +1530,19 @@
                 { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
                 { "name": "Demerara Syrup", "description": [], "alternatives": [] },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
+                {
+                  "name": "Grenadine",
+                  "description": [
+                    "Non-alcoholic",
+                    "Traditionally made from pomegranate juice, sugar, and water (though many commercial versions use artificial flavors)",
+                    "Grenadine is a rich, ruby-red syrup known for its sweet and slightly tart profile. It’s used to add color, sweetness, and a fruity depth to classic cocktails like the Tequila Sunrise and Shirley Temple."
+                  ],
+                  "alternatives": [
+                    "Pomegranate molasses (diluted with simple syrup)",
+                    "Homemade pomegranate syrup",
+                    "Raspberry syrup"
+                  ]
+                },
                 { "name": "Honey Syrup", "description": [], "alternatives": [] },
                 {
                   "name": "Lychee Syrup",
@@ -1574,6 +1603,19 @@
                 }
                 ,
                 { "name": "Lime Juice", "description": [], "alternatives": [] },
+                {
+                  "name": "Orange Juice",
+                  "description": [
+                    "Non-alcoholic",
+                    "Made by extracting juice from fresh oranges, commonly from Valencia or Navel varieties",
+                    "Orange juice is a bright, citrusy ingredient that brings sweetness, acidity, and a vibrant freshness to cocktails. It’s commonly used in drinks like the Screwdriver and Mimosa."
+                  ],
+                  "alternatives": [
+                    "Tangerine juice",
+                    "Mandarin juice",
+                    "Blood orange juice"
+                  ]
+                },                
                 { "name": "Pineapple Juice", "description": [], "alternatives": [] },
                 {
                   "name": "Pomegranate Juice",
