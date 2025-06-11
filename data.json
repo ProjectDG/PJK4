@@ -705,7 +705,24 @@
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
                 "batch" : null,
                 "alt. batch" : null
-            }
+            },
+            {
+              "name" : "Spicy Fifty",
+              "glass" : ["Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Vodka - 2 oz"],
+              "liqueur" : ["St. Germain - .75 oz"],
+              "vermouth" : null,
+              "mixers" : ["Chili Tincture - 2 drops," ,"Lime Juice - .75 oz,", "Honey Syrup - .75 oz"],
+              "garnish" : ["Dehydrated Chile De Arbol"],
+              "section" : null,
+              "photo" : "spicyFifty",
+              "instructions" : ["Add ingredients to shaker,", "Shake with ice,", "Double strain into chilled cocktail glass,", "Garnish with red chili pepper"],
+              "batch" : null,
+              "alt. batch" : null
+          }
+          
             
             
 
@@ -1530,19 +1547,6 @@
                 { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
                 { "name": "Demerara Syrup", "description": [], "alternatives": [] },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
-                {
-                  "name": "Grenadine",
-                  "description": [
-                    "Non-alcoholic",
-                    "Traditionally made from pomegranate juice, sugar, and water (though many commercial versions use artificial flavors)",
-                    "Grenadine is a rich, ruby-red syrup known for its sweet and slightly tart profile. It’s used to add color, sweetness, and a fruity depth to classic cocktails like the Tequila Sunrise and Shirley Temple."
-                  ],
-                  "alternatives": [
-                    "Pomegranate molasses (diluted with simple syrup)",
-                    "Homemade pomegranate syrup",
-                    "Raspberry syrup"
-                  ]
-                },
                 { "name": "Honey Syrup", "description": [], "alternatives": [] },
                 {
                   "name": "Lychee Syrup",
@@ -1678,47 +1682,61 @@
             {
                 "category": "Missing Ingredients",
                 "items": [
-                    {
-                        "name": "My Oh Mai Tai Batch",
-                        "description": [
-                          "ABV varies depending on the rum base and dilution",
-                          "Typically prepared in-house",
-                          "A modern twist on the classic Mai Tai, this clarified batch blends rum, lime, orgeat, and orange liqueur. The clarification process removes solids for a crystal-clear appearance while retaining the drink’s tropical depth, nutty richness, and citrus brightness."
-                        ],
-                        "alternatives": [
-                          "Classic Mai Tai (non-clarified)",
-                          "Clarified Daiquiri",
-                          "Clarified Rum Punch"
-                        ]
-                    }
-                    ,
-                    {
-                        "name": "Proseco",
-                        "description": [
-                          "11–12% ABV",
-                          "Produced primarily in the Veneto and Friuli Venezia Giulia regions of Italy",
-                          "Prosecco is a sparkling white wine made primarily from the Glera grape. It’s known for its light, crisp, and fruity character with notes of green apple, pear, and white flowers. It is typically less dry and more fruit-forward than Champagne, making it a popular choice for spritzes and celebratory cocktails."
-                        ],
-                        "alternatives": [
-                          "Cava",
-                          "Champagne",
-                          "Crémant"
-                        ]
-                    }
-                    ,                      
-                    {
-                        "name": "Rose Bud Infused Vodka",
-                        "description": [
-                        "Typically 35–40% ABV, depending on base vodka",
-                        "Homemade or craft-infused, often using premium neutral vodka as a base",
-                        "Rose Bud Infused Vodka features a delicate floral aroma and subtle sweetness, created by steeping dried rose buds in vodka. It's ideal for elegant cocktails, adding a romantic, botanical note to spritzes, fizzes, or martinis."
-                        ],
-                        "alternatives": [
-                        "Hibiscus-Infused Vodka",
-                        "Elderflower Vodka",
-                        "Lavender-Infused Vodka"
-                        ]
-                    }
+                  {
+                    "name": "Grenadine",
+                    "description": [
+                      "Non-alcoholic",
+                      "Traditionally made from pomegranate juice, sugar, and water (though many commercial versions use artificial flavors)",
+                      "Grenadine is a rich, ruby-red syrup known for its sweet and slightly tart profile. It’s used to add color, sweetness, and a fruity depth to classic cocktails like the Tequila Sunrise and Shirley Temple."
+                    ],
+                    "alternatives": [
+                      "Luxardo cherry syrup",
+                      "Pomegranate molasses (diluted with simple syrup)",
+                      "Homemade pomegranate syrup",
+                      "Raspberry syrup"
+                    ]
+                  },
+                  {
+                      "name": "My Oh Mai Tai Batch",
+                      "description": [
+                        "ABV varies depending on the rum base and dilution",
+                        "Typically prepared in-house",
+                        "A modern twist on the classic Mai Tai, this clarified batch blends rum, lime, orgeat, and orange liqueur. The clarification process removes solids for a crystal-clear appearance while retaining the drink’s tropical depth, nutty richness, and citrus brightness."
+                      ],
+                      "alternatives": [
+                        "Classic Mai Tai (non-clarified)",
+                        "Clarified Daiquiri",
+                        "Clarified Rum Punch"
+                      ]
+                  }
+                  ,
+                  {
+                      "name": "Proseco",
+                      "description": [
+                        "11–12% ABV",
+                        "Produced primarily in the Veneto and Friuli Venezia Giulia regions of Italy",
+                        "Prosecco is a sparkling white wine made primarily from the Glera grape. It’s known for its light, crisp, and fruity character with notes of green apple, pear, and white flowers. It is typically less dry and more fruit-forward than Champagne, making it a popular choice for spritzes and celebratory cocktails."
+                      ],
+                      "alternatives": [
+                        "Cava",
+                        "Champagne",
+                        "Crémant"
+                      ]
+                  }
+                  ,                      
+                  {
+                      "name": "Rose Bud Infused Vodka",
+                      "description": [
+                      "Typically 35–40% ABV, depending on base vodka",
+                      "Homemade or craft-infused, often using premium neutral vodka as a base",
+                      "Rose Bud Infused Vodka features a delicate floral aroma and subtle sweetness, created by steeping dried rose buds in vodka. It's ideal for elegant cocktails, adding a romantic, botanical note to spritzes, fizzes, or martinis."
+                      ],
+                      "alternatives": [
+                      "Hibiscus-Infused Vodka",
+                      "Elderflower Vodka",
+                      "Lavender-Infused Vodka"
+                      ]
+                  }
                 ]
             }
         ]   
