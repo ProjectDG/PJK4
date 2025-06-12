@@ -26,6 +26,89 @@ body{
   background-size: 105% 100%;
 }  
 
+.hamburger-menu {
+  z-index: 1001;
+  width: 3%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+  margin: 10px 10px 10px 25px;
+}
+
+.hamburger-menu .bar {
+  height: 6px;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#menu{
+  /* border: 2px solid red; */
+  display: none;
+  z-index: 1000;
+  width: 25%;
+  max-height: 85%;
+  border: .5vh outset rgb(227, 191, 127);;
+  background-color: #000000dd;
+  position: absolute;
+  top: 10vh;
+  left: 1.25vw;
+  padding: 4vh 2vh;
+}
+
+.menu-sections{
+  cursor: pointer;
+  margin: 10% 5%;
+}
+
+#scrollContainer{
+  width: 100%;
+}
+
+#drinkList{
+  margin: 0;
+  width: 100%;
+  background-color: #000000b6;
+}
+
+.drink-list{
+  font-size: 4vh;
+  list-style: none;
+}
+
+
+#alphabetNav {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+  background: inherit; /* match parent background */
+  padding: 5px 0;
+}
+
+#alphabetNav span {
+  width: 100%;
+  color: antiquewhite;
+  font-size: 3vh;
+  flex-grow: 1;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+#alphabetNav span:hover {
+  color: antiquewhite;
+}
+
+/* Drink list sections */
+.drink-section {
+  padding-top: 30px; /* for offset with fixed nav if needed */
+}
+
 button.missing {
   opacity: 0.5;
   /* color: #bbb; */
@@ -95,6 +178,11 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#topNav{
+  width: 98%;
+  padding-right: 2%;
 }
 
 #mainContainer{

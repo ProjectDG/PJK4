@@ -92,7 +92,7 @@
                 "glass" : ["Rocks Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Rittenhouse Rye - 2.5 oz"],
+                "liquor" : ["Redemption Rye - 2.5 oz"],
                 "liqueur" : null,
                 "vermouth" : null,
                 "mixers" : [
@@ -675,6 +675,22 @@
                 "alt. batch" : null
             },
             {
+              "name" : "Long Island Iced Tea",
+              "glass" : ["Pint Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Vodka - .5 oz", "Rum - .5 oz", "Gin - .5 oz", "Blanco Tequila - .5 oz"],
+              "liqueur" : ["Triple Sec - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - 1.5 oz", "Simple Syrup - 1 oz", "Coke (Splash)"],
+              "garnish" : ["Lemon"],
+              "section" : null,
+              "photo" : "longIslandIcedTea",
+              "instructions" : ["Add all ingredients into mixing tin with ice and shake.", "Strain Over Fresh Ice.", "Garnish with a lemon."],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
                 "name" : "Mint Julep",
                 "glass" : ["Metal Julep Cup"],
                 "rim" : null,
@@ -820,6 +836,20 @@
                 "category": "Sodas & Carbonated",
                 "items": [
                 { "name": "Club Soda", "description": [], "alternatives": [] },
+                {
+                  "name": "Coke",
+                  "description": [
+                    "Non-alcoholic",
+                    "Invented in the United States in the late 19th century",
+                    "Coca-Cola is a sweet, carbonated soft drink with a distinct blend of caramel, vanilla, and spice flavors. It’s often used as a mixer in cocktails like the Rum & Coke or Whiskey & Coke."
+                  ],
+                  "alternatives": [
+                    "Pepsi",
+                    "Mexican Coke",
+                    "Cola Syrup + Soda Water"
+                  ]
+                }
+                ,
                 { "name": "Soda Water", "description": [], "alternatives": [] }
                 ]
             },
@@ -1075,6 +1105,20 @@
                     ]
                     }
                     ,
+                    {
+                      "name": "Redemption Rye",
+                      "description": [
+                        "42%–46% ABV depending on the expression",
+                        "Distilled in Indiana and bottled in Kentucky, USA",
+                        "Redemption Whiskey is a high-rye bourbon or rye whiskey (depending on the expression) known for its bold spice, smooth vanilla undertones, and classic American whiskey character. It’s crafted to highlight the rye content and is popular in both sipping and classic cocktails like the Old Fashioned or Manhattan."
+                      ],
+                      "alternatives": [
+                        "Bulleit Rye",
+                        "Rittenhouse Rye",
+                        "Knob Creek Rye"
+                      ]
+                    }
+                    ,                    
                 {
                     "name": "Rittenhouse Rye",
                     "description": [
@@ -1420,6 +1464,20 @@
                         ]
                       }
                       ,
+                      {
+                        "name": "Triple Sec",
+                        "description": [
+                          "Typically 15–40% ABV depending on the brand",
+                          "Originated in France",
+                          "Triple Sec is a clear, orange-flavored liqueur made from dried orange peels. It adds citrus brightness and sweetness to cocktails like the Margarita, Cosmopolitan, and Sidecar."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Grand Marnier",
+                          "Dry Curacao"
+                        ]
+                      }
+                      ,                      
                       {
                         "name": "Yellow Chartreuse",
                         "description": [

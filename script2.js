@@ -16,11 +16,10 @@ fetch('data.json')
     }
   }
 
-  $('body').on('click', 'button', function() {
-    openFullscreen();
-  });
-
   $(document).ready(function() {
+    $('body').on('click', 'button', function() {
+      openFullscreen();
+    });
 
     function sanitizeIngredient(str) {
       return str.toLowerCase()
@@ -43,7 +42,13 @@ fetch('data.json')
     }
 
     function initialize() {
+      d3.select("body").append("div").attr("id", "menu");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "drinksSection").text("Drinks");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "inventorySection").text("Inventory");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "sectionSetUpSection").text("Section Set Up");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "settingsSection").text("Settings");
       d3.select("body").append("div").attr("id", "topNav");
+      d3.select("#topNav").append("div").attr("id", "hamburgerMenu").attr("class", "hamburger-menu").html(`<div class="bar"></div><div class="bar"></div><div class="bar"></div>`);
       d3.select("#topNav").append("button").text("Cocktails").attr("class", "button nav-buttons").attr("id", "cocktails");
       d3.select("#topNav").append("button").text("Originals").attr("class", "button nav-buttons").attr("id", "originals");
       d3.select("body").append("div").attr("id", "mainContainer");
@@ -52,6 +57,95 @@ fetch('data.json')
     }
 
     initialize();
+
+    // Show/hide menu on hamburger click
+    $('body').on('click', '.hamburger-menu', function(event) {
+      event.stopPropagation();
+      $('#menu').toggle();
+    });
+
+    // Hide menu if clicking outside
+    $(document).on('click', function(event) {
+      const isClickInsideMenu = $(event.target).closest('#menu, .hamburger-menu').length > 0;
+      if (!isClickInsideMenu && $('#menu').is(':visible')) {
+        $('#menu').hide();
+      }
+    });
+
+    $('body').on('click', '#drinksSection', function(event) {
+      $('#menu').hide();
+      $("#mainContainer").empty();
+
+      const scrollContainer = d3.select("#mainContainer").append("div").attr("id", "scrollContainer").style("max-height", "90vh").style("overflow-y", "auto");
+      scrollContainer.append("ul").attr("id", "drinkList").style("list-style-type", "none").style("padding", "0").style("margin", "0");
+
+      let sortedDrinks = [...drinkInfo].sort((a, b) => a.name.localeCompare(b.name));
+      let sortedLetters = [...new Set(sortedDrinks.map(d => d.name.charAt(0).toUpperCase()))];
+
+      d3.select("#drinkList")
+        .insert("div", ":first-child")
+        .attr("id", "alphabetNav")
+        .style("display", "flex")
+        .style("justify-content", "space-around")
+        .style("padding", "10px 0")
+        .style("background", "#1a1a1a")
+        .style("color", "white")
+        .style("width", "95%")
+        .style("margin", "0 auto")
+        .style("position", "sticky")
+        .style("top", "0")
+        .style("z-index", "999")
+        .style("border-bottom", "1px solid #444");
+
+      sortedLetters.forEach(letter => {
+        d3.select("#alphabetNav")
+          .append("span")
+          .attr("class", "alpha-link")
+          .attr("data-letter", letter)
+          .text(letter)
+          .style("cursor", "pointer")
+          .style("font-weight", "bold");
+      });
+
+      let currentLetter = "";
+      sortedDrinks.forEach(drink => {
+        const firstLetter = drink.name.charAt(0).toUpperCase();
+        if (firstLetter !== currentLetter) {
+          currentLetter = firstLetter;
+          d3.select("#drinkList")
+            .append("li")
+            .attr("class", "letter-header")
+            .attr("id", `letter-${currentLetter}`)
+            .style("fontWeight", "bold")
+            .style("fontSize", "1.3em")
+            .style("margin-top", "1em")
+            .style("color", "#ffd700")
+            .text(currentLetter);
+        }
+        d3.select("#drinkList")
+          .append("li")
+          .attr("class", "drink-list")
+          .style("cursor", "pointer")
+          .style("padding", "5px 0")
+          .text(drink.name)
+          .on("click", () => {
+            $(`.drink-buttons#${CSS.escape(drink.name)}`).trigger("click");
+          });
+      });
+    });
+
+    $('body').on('click', '.alpha-link', function() {
+      const target = $(this).attr('data-letter');
+      if (!target) return;
+      const targetElem = $(`#letter-${target}`);
+      if (targetElem.length) {
+        const container = document.getElementById("scrollContainer");
+        container.scrollTo({
+          top: targetElem.position().top + container.scrollTop - 10,
+          behavior: "smooth"
+        });
+      }
+    });
 
     let drinkInfo = data[0].drinks;
 
@@ -281,8 +375,6 @@ fetch('data.json')
         descList.append("li").text("No description available.");
       }
     });
-
-    
 
     $('body').on('click', '#modalBG', function() {
       $("#modalBG").remove();
