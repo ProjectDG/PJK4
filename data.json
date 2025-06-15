@@ -659,20 +659,36 @@
               "alt. batch" : null
             },
             {
-                "name" : "French 75",
-                "glass" : ["Champagne Flute"],
-                "rim" : null,
-                "wine" : ["Champagne - 3 oz"],
-                "liquor" : ["Gin - 1 oz"],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : ["Lemon Juice - .5 oz", "Simple Syrup - .5 oz"],
-                "garnish" : ["Lemon Twist"],
-                "section" : null,
-                "photo" : "french75",
-                "instructions" : ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled", "Strain into a Champagne flute" ,"Top with the Champagne or sparkling wine of choice", "Garnish with a lemon twist"],
-                "batch" : null,
-                "alt. batch" : null
+              "name" : "French 75",
+              "glass" : ["Champagne Flute"],
+              "rim" : null,
+              "wine" : ["Champagne - 3 oz"],
+              "liquor" : ["Gin - 1 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - .5 oz", "Simple Syrup - .5 oz"],
+              "garnish" : ["Lemon Twist"],
+              "section" : null,
+              "photo" : "french75",
+              "instructions" : ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled", "Strain into a Champagne flute" ,"Top with the Champagne or sparkling wine of choice", "Garnish with a lemon twist"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Jungle Bird",
+              "glass" : ["Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Blackstrap Rum - 1.5 oz"],
+              "liqueur" : ["Campari - .75 oz"],
+              "vermouth" : null,
+              "mixers" : ["Pineapple Juice - 1.5 oz,", "Lime Juice - .5 oz,", "Demerara Syrup - .5 oz"],
+              "garnish" : ["Pineapple Wedge"],
+              "section" : null,
+              "photo" : "jungleBird",
+              "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass" , "Garnish with a pineapple wedge"],
+              "batch" : null,
+              "alt. batch" : null
             },
             {
               "name" : "Long Island Iced Tea",
@@ -1740,6 +1756,19 @@
             {
                 "category": "Missing Ingredients",
                 "items": [
+                  {
+                    "name": "Blackstrap Rum",
+                    "description": [
+                      "Typically around 40% ABV",
+                      "Produced in various regions including the Caribbean and the U.S.",
+                      "Blackstrap Rum is a dark, rich molasses-forward rum made from the final molasses byproduct of sugar refining. It offers deep flavors of burnt caramel, licorice, toffee, and spice, making it ideal for tiki drinks and bold cocktails where its intense profile can shine."
+                    ],
+                    "alternatives": [
+                      "Cruzan Black Strap Rum",
+                      "Lamb's Navy Rum",
+                      "Gosling's Black Seal"
+                    ]
+                  },                  
                   {
                     "name": "Grenadine",
                     "description": [

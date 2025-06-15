@@ -141,7 +141,7 @@ fetch('data.json')
       if (targetElem.length) {
         const container = document.getElementById("scrollContainer");
         container.scrollTo({
-          top: targetElem.position().top + container.scrollTop - 10,
+          top: targetElem.position().top + container.scrollTop - 250,
           behavior: "smooth"
         });
       }

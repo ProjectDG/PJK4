@@ -28,12 +28,12 @@ body{
 
 .hamburger-menu {
   z-index: 1001;
-  width: 5%;
+  width: 4%;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50%;
+  height: 40%;
   margin: 10px 10px 10px 25px;
 }
 
@@ -604,8 +604,8 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%;
-    margin: 10px 10px 10px 25px;
+    height: 32%;
+    margin: 10px 10px 10px 15px;
   }
   
   .hamburger-menu .bar {
