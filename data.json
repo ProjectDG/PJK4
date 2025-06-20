@@ -2,6 +2,22 @@
     {
         "drinks" : 
         [
+          {
+            "name" : "Beachy Lemonade",
+            "glass" : ["Collins Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 1.5 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["House Made Lemonade - Fill to Top"],
+            "garnish" : ["Lemon Wedge"],
+            "section" : "cocktails",
+            "photo" : null,
+            "instructions" : ["Build in glass", "Garnish With Lemon Wedge"],
+            "batch" : ["Fresh Squeezed Lemon Juice - 8 oz", "Water - 4 cups", "Sugar - 6 oz", "Make Double or Triple Batch Depending on Popularity"],
+            "alt. batch" : null
+        },
             {
                 "name" : "Call Me 'Koko'",
                 "glass" : ["Rocks Glass"],
@@ -43,7 +59,7 @@
                     "Simple Syrup - .5 oz"
                 ],
                 "garnish" : ["Flower"],
-                "section" : "cocktails",
+                "section" : "originals",
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Dry Shake", "Add Ice & Shake Vigorously" , "Double Strain Over Big Rock", "Let Settle", "Float with Butterfly Pea / Honeysuckle Gin", "Garnish With Flower"],
                 "batch" : ["Coming Soon..."],
@@ -65,7 +81,7 @@
                     "Lemon Juice - 1 oz,"
                 ],
                 "garnish" : ["Dehydrated Lemon & Flower"],
-                "section" : "cocktails",
+                "section" : "originals",
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" , "Double Strain Into Coupe Glass", "Garnish With Dehydrated Lime & Flower"],
                 "batch" : null,
@@ -127,7 +143,7 @@
                     "Cinnamon Stick & Shavings,",
                     "Dehydrated Lime"
                 ],
-                "section" : "cocktails",
+                "section" : "originals",
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Cinnamon Stick & Shavings", "Dehydrated Lime"],
                 "batch" : ["Coconut Rum - 18 oz", "Luxardo Cherry liqueur - 6 oz", "Drambuie - 3 oz", "Lillet Blanc - 3 oz", "Pour Into Liter Bottle & Mix", "NOTE: 2.5 oz of batch per drink"],
@@ -174,6 +190,25 @@
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Martini Glass", "Garnish With 3 Espresso Beans"],
                 "batch" : ["Star Anise - 5 Pods", "Fennel Seeds - 1 Tbsp", "Cinnamon Stick - 1 ea", "Szechuan Peppercorn (or Black Pepper) - 1 Tbsp", "Ground spices into a powder.", "Water - 2 Cups", "Sugar - 1.75 Cups", "Add ingredients together and bring to a boil until thickened."],
                 "alt. batch" : null
+            },
+            {
+              "name" : "Salt & Sun",
+              "glass" : ["Rocks Glass"],
+              "rim" : ["Salt (optional)"],
+              "wine" : null,
+              "liquor" : ["Corazon Blanco - 1.5 oz"],
+              "liqueur" : ["Cointreau - .5 oz"],
+              "vermouth" : null,
+              "mixers" : [
+                  "Lime Juice - 1.5 oz,",
+                  "Agave - 1 oz"
+              ],
+              "garnish" : ["Dehydrated Lime Wheel"],
+              "section" : "cocktails",
+              "photo" : null,
+              "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass", "Garnish With Dehydrated Lime Wheel"],
+              "batch" : null,
+              "alt. batch" : null
             },
             {
                 "name" : "Zen Inferno",
@@ -313,7 +348,7 @@
                 "vermouth" : null,
                 "mixers" : null,
                 "garnish" : ["Top with Foam,", "Dehydrated Orange & Cherry"],
-                "section" : "originals",
+                "section" : null,
                 "photo" : null,
                 "instructions" : ["Pour Into Cambro", "Stir Until Thoroughly Mixed", "Refridgerate for 24 Hours"],
                 "batch" : ["White Rum - 1 Cup", "Dry Curacao - 1/2 Cup", "Lime Juice - 3/4 Cup,", "Milk - 2 Cups", "Orgeat - 1/2 Cup"],
@@ -329,7 +364,7 @@
                 "vermouth" : ["Lillet Blanc - .25 oz"],
                 "mixers" : ["Lemon Bitters - 3 Dashes"],
                 "garnish" : ["Flashed Orange Peel"],
-                "section" : "originals",
+                "section" : null,
                 "photo" : null,
                 "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish with Flashed Orange Peel"],
                 "batch" : null,
@@ -345,7 +380,7 @@
                 "vermouth" : null,
                 "mixers" : ["Honey Fig Foam", "Lemon Juice - 1 oz,", "Simple Syrup - .5 oz"],
                 "garnish" : ["Gold Dust & Dehydrated Rose Bud"],
-                "section" : "originals",
+                "section" : null,
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass", "Garnish With Dehydrated Rose Bud & Gold Dust"],
                 "batch" : ["Honey / Fig Foam Batch Coming Soon..."],
@@ -393,7 +428,7 @@
                 "vermouth" : null,
                 "mixers" : ["Lemon Juice - 1 oz,", "Lychee Syrup - .75 oz"],
                 "garnish" : ["Lychee & Mint Sprig"],
-                "section" : "originals",
+                "section" : null,
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Brut", "Garnish With Lychee & Mint Sprig"],
                 "batch" : ["Blend 2 Fuji Apples with Gin of Choice", "Let Sit for 24 to 48 Hours", "Strain & Prepare for Service"],
@@ -1666,6 +1701,20 @@
                 "category": "Juices",
                 "items": [
                 { "name": "Cranberry Juice", "description": [], "alternatives": [] },
+                {
+                  "name": "House Made Lemonade",
+                  "description": [
+                    "Non-alcoholic",
+                    "Made in-house using fresh lemons, water, and sugar",
+                    "House Made Lemonade is a fresh, tart, and slightly sweet citrus mixer commonly used in cocktails for brightness or served on its own as a refreshing beverage."
+                  ],
+                  "alternatives": [
+                    "Fresh Lemon Juice with Simple Syrup",
+                    "Store-Bought Lemonade",
+                    "Lemon-Lime Soda (as a lighter alternative)"
+                  ]
+                }
+                ,                
                 {
                   "name": "Lemon Juice",
                   "description": [
