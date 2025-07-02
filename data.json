@@ -512,7 +512,7 @@
                 "liquor" : ["Vodka - 2 oz"],
                 "liqueur" : ["Cointreau - .75 oz"],
                 "vermouth" : null,
-                "mixers" : ["Cranberry Juice - 1.5 oz,", "Lime Juice - .5 oz,"],
+                "mixers" : ["Cranberry Juice - 1.5 oz,", "Lime Juice - .5 oz"],
                 "garnish" : ["Lemon Twist"],
                 "section" : "searchDrinks",
                 "photo" : "cosmopolitan",
@@ -648,6 +648,22 @@
                 "batch" : null,
                 "alt. batch" : null
             },
+            {
+              "name" : "Vesper",
+              "glass" : ["Martini or Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Gin - 1.5 oz,", "Vodka - .5 oz"],
+              "liqueur" : null,
+              "vermouth" : ["Lillet Blanc - .25 oz"],
+              "mixers" : null,
+              "garnish" : ["Lemon Twist"],
+              "section" : null,
+              "photo" : "vesper",
+              "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain into a chilled martini or coupe glass", "Garnish With Lemon Twist"],
+              "batch" : null,
+              "alt. batch" : null
+            },
             
 
 
@@ -692,6 +708,22 @@
               "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain Over Fresh Ice" ,"Garnish with Pineapple & Cherry"],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+                "name" : "Daquari",
+                "glass" : ["Martini or Coupe Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Rum - 2 oz"],
+                "liqueur" : null,
+                "vermouth" : null,
+                "mixers" : ["Lime Juice - 1 oz,", "Simple Syrup - .5 oz"],
+                "garnish" : ["Lime Wedge"],
+                "section" : null,
+                "photo" : "daquari",
+                "instructions" : ["Add Ingredients to Mixing Tin", "Add Ice & Shake Vigorously", "Double Strain Into Martini or Coupe Glass", "Garnish with Lime Wedge or Twist"],
+                "batch" : null,
+                "alt. batch" : null
             },
             {
               "name" : "French 75",
