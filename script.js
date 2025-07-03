@@ -17,7 +17,7 @@ fetch('data.json')
   }
 
   $(document).ready(function() {
-    $('body').on('click', 'button', function() {
+    $('body').on('click', 'button, .hamburger-menu', function() {
       openFullscreen();
     });
 
@@ -146,6 +146,10 @@ fetch('data.json')
           behavior: "smooth"
         });
       }
+    });
+
+    $('body').on('click', '#inventorySection', function(event) {
+      window.open("https://projectdg.github.io/PJKInventory/", "_blank");
     });
 
     let drinkInfo = data[0].drinks;
