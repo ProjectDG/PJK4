@@ -811,6 +811,27 @@
               "alt. batch" : null
             },
             {
+              "name" : "Sazerac",
+              "glass" : ["Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Rye Whiskey - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Simple Syrup - .25 oz", "Peychaud's Bitters - 3 dashes", "Absinthe (Rinse)"],
+              "garnish" : ["Lemon Peel"],
+              "section" : null,
+              "photo" : "sazerac",
+              "instructions" : [
+                "Rinse a chilled rocks glass with absinthe and discard excess.",
+                "In a separate mixing glass, combine rye whiskey, simple syrup, and Peychaud’s bitters with ice.",
+                "Stir until well chilled and strain into the prepared glass (no ice).",
+                "Express lemon peel over the drink and discard or drop in."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
               "name" : "Siesta",
               "glass" : ["Coupe Glass"],
               "rim" : null,
@@ -1045,7 +1066,21 @@
                         "Citrus Bitters",
                         "Angostura Orange Bitters"
                     ]
-                    }
+                    },
+                    {
+                    "name": "Peychaud's Bitters",
+                    "description": [
+                      "35% ABV",
+                      "Produced in Louisiana, USA",
+                      "Peychaud's Bitters is a gentian-based cocktail bitter with a bright red hue and a distinctive flavor marked by anise, cherry, and light floral notes. It is a key ingredient in the classic Sazerac cocktail."
+                    ],
+                    "alternatives": [
+                      "Angostura Bitters",
+                      "Fee Brothers Aromatic Bitters",
+                      "Regans' Orange Bitters No. 6 (for a citrus twist)"
+                    ]
+                  }
+
                 ]
             },
 
