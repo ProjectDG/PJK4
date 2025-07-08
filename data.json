@@ -710,20 +710,41 @@
               "alt. batch" : null
             },
             {
-                "name" : "Daquari",
-                "glass" : ["Martini or Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Rum - 2 oz"],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : ["Lime Juice - 1 oz,", "Simple Syrup - .5 oz"],
-                "garnish" : ["Lime Wedge"],
-                "section" : null,
-                "photo" : "daquari",
-                "instructions" : ["Add Ingredients to Mixing Tin", "Add Ice & Shake Vigorously", "Double Strain Into Martini or Coupe Glass", "Garnish with Lime Wedge or Twist"],
-                "batch" : null,
-                "alt. batch" : null
+              "name" : "Daquari",
+              "glass" : ["Martini or Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Rum - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Lime Juice - 1 oz,", "Simple Syrup - .5 oz"],
+              "garnish" : ["Lime Wedge"],
+              "section" : null,
+              "photo" : "daquari",
+              "instructions" : ["Add Ingredients to Mixing Tin", "Add Ice & Shake Vigorously", "Double Strain Into Martini or Coupe Glass", "Garnish with Lime Wedge or Twist"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Dark 'n' Stormy",
+              "glass" : ["Highball or Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Dark Rum - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Ginger Beer - 4 oz", "Lime Juice - .5 oz"],
+              "garnish" : ["Lime Wedge"],
+              "section" : null,
+              "photo" : "darkNStormy",
+              "instructions" : [
+                "Fill a highball glass with ice.",
+                "Add ginger beer and lime juice.",
+                "Float dark rum on top.",
+                "Garnish with a lime wedge."
+              ],
+              "batch" : null,
+              "alt. batch" : null
             },
             {
               "name" : "French 75",
@@ -774,36 +795,36 @@
               "alt. batch" : null
             },
             {
-                "name" : "Mint Julep",
-                "glass" : ["Metal Julep Cup"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Bourbon - 2 oz"],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : ["Mint Leaves - 8 (Muddled)", "Simple Syrup - .25 oz"],
-                "garnish" : ["Mint Sprig", "Bitters (Optional: Few Drops)"],
-                "section" : null,
-                "photo" : "mintJulep",
-                "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
-                "batch" : null,
-                "alt. batch" : null
+              "name" : "Mint Julep",
+              "glass" : ["Metal Julep Cup"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Bourbon - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Mint Leaves - 8 (Muddled)", "Simple Syrup - .25 oz"],
+              "garnish" : ["Mint Sprig", "Bitters (Optional: Few Drops)"],
+              "section" : null,
+              "photo" : "mintJulep",
+              "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
+              "batch" : null,
+              "alt. batch" : null
             },
             {
-                "name" : "Siesta",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Blanco Tequila - 2 oz"],
-                "liqueur" : ["Campari - .5 oz"],
-                "vermouth" : null,
-                "mixers" : ["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave - .5 oz"],
-                "garnish" : ["Lime, Lemon or Grapefruit Wheel"],
-                "section" : null,
-                "photo" : "siesta",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
-                "batch" : null,
-                "alt. batch" : null
+              "name" : "Siesta",
+              "glass" : ["Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Blanco Tequila - 2 oz"],
+              "liqueur" : ["Campari - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave - .5 oz"],
+              "garnish" : ["Lime, Lemon or Grapefruit Wheel"],
+              "section" : null,
+              "photo" : "siesta",
+              "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
+              "batch" : null,
+              "alt. batch" : null
             },
             {
               "name" : "Spicy Fifty",
@@ -820,7 +841,29 @@
               "instructions" : ["Add ingredients to shaker,", "Shake with ice,", "Double strain into chilled cocktail glass,", "Garnish with red chili pepper"],
               "batch" : null,
               "alt. batch" : null
-          }
+            },
+            {
+            "name" : "Tom Collins",
+            "glass" : ["Collins Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Gin - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Lemon Juice - 1 oz", "Simple Syrup - .75 oz", "Club Soda - Top"],
+            "garnish" : ["Lemon Wheel", "Cherry"],
+            "section" : null,
+            "photo" : "tomCollins",
+            "instructions" : [
+              "Add gin, lemon juice, and simple syrup to a shaking tin with ice.",
+              "Shake well and strain into a Collins glass over fresh ice.",
+              "Top with club soda.",
+              "Garnish with a lemon wheel and cherry."
+            ],
+            "batch" : null,
+            "alt. batch" : null
+            }
+
           
             
             
@@ -931,8 +974,21 @@
                     "Mexican Coke",
                     "Cola Syrup + Soda Water"
                   ]
-                }
-                ,
+                },
+                {
+                  "name": "Ginger Beer",
+                  "description": [
+                    "Non-alcoholic (typically), though some versions may contain low alcohol content",
+                    "Made from ginger root, sugar, water, and often fermented for natural carbonation",
+                    "Ginger Beer is a bold, spicy-sweet carbonated mixer known for its strong ginger flavor and is essential in cocktails like the Moscow Mule and Dark 'n' Stormy."
+                  ],
+                  "alternatives": [
+                    "Ginger Ale",
+                    "Spicy Ginger Syrup with Club Soda",
+                    "Homemade Ginger Beer"
+                  ]
+                },
+
                 { "name": "Soda Water", "description": [], "alternatives": [] }
                 ]
             },
