@@ -731,6 +731,48 @@
               "alt. batch" : null
             },
             {
+              "name" : "Daisy",
+              "glass" : ["Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Brandy - 2 oz"],
+              "liqueur" : ["Orange Liqueur - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - .75 oz", "Grenadine - .25 oz"],
+              "garnish" : ["Lemon Twist"],
+              "section" : null,
+              "photo" : "daisy",
+              "instructions" : [
+                "Add all ingredients to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Daisy (Original)",
+              "glass" : ["Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Brandy - 1.5 oz"],
+              "liqueur" : ["Orange Curacao - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - .75 oz", "Simple Syrup - .25 oz", "Soda Water - Splash"],
+              "garnish" : ["Lemon Wheel", "Mint Sprig (Optional)"],
+              "section" : null,
+              "photo" : "daisyOriginal",
+              "instructions" : [
+                "Add brandy, orange curaçao, lemon juice, and simple syrup to a shaker with ice.",
+                "Shake until well chilled and strain into a rocks glass over fresh ice.",
+                "Top with a splash of soda water.",
+                "Garnish with a lemon wheel and optional mint sprig."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
               "name" : "Daquari",
               "glass" : ["Martini or Coupe Glass"],
               "rim" : null,
@@ -828,6 +870,26 @@
               "section" : null,
               "photo" : "mintJulep",
               "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Painkiller",
+              "glass" : ["Tiki Mug or", "Hurricane Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Dark Rum - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Pineapple Juice - 4 oz", "Orange Juice - 1 oz", "Cream of Coconut - 1 oz"],
+              "garnish" : ["Nutmeg (Freshly Grated)", "Pineapple Wedge", "Orange Wheel"],
+              "section" : null,
+              "photo" : "painkiller",
+              "instructions" : [
+                "Add all ingredients to a shaker with ice and shake well.",
+                "Strain into a tiki mug or hurricane glass over crushed ice.",
+                "Garnish with freshly grated nutmeg, pineapple wedge, and orange wheel."
+              ],
               "batch" : null,
               "alt. batch" : null
             },
@@ -1129,6 +1191,20 @@
                     ]
                     }
                     ,
+                {
+                    "name": "Brandy",
+                    "description": [
+                      "Typically 35-60% ABV",
+                      "Distilled from fermented fruit juice, most commonly grapes",
+                      "Brandy is a spirit produced by distilling wine or fermented fruit juice. It is aged in wooden casks, giving it a rich, smooth flavor with notes of oak, caramel, and fruit. Commonly enjoyed neat or used in cocktails like the Sidecar or Brandy Alexander."
+                    ],
+                    "alternatives": [
+                      "Cognac",
+                      "Armagnac",
+                      "Calvados"
+                    ]
+                    } 
+                ,
                 {
                     "name": "Butterfly Pea Gin",
                     "description": [
@@ -1646,6 +1722,35 @@
                       }
                       ,
                       {
+                        "name": "Orange Curacao",
+                        "description": [
+                          "Typically 30–40% ABV",
+                          "Originated from the island of Curaçao, often produced in the Caribbean or France",
+                          "Orange Curaçao is a sweet, orange-flavored liqueur made from the dried peels of bitter and sweet oranges. It has a rich, slightly bitter citrus profile and is commonly used in classic cocktails like the Mai Tai and Blue Lagoon."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Grand Marnier",
+                          "Dry Curaçao"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Orange Liqueur",
+                        "description": [
+                          "Typically 30–40% ABV",
+                          "Produced globally, with well-known varieties from France, the Caribbean, and the Netherlands",
+                          "Orange liqueur is a category of sweetened alcoholic beverages flavored with orange peel and zest. It includes a range of styles from dry to sweet, and is often used to add citrus brightness and complexity to cocktails such as the Margarita, Sidecar, and Cosmopolitan."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Triple Sec",
+                          "Grand Marnier",
+                          "Orange Curaçao"
+                        ]
+                      }
+                      ,
+                      {
                         "name": "St. Germain",
                         "description": [
                           "20% ABV",
@@ -1961,7 +2066,21 @@
                       "Lamb's Navy Rum",
                       "Gosling's Black Seal"
                     ]
-                  },                  
+                  },
+                  {
+                    "name": "Cream of Coconut",
+                    "description": [
+                      "Non-alcoholic",
+                      "Produced by various brands including Coco López and Real Gourmet",
+                      "Cream of Coconut is a sweetened coconut milk product used in tropical and tiki cocktails. It has a rich, creamy texture and intense coconut flavor, commonly found in drinks like the Piña Colada."
+                    ],
+                    "alternatives": [
+                      "Coconut Rum",
+                      "Coconut Milk + Simple Syrup",
+                      "Coconut Cream",
+                      "Coco Real"
+                    ]
+                  },            
                   {
                     "name": "Grenadine",
                     "description": [
