@@ -23,7 +23,7 @@ fetch('data.json')
 
     function sanitizeIngredient(str) {
       return str.toLowerCase()
-        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|to taste|to|top|fill|as needed|garnish(ed)?( with)?)\b/g, '')
+        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|to taste|to|top|fill|as needed|ea|garnish(ed)?( with)?)\b/g, '')
         .replace(/\d+(\.\d+)?\s*(oz|ml|tsp|tbsp|teaspoon|tablespoon|parts)?/gi, '')
         .replace(/\(.*?\)/g, '')
         .replace(/[^\w\s]/g, '')
@@ -240,14 +240,14 @@ fetch('data.json')
       if (drink.photo !== null) {
         d3.select("#drinkPhoto").append("img").attr("class", "drink-photo").attr("src", "./images/" + drink.photo + ".png");
       } else {
-        d3.select("#drinkPhoto").append("p").text("Please Upload Photo").style("color", "antiquewhite").style("font-size", "3vh").style("margin", "3%");
+        d3.select("#drinkPhoto").append("p").text("Please Upload Photo").style("color", "antiquewhite").style("font-size", "3vh").style("margin", "4%");
       }
 
       d3.select("#drinkInfo").append("div").attr("class", "info-divs").attr("id", "drinkRecipeDiv");
       d3.select("#drinkInfo").append("div").attr("class", "info-divs").attr("id", "drinkInstructionsDiv");
 
       Object.keys(drink).forEach(key => {
-        if (["instructions", "batch", "alt. batch"].includes(key) && drink[key] !== null) {
+        if (["instructions", "batch", "alt. batch"/*, "alt. batch 2"*/].includes(key) && drink[key] !== null) {
           d3.select("#drinkInstructionsDiv").append("div").attr("class", "instructions-title").attr("id", "drinkInstructionsTitle").text(key.toUpperCase());
           drink[key].forEach(instruction => {
             d3.select("#drinkInstructionsDiv").append("li").attr("class", "instructions").text(instruction);
