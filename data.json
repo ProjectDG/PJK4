@@ -894,6 +894,27 @@
               "alt. batch" : null
             },
             {
+              "name" : "Pisco Sour",
+              "glass" : ["Nick & Nora Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Pisco - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Lime Juice - 1 oz", "Simple Syrup - .5 oz", "Egg White - 1 ea"],
+              "garnish" : ["Angostura Bitters (on foam)"],
+              "section" : null,
+              "photo" : "piscoSour",
+              "instructions" : [
+                "Add pisco, lime juice, simple syrup and egg white into a shaker and dry-shake (without ice) vigorously.",
+                "Add ice and shake again until well chilled.",
+                "Strain into a chilled Nick & Nora glass. (Alternatively, you can strain it into a rocks glass over fresh ice.)",
+                "Garnish with 3 to 5 drops of Angostura bitters. Using a straw, toothpick or similar implement, swirl the bitters into a simple design, if desired."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
               "name" : "Sazerac",
               "glass" : ["Rocks Glass"],
               "rim" : null,
@@ -2108,6 +2129,20 @@
                         "Clarified Rum Punch"
                       ]
                   }
+                  ,
+                    {
+                      "name": "Pisco",
+                      "description": [
+                        "Typically 38–48% ABV",
+                        "Produced in Peru and Chile",
+                        "Pisco is a clear or slightly amber grape brandy made by distilling fermented grape juice into a high-proof spirit without aging in wood. It has floral, fruity, and earthy notes and is the base spirit in cocktails like the Pisco Sour and Chilcano."
+                      ],
+                      "alternatives": [
+                        "Grappa",
+                        "Cachaca",
+                        "Unaged Brandy"
+                      ]
+                    }
                   ,
                   {
                       "name": "Proseco",
