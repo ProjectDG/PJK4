@@ -11,10 +11,10 @@
             "liqueur" : null,
             "vermouth" : null,
             "mixers" : ["House Made Lemonade - Fill to Top"],
-            "garnish" : ["Lemon Wedge"],
+            "garnish" : ["Dehydrated Lemon & Mint Sprig"],
             "section" : "cocktails",
-            "photo" : null,
-            "instructions" : ["Build in glass", "Garnish With Lemon Wedge"],
+            "photo" : "beachyLemonade",
+            "instructions" : ["Build in glass", "Garnish with dehydrated lemon & mint sprig"],
             "batch" : ["Fresh Squeezed Lemon Juice - 8 oz", "Water - 4 cups", "Sugar - 6 oz", "Make Double or Triple Batch Depending on Popularity"],
             "alt. batch" : null
         },
@@ -36,7 +36,7 @@
                 ],
                 "garnish" : ["Dehydrated Lemon & Basil Sprig"],
                 "section" : "cocktails",
-                "photo" : null,
+                "photo" : "callMeKoko",
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Dehydrated Lemon & Basil Sprig"],
                 "batch" : null,
                 "alt. batch" : null
@@ -118,7 +118,7 @@
                 ],
                 "garnish" : ["Orange Peel & Cherry"],
                 "section" : "cocktails",
-                "photo" : null,
+                "photo" : "pjkOldFashioned",
                 "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel & Cherry"],
                 "batch" : null,
                 "alt. batch" : null
@@ -205,7 +205,7 @@
               ],
               "garnish" : ["Dehydrated Lime Wheel"],
               "section" : "cocktails",
-              "photo" : null,
+              "photo" : "saltAndSun",
               "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass", "Garnish With Dehydrated Lime Wheel"],
               "batch" : null,
               "alt. batch" : null
@@ -553,6 +553,22 @@
                 "alt. batch" : null
             },
             {
+                "name": "Classic Lychee Martini",
+                "glass": ["Martini Glass"],
+                "rim": null,
+                "wine": null,
+                "liquor": ["Vodka - 2 oz"],
+                "liqueur": null,
+                "vermouth": ["Dry Vermouth - .5 oz"],
+                "mixers": ["Lychee Juice or Syrup - 1 oz"],
+                "garnish": ["Lychee Fruit"],
+                "section": "searchDrinks",
+                "photo": "classicLycheeMartini",
+                "instructions": ["Add Ingredients to Mixing Glass", "Stir until well chilled and properly diluted.", "Strain into a chilled martini glass.", "Garnish with a lychee fruit."],
+                "batch": null,
+                "alt. batch": null
+            },
+            {
                 "name" : "Mai Tai",
                 "glass" : ["Rocks Glass"],
                 "rim" : null,
@@ -581,22 +597,6 @@
                 "section" : "searchDrinks",
                 "photo" : "manhattan",
                 "instructions" : ["Add the rye whiskey, sweet vermouth, and bitters into a mixing glass with ice and stir until well-chilled.", "Strain into a chilled martini or coupe glass." ,"Garnish with a brandied cherry (or a lemon twist, if preferred)."],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Margarita",
-                "glass" : ["Margarita Glass"],
-                "rim" : ["Salt"],
-                "wine" : null,
-                "liquor" : ["Blanco Tequila - 2 oz"],
-                "liqueur" : ["Cointreau - .5 oz"],
-                "vermouth" : null,
-                "mixers" : ["Agave - .75 oz", "Lime Juice - 1.5 oz"],
-                "garnish" : ["Lime"],
-                "section" : "searchDrinks",
-                "photo" : "cadillac",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Lime"],
                 "batch" : null,
                 "alt. batch" : null
             },
@@ -856,6 +856,22 @@
               "instructions" : ["Add all ingredients into mixing tin with ice and shake.", "Strain Over Fresh Ice.", "Garnish with a lemon."],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+                "name" : "Margarita",
+                "glass" : ["Margarita Glass"],
+                "rim" : ["Salt"],
+                "wine" : null,
+                "liquor" : ["Blanco Tequila - 2 oz"],
+                "liqueur" : ["Cointreau - .5 oz"],
+                "vermouth" : null,
+                "mixers" : ["Agave - .75 oz", "Lime Juice - 1.5 oz"],
+                "garnish" : ["Lime"],
+                "section" : null,
+                "photo" : "cadillac",
+                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Lime"],
+                "batch" : null,
+                "alt. batch" : null
             },
             {
               "name" : "Mint Julep",
