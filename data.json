@@ -560,7 +560,7 @@
                 "liquor": ["Vodka - 2 oz"],
                 "liqueur": null,
                 "vermouth": ["Dry Vermouth - .5 oz"],
-                "mixers": ["Lychee Juice or Syrup - 1 oz"],
+                "mixers": ["Lychee Syrup - 1 oz"],
                 "garnish": ["Lychee Fruit"],
                 "section": "searchDrinks",
                 "photo": "classicLycheeMartini",
@@ -692,7 +692,28 @@
 
 
 
-
+            {
+              "name": "Amaretto Sour",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Amaretto - 1.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 2 oz", "Simple Syrup - 1.5 oz", "Egg White - 1 ea (optional)"],
+              "garnish": ["Lemon Wheel", "Cherry"],
+              "section": null,
+              "photo": "amarettoSour",
+              "instructions": [
+                "Add amaretto, lemon juice, simple syrup, and egg white (if using) to a shaker without ice.",
+                "Dry shake for 10–15 seconds to emulsify the egg white.",
+                "Add ice and shake again until well chilled.",
+                "Strain into an old-fashioned glass filled with ice.",
+                "Garnish with a lemon wheel and a cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
             {
               "name" : "Bahama Mama",
               "glass" : ["Hurricane Glass"],
@@ -858,20 +879,20 @@
               "alt. batch" : null
             },
             {
-                "name" : "Margarita",
-                "glass" : ["Margarita Glass"],
-                "rim" : ["Salt"],
-                "wine" : null,
-                "liquor" : ["Blanco Tequila - 2 oz"],
-                "liqueur" : ["Cointreau - .5 oz"],
-                "vermouth" : null,
-                "mixers" : ["Agave - .75 oz", "Lime Juice - 1.5 oz"],
-                "garnish" : ["Lime"],
-                "section" : null,
-                "photo" : "cadillac",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Lime"],
-                "batch" : null,
-                "alt. batch" : null
+              "name" : "Margarita",
+              "glass" : ["Margarita Glass"],
+              "rim" : ["Salt"],
+              "wine" : null,
+              "liquor" : ["Blanco Tequila - 2 oz"],
+              "liqueur" : ["Cointreau - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Agave - .75 oz", "Lime Juice - 1.5 oz"],
+              "garnish" : ["Lime"],
+              "section" : null,
+              "photo" : "cadillac",
+              "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Lime"],
+              "batch" : null,
+              "alt. batch" : null
             },
             {
               "name" : "Mint Julep",
@@ -908,6 +929,29 @@
               ],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+              "name": "Paloma",
+              "glass": ["Rocks Glass"],
+              "rim": ["Salt (optional)"],
+              "wine": null,
+              "liquor": ["Blanco Tequila - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.5 oz", "Grapefruit Soda - to top"],
+              "garnish": ["Grapefruit Wedge", "Lime Wheel (optional)"],
+              "section": null,
+              "photo": "paloma",
+              "instructions": [
+                "Optional: Rim the glass with salt.",
+                "Fill a highball glass with ice.",
+                "Add tequila and lime juice.",
+                "Top with grapefruit soda.",
+                "Stir gently to combine.",
+                "Garnish with a grapefruit wedge and optional lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name" : "Pisco Sour",
@@ -1003,7 +1047,50 @@
             ],
             "batch" : null,
             "alt. batch" : null
-            }
+            },
+            {
+            "name": "White Russian",
+            "glass": ["Old-Fashioned Glass"],
+            "rim": null,
+            "wine": null,
+            "liquor": ["Vodka - 2 oz"],
+            "liqueur": ["Coffee Liqueur - 1 oz"],
+            "vermouth": null,
+            "mixers": ["Heavy Cream - 1 oz"],
+            "garnish": null,
+            "section": null,
+            "photo": "whiteRussian",
+            "instructions": [
+              "Add vodka and coffee liqueur to an old-fashioned glass filled with ice.",
+              "Float heavy cream on top by pouring over the back of a spoon.",
+              "Stir gently before drinking, if desired."
+            ],
+            "batch": null,
+            "alt. batch": null
+          },
+          {
+            "name": "White Sangria",
+            "glass": ["Wine Glass"],
+            "rim": null,
+            "wine": ["White Wine - 5 oz"],
+            "liquor": ["Brandy - 0.25 oz (optional)"],
+            "liqueur": ["Orange Liqueur - 0.5 oz"],
+            "vermouth": null,
+            "mixers": ["Orange Juice - 1 oz", "Club Soda - 1–2 oz (to top)", "Sprite (optional)"],
+            "garnish": ["Orange Slice", "Apple Slice", "Lemon Slice", "Berry", "Mint Sprig (optional)"],
+            "section": null,
+            "photo": "whiteSangria",
+            "instructions": [
+              "In a wine glass filled with ice, combine white wine, orange juice, orange liqueur, and optional brandy.",
+              "Add a few slices of fruit (such as orange, lemon, and apple) and a berry or two.",
+              "Top with a splash of club soda or lemon-lime soda.",
+              "Stir gently to mix.",
+              "Garnish with a mint sprig, if desired."
+            ],
+            "batch": null,
+            "alt. batch": null
+          }
+
 
           
             
@@ -1102,7 +1189,20 @@
             {
                 "category": "Sodas & Carbonated",
                 "items": [
-                { "name": "Club Soda", "description": [], "alternatives": [] },
+                {
+                  "name": "Club Soda",
+                  "description": [
+                    "Non-alcoholic",
+                    "Produced by various brands (e.g., Schweppes, Canada Dry, Q Mixers)",
+                    "Club soda is a carbonated water infused with minerals like sodium bicarbonate and potassium sulfate. It's used in cocktails to add fizz and volume without altering the drink’s flavor profile significantly."
+                  ],
+                  "alternatives": [
+                    "Soda Water",
+                    "Sparkling Mineral Water",
+                    "Seltzer Water",
+                    "Tonic Water (note: has quinine and a bitter taste)"
+                  ]
+                },
                 {
                   "name": "Coke",
                   "description": [
@@ -1129,8 +1229,49 @@
                     "Homemade Ginger Beer"
                   ]
                 },
+                {
+                  "name": "Grapefruit Soda",
+                  "description": [
+                    "Carbonated soft drink flavored with grapefruit juice or extract",
+                    "Produced by various brands worldwide",
+                    "Grapefruit soda offers a balance of sweet and tart flavors, making it a refreshing mixer in cocktails like the Paloma or Greyhound. It ranges from dry and crisp to sweet and citrusy depending on the brand."
+                  ],
+                  "alternatives": [
+                    "Q Grapefruit Soda",
+                    "Fever-Tree Sparkling Pink Grapefruit",
+                    "Jarritos Grapefruit Soda",
+                    "Fresh Grapefruit Juice with Soda Water"
+                  ]
+                },
+                {
+                  "name": "Soda Water",
+                  "description": [
+                    "Non-alcoholic",
+                    "Commonly produced by brands like Schweppes, Canada Dry, and Q Mixers",
+                    "Soda water is simply carbonated water without any added minerals or flavors. It is often used as a neutral mixer in cocktails to provide effervescence and lighten the drink’s texture."
+                  ],
+                  "alternatives": [
+                    "Club Soda",
+                    "Seltzer Water",
+                    "Sparkling Mineral Water",
+                    "Tonic Water (note: adds bitter flavor due to quinine)"
+                  ]
+                },
+                {
+                  "name": "Sprite",
+                  "description": [
+                    "Non-alcoholic",
+                    "Produced by The Coca-Cola Company",
+                    "Sprite is a clear, lemon-lime flavored soda known for its crisp, refreshing taste. It’s often used in cocktails as a light mixer to add sweetness and carbonation without overpowering other flavors."
+                  ],
+                  "alternatives": [
+                    "7UP",
+                    "Sierra Mist",
+                    "Lemon-Lime Club Soda",
+                    "Lemonade with Soda Water"
+                  ]
+                }
 
-                { "name": "Soda Water", "description": [], "alternatives": [] }
                 ]
             },
 
@@ -1576,7 +1717,22 @@
             {
                 "category": "Liqueurs",
                 "items": [
-                    {
+                      {
+                        "name": "Amaretto",
+                        "description": [
+                          "24%–28% ABV",
+                          "Originates from Italy, notably Saronno",
+                          "Amaretto is a sweet Italian liqueur made from almonds or apricot pits, offering a distinct nutty flavor with hints of vanilla and spice. It is commonly used in cocktails like the Amaretto Sour or enjoyed on its own."
+                        ],
+                        "alternatives": [
+                          "Disaronno Originale",
+                          "Luxardo Amaretto",
+                          "Gozio Amaretto",
+                          "Lazzaroni Amaretto"
+                        ]
+                      }
+                      ,
+                      {
                         "name": "Aperol",
                         "description": [
                           "11% ABV",
@@ -1647,20 +1803,6 @@
                       }
                       ,
                       {
-                        "name": "Cointreau",
-                        "description": [
-                          "40% ABV",
-                          "Produced in Angers, France",
-                          "Cointreau is a premium French triple sec made from a blend of sweet and bitter orange peels. Known for its crystal-clear appearance and vibrant, balanced citrus flavor, it is a staple in classic cocktails like the Margarita, Cosmopolitan, and Sidecar."
-                        ],
-                        "alternatives": [
-                          "Grand Marnier",
-                          "Combier Liqueur d’Orange",
-                          "Pierre Ferrand Dry Curaçao"
-                        ]
-                      }
-                      ,
-                      {
                         "name": "Chinola Passion Fruit",
                         "description": [
                           "21% ABV",
@@ -1671,6 +1813,34 @@
                           "Passoã Passion Fruit Liqueur",
                           "Giffard Passion Fruit Liqueur",
                           "Homemade passion fruit syrup with vodka or rum"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Coffee Liqueur",
+                        "description": [
+                          "Typically around 20–30% ABV",
+                          "Origin varies by brand (e.g., Mexico for Kahlúa, Italy for Borghetti)",
+                          "Coffee liqueur is a sweet, rich spirit made by combining coffee with a base liquor (usually rum or vodka) and sugar. It delivers deep coffee flavor with subtle chocolate and vanilla notes."
+                        ],
+                        "alternatives": [
+                          "Kahlúa",
+                          "Tia Maria",
+                          "Mr. Black Cold Brew Coffee Liqueur"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Cointreau",
+                        "description": [
+                          "40% ABV",
+                          "Produced in Angers, France",
+                          "Cointreau is a premium French triple sec made from a blend of sweet and bitter orange peels. Known for its crystal-clear appearance and vibrant, balanced citrus flavor, it is a staple in classic cocktails like the Margarita, Cosmopolitan, and Sidecar."
+                        ],
+                        "alternatives": [
+                          "Grand Marnier",
+                          "Combier Liqueur d’Orange",
+                          "Pierre Ferrand Dry Curaçao"
                         ]
                       }
                       ,
@@ -1842,7 +2012,21 @@
             {
                 "category": "Wines & Fortified",
                 "items": [
-                    {
+                      {
+                        "name": "Dry Vermouth",
+                        "description": [
+                          "Typically 16–18% ABV",
+                          "Originated in France and Italy",
+                          "Dry Vermouth is a fortified wine aromatized with herbs and botanicals. It is crisp, slightly bitter, and herbal, making it a staple in classic cocktails like the Martini and the Manhattan (alongside sweet vermouth)."
+                        ],
+                        "alternatives": [
+                          "Lillet Blanc",
+                          "Noilly Prat Extra Dry",
+                          "Dolin Dry Vermouth"
+                        ]
+                      }
+                      ,
+                      {
                         "name": "Lillet Blanc",
                         "description": [
                           "17% ABV",
@@ -1883,7 +2067,22 @@
                           "Martini & Rossi Rosso"
                         ]
                       }
-                      
+                      ,
+                      {
+                        "name": "White Wine",
+                        "description": [
+                          "Typically 11–14% ABV",
+                          "Produced globally in wine regions such as France, Italy, the U.S., and New Zealand",
+                          "White wine is made from green or yellow grapes (or red grapes with skins removed before fermentation). It ranges in flavor from dry and crisp to sweet and fruity, and is often used in cocktails, spritzes, or for deglazing and flavoring in culinary applications."
+                        ],
+                        "alternatives": [
+                          "Dry Vermouth",
+                          "Sake",
+                          "White Grape Juice (non-alcoholic)",
+                          "Sparkling White Wine (e.g., Prosecco, Champagne)"
+                        ]
+                      }
+
                 ]
             },
 
@@ -2015,7 +2214,20 @@
                   ]
                 }
                 ,
-                { "name": "Lime Juice", "description": [], "alternatives": [] },
+                {
+                  "name": "Lime Juice",
+                  "description": [
+                    "Highly acidic citrus juice, typically around 6-8% acidity",
+                    "Sourced from Persian or Key limes, grown in tropical and subtropical regions",
+                    "Lime juice is a staple in cocktail making, prized for its tart brightness. It balances sweetness, enhances flavors, and adds a refreshing zing to drinks like margaritas, mojitos, and gimlets."
+                  ],
+                  "alternatives": [
+                    "Lemon Juice (milder and slightly sweeter)",
+                    "Citric Acid Solution (when fresh citrus is unavailable)",
+                    "Lime Cordial (sweeter, less acidic substitute)"
+                  ]
+                }
+                ,
                 {
                   "name": "Orange Juice",
                   "description": [
@@ -2077,6 +2289,19 @@
                 "items": [
                 { "name": "Chili Tincture", "description": [], "alternatives": [] },
                 { "name": "Espresso", "description": [], "alternatives": [] },
+                {
+                  "name": "Heavy Cream",
+                  "description": [
+                    "Contains about 36–40% milk fat",
+                    "Widely produced in dairy farms across the world",
+                    "Heavy cream is a rich, thick cream commonly used in cocktails for texture and body. It adds a smooth, velvety mouthfeel and helps balance stronger or more bitter ingredients."
+                  ],
+                  "alternatives": [
+                    "Half-and-Half (lighter substitute)",
+                    "Coconut Cream (non-dairy alternative)",
+                    "Whipping Cream"
+                  ]
+                },
                 { "name": "Mango Puree", "description": [], "alternatives": [] }
                 ]
             },
