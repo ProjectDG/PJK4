@@ -226,7 +226,7 @@
                 ],
                 "garnish" : ["Pineapple Frond &", "Dehydrated Chile De Arbol"],
                 "section" : "cocktails",
-                "photo" : null,
+                "photo" : "zenInferno",
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Pineapple Frond & Dehydrated Chile De Arbol"],
                 "batch" : ["Mangos - 2", "Rice Vinegar - 2 tbsp","Sugar - 2 tbsp"],
                 "alt. batch" : null
@@ -909,6 +909,27 @@
               "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+              "name": "Old Fashioned",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Whiskey - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Simple Syrup - 0.25 oz", "Angostura Bitters - 2 dashes"],
+              "garnish": ["Orange Twist", "Luxardo Cherry (optional)"],
+              "section": null,
+              "photo": "oldFashioned",
+              "instructions": [
+                "Add simple syrup and bitters to an mixing glass.",
+                "Stir gently until well chilled and diluted.",
+                "Strain into a rocks glass over a large cube",
+                "Garnish with an orange twist and optional cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name" : "Painkiller",
@@ -1703,6 +1724,22 @@
                       "Absolut Elyx"
                     ]
                   }
+                  ,{
+                    "name": "Whiskey",
+                    "description": [
+                      "Typically 40% ABV and higher",
+                      "Produced globally, with major styles from the U.S., Scotland, Ireland, Canada, and Japan",
+                      "Whiskey is a distilled spirit made from fermented grain mash, aged in wooden barrels. It encompasses a variety of styles including bourbon, rye, Scotch, and Irish whiskey, each with distinct characteristics based on region, ingredients, and aging process."
+                    ],
+                    "alternatives": [
+                      "Bourbon",
+                      "Rye Whiskey",
+                      "Scotch Whisky",
+                      "Irish Whiskey",
+                      "Japanese Whisky"
+                    ]
+                  }
+
                   
                 ]
             },
@@ -2171,7 +2208,21 @@
                     ]
                   }
                   ,
-                { "name": "Simple Syrup", "description": [], "alternatives": [] }
+                  {
+                    "name": "Simple Syrup",
+                    "description": [
+                      "Non-alcoholic sweetener",
+                      "Made by dissolving sugar in water, typically at a 1:1 or 2:1 ratio",
+                      "Simple syrup is a staple cocktail ingredient that provides sweetness without the grittiness of granulated sugar. It’s used to balance flavors and enhance other ingredients in both classic and modern drinks."
+                    ],
+                    "alternatives": [
+                      "Honey Syrup",
+                      "Agave Syrup",
+                      "Maple Syrup",
+                      "Demerara Syrup"
+                    ]
+                  }
+
                 ]
             },
 
