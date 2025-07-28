@@ -487,7 +487,28 @@
 
 
 
-            
+
+            {
+                "name": "Alexander",
+                "glass": ["Coupe Glass,", "Martini Glass"],
+                "rim": null,
+                "wine": null,
+                "liquor": ["Brandy - 1 oz"],
+                "liqueur": ["Dark Creme de Cacao - 1 oz"],
+                "vermouth": null,
+                "mixers": ["Heavy Cream - 1 oz"],
+                "garnish": ["Freshly Grated Nutmeg"],
+                "section": null,
+                "photo": "alexander",
+                "instructions": [
+                  "Add brandy, dark crème de cacao, and heavy cream to a shaker filled with ice.",
+                  "Shake vigorously until well chilled and frothy.",
+                  "Strain into a chilled coupe or martini glass.",
+                  "Garnish with freshly grated nutmeg on top."
+                ],
+                "batch": null,
+                "alt. batch": null
+            },
             {
                 "name" : "Aperol Spritz",
                 "glass" : ["Wine Glass"],
@@ -2414,7 +2435,21 @@
                       "Coconut Cream",
                       "Coco Real"
                     ]
-                  },            
+                  },
+                  {
+                    "name": "Dark Creme de Cacao",
+                    "description": [
+                      "Sweet chocolate-flavored liqueur",
+                      "Traditionally made from cocoa beans and vanilla",
+                      "Dark Creme de Cacao is a rich, sweet liqueur used in classic and dessert-style cocktails. It has a deeper chocolate flavor and darker color compared to the white variety, making it ideal for drinks where chocolate notes are prominent."
+                    ],
+                    "alternatives": [
+                      "White Creme de Cacao",
+                      "Godiva Chocolate Liqueur",
+                      "Mozart Dark Chocolate Liqueur",
+                      "Chocolate Brandy"
+                    ]
+                  },     
                   {
                     "name": "Grenadine",
                     "description": [
