@@ -757,6 +757,48 @@
               "alt. batch": null
             },
             {
+              "name": "Americano",
+              "glass": ["Rocks Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Campari - 1 oz", "Sweet Vermouth - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Club Soda - Splash"],
+              "garnish": ["Orange Slice", "Lemon Twist (optional)"],
+              "section": null,
+              "photo": "americano",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add Campari and sweet vermouth.",
+                "Top with club soda.",
+                "Stir gently to combine.",
+                "Garnish with an orange slice and optional lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Angel Face",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1 oz"],
+              "liqueur": ["Apricot Brandy - 1 oz", "Calvados - 1 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": null,
+              "section": null,
+              "photo": "angelFace",
+              "instructions": [
+                "Add gin, apricot brandy, and apple brandy to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled coupe glass."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Bahama Mama",
               "glass" : ["Hurricane Glass"],
               "rim" : null,
@@ -2410,6 +2452,20 @@
                 "category": "Missing Ingredients",
                 "items": [
                   {
+                    "name": "Apricot Brandy",
+                    "description": [
+                      "Typically 20–30% ABV",
+                      "Produced by infusing brandy with apricot flavor or distilling fermented apricot juice",
+                      "Apricot Brandy is a sweet, fruit-forward liqueur known for its rich apricot aroma and flavor. It’s commonly used in both classic and tropical-style cocktails to add warmth and fruity complexity."
+                    ],
+                    "alternatives": [
+                      "Rothman & Winter Orchard Apricot",
+                      "Marie Brizard Apry",
+                      "Giffard Abricot du Roussillon",
+                      "Apricot Schnapps"
+                    ]
+                  },
+                  {
                     "name": "Blackstrap Rum",
                     "description": [
                       "Typically around 40% ABV",
@@ -2420,6 +2476,19 @@
                       "Cruzan Black Strap Rum",
                       "Lamb's Navy Rum",
                       "Gosling's Black Seal"
+                    ]
+                  },
+                  {
+                    "name": "Calvados",
+                    "description": [
+                      "Typically 40% ABV",
+                      "Produced in the Normandy region of France",
+                      "Calvados is a French apple brandy made by distilling cider. It offers a complex flavor profile with notes of baked apple, spice, and oak, and is often enjoyed neat or used in classic cocktails like the Corpse Reviver No.1."
+                    ],
+                    "alternatives": [
+                      "Applejack (e.g., Laird’s)",
+                      "Apple Brandy",
+                      "Pommeau de Normandie"
                     ]
                   },
                   {
