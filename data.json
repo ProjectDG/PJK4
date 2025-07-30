@@ -799,6 +799,27 @@
               "alt. batch": null
             },
             {
+              "name": "Aviation",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": ["Luxardo Cherry Liqueur - 0.5 oz", "Creme de Violette - 0.25 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz"],
+              "garnish": ["Luxardo Cherry"],
+              "section": null,
+              "photo": "aviation",
+              "instructions": [
+                "Add gin, maraschino liqueur, creme de violette, and lemon juice to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Double strain into a chilled coupe glass.",
+                "Garnish with a Luxardo cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Bahama Mama",
               "glass" : ["Hurricane Glass"],
               "rim" : null,
@@ -2506,6 +2527,19 @@
                     ]
                   },
                   {
+                    "name": "Creme de Violette",
+                    "description": [
+                      "Typically 20% ABV",
+                      "Originated in France",
+                      "Creme de Violette is a floral liqueur made from violet flowers. It has a deep purple color and offers a sweet, perfumed flavor. Most famously used in the classic Aviation cocktail, it adds both color and a delicate floral note."
+                    ],
+                    "alternatives": [
+                      "Parfait Amour",
+                      "Violet Syrup (non-alcoholic, for mocktails)",
+                      "Homemade violet liqueur"
+                    ]
+                  },
+                  {
                     "name": "Dark Creme de Cacao",
                     "description": [
                       "Sweet chocolate-flavored liqueur",
@@ -2518,7 +2552,7 @@
                       "Mozart Dark Chocolate Liqueur",
                       "Chocolate Brandy"
                     ]
-                  },     
+                  },
                   {
                     "name": "Grenadine",
                     "description": [
