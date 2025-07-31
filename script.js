@@ -214,11 +214,15 @@ fetch('data.json')
 
     $('body').on('click', '#cocktails, #originals', function() {
       $("#mainContainer").empty();
+      console.clear();
+      console.log("%cThere are currently " + drinkInfo.length + " drinks in your database.", style);
       createButtons(this.id);
     });
 
     $('#searchDrinks').on('click', function() {
       $("#mainContainer").empty();
+      console.clear();
+      console.log("%cThere are currently " + drinkInfo.length + " drinks in your database.", style);
       d3.select("#mainContainer").append("div").attr("id", "searchDiv");
       d3.select("#searchDiv").append("input").attr("id", "searchInput").attr("placeholder", "search...");
       d3.select("#searchDiv").append("button").attr("id", "clearButton").text("Clear");
@@ -278,6 +282,8 @@ fetch('data.json')
     });
 
     document.addEventListener("input", (e) => {
+      console.clear();
+      console.log("%cThere are currently " + drinkInfo.length + " drinks in your database.", style);
       let value = e.target.value;
       if (value && value.trim().length > 0) {
         value = value.trim().toLowerCase().replace(/[^\w\s]/gi, "");
@@ -305,6 +311,8 @@ fetch('data.json')
     });
 
     $('body').on('click', '#clearButton', function() {
+      console.clear();
+      console.log("%cThere are currently " + drinkInfo.length + " drinks in your database.", style);
       $("#searchInput").val("");
       $("#searchListDiv").empty();
       const searchDrinks = drinkInfo.filter(drink => drink.section === "searchDrinks");
@@ -328,11 +336,12 @@ fetch('data.json')
       for (let i of allInventoryItems) {
         const sanitizedInventory = sanitizeIngredient(i.name);
         const camelInventory = toCamelCase(sanitizedInventory);
-        if (camelInventory === camelClicked || camelInventory.includes(camelClicked)) {
+        if (camelInventory === camelClicked) {
           matchedItem = i.name;
           matchedData = i;
           break;
         }
+
       }
 
       const itemName = toTitleCase(matchedItem || sanitizeIngredient(clickedIngredient));

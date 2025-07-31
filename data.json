@@ -836,6 +836,27 @@
               "alt. batch" : null
             },
             {
+              "name": "Bee's Knees",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Orange Juice - 0.75 oz", "Honey Syrup - 0.5 oz"],
+              "garnish": ["Lemon or Orange Twist"],
+              "section": null,
+              "photo": "beesKnees",
+              "instructions": [
+                "Add gin, lemon juice, orange juice and honey syrup to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon or orange twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Boulevardier",
               "glass" : ["Rocks Glass"],
               "rim" : null,
@@ -1120,6 +1141,28 @@
               ],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+              "name": "Sidecar",
+              "glass": ["Coupe Glass"],
+              "rim": ["Sugar (optional)"],
+              "wine": null,
+              "liquor": ["Cognac - 1.5 oz"],
+              "liqueur": ["Cointreau - .75 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - .75 oz"],
+              "garnish": ["Orange Twist (optional)"],
+              "section": null,
+              "photo": "sidecar",
+              "instructions": [
+                "Optional: Rim the coupe glass with sugar.",
+                "Add cognac, orange liqueur, and lemon juice to a shaker filled with ice.",
+                "Shake until well chilled.",
+                "Strain into the prepared coupe glass.",
+                "Garnish with an orange twist, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name" : "Siesta",
@@ -1551,6 +1594,21 @@
                         "Kōloa Coconut Rum"
                     ]
                     }
+                    ,
+                {
+                    "name": "Cognac",
+                    "description": [
+                      "Typically 40% ABV",
+                      "Produced in the Cognac region of France",
+                      "Cognac is a type of brandy made from white grapes, distilled twice in copper pot stills, and aged in French oak barrels. It is known for its complex flavor profile that can include notes of dried fruit, vanilla, spice, and oak."
+                    ],
+                    "alternatives": [
+                      "Armagnac",
+                      "American Brandy",
+                      "Spanish Brandy de Jerez"
+                    ]
+                  }
+
                     ,
                 {
                     "name": "Corazon Blanco",
@@ -2283,7 +2341,20 @@
                 { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
                 { "name": "Demerara Syrup", "description": [], "alternatives": [] },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
-                { "name": "Honey Syrup", "description": [], "alternatives": [] },
+                {
+                  "name": "Honey Syrup",
+                  "description": [
+                    "Non-alcoholic",
+                    "Made by diluting honey with water, usually in a 1:1 or 2:1 ratio",
+                    "Honey syrup is a versatile sweetener used in cocktails to provide the rich, floral sweetness of honey in a more pourable, mixable form. It blends well in both hot and cold drinks."
+                  ],
+                  "alternatives": [
+                    "Simple Syrup",
+                    "Agave Syrup",
+                    "Maple Syrup"
+                  ]
+                }
+                ,
                 {
                   "name": "Lychee Syrup",
                   "description": [
