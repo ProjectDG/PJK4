@@ -898,11 +898,30 @@
               "alt. batch": null
             },
             {
+              "name": "Black Russian",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["Coffee Liqueur - 1 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": null,
+              "section": null,
+              "photo": "blackRussian",
+              "instructions": [
+                "Add vodka and coffee liqueur to an old-fashioned glass filled with ice.",
+                "Stir gently to combine."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Boulevardier",
               "glass" : ["Rocks Glass"],
               "rim" : null,
               "wine" : null,
-              "liquor" : ["Bourbon - 1.5 oz"],
+              "liquor" : ["Bourbon - 1 oz"],
               "liqueur" : ["Campari - 1 oz"],
               "vermouth" : ["Sweet Vermouth - 1 oz"],
               "mixers" : null,
