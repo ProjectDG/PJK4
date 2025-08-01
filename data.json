@@ -513,7 +513,7 @@
                 "name" : "Aperol Spritz",
                 "glass" : ["Wine Glass"],
                 "rim" : null,
-                "wine" : ["Proseco - 3 oz"],
+                "wine" : ["Prosecco - 3 oz"],
                 "liquor" : null,
                 "liqueur" : ["Aperol - 2 oz"],
                 "vermouth" : null,
@@ -561,7 +561,7 @@
                 "name" : "Hugo Spritz",
                 "glass" : ["Wine Glass"],
                 "rim" : null,
-                "wine" : ["Proseco - 4 oz"],
+                "wine" : ["Prosecco - 4 oz"],
                 "liquor" : null,
                 "liqueur" : ["St. Germain - 2 oz"],
                 "vermouth" : null,
@@ -852,6 +852,47 @@
                 "Shake well until chilled.",
                 "Strain into a chilled coupe glass.",
                 "Garnish with a lemon or orange twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Bellini",
+              "glass": ["Champagne Flute"],
+              "rim": null,
+              "wine": ["Prosecco - 4 oz"],
+              "liquor": null,
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["White Peach Puree - 2 oz"],
+              "garnish": ["Peach Slice (optional)"],
+              "section": null,
+              "photo": "bellini",
+              "instructions": [
+                "Add peach puree to a chilled champagne flute.",
+                "Slowly top with Prosecco while gently stirring to combine.",
+                "Garnish with a peach slice, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Between the Sheets",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Cognac - 1 oz", "Rum - 1 oz"],
+              "liqueur": ["Cointreau - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.5 oz"],
+              "garnish": ["Lemon Twist (optional)"],
+              "section": null,
+              "photo": "betweenTheSheets",
+              "instructions": [
+                "Add cognac, rum, orange liqueur, and lemon juice to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon twist, if desired."
               ],
               "batch": null,
               "alt. batch": null
@@ -2667,7 +2708,7 @@
                     }
                   ,
                   {
-                      "name": "Proseco",
+                      "name": "Prosecco",
                       "description": [
                         "11–12% ABV",
                         "Produced primarily in the Veneto and Friuli Venezia Giulia regions of Italy",
@@ -2693,6 +2734,26 @@
                       "Lavender-Infused Vodka"
                       ]
                   }
+                  ,{
+                      "name": "White Peach Puree",
+                      "description": [
+                        "Non-alcoholic",
+                        "Made from ripe white peaches blended into a smooth, thick purée",
+                        "White peach puree adds a delicate, sweet, and slightly floral fruitiness to cocktails. It is often used in Bellinis and other fruit-forward drinks for its soft flavor and natural texture."
+                      ],
+                      "alternatives": [
+                        "Yellow Peach Puree",
+                        "Apricot Puree",
+                        "White Peach Juice"
+                      ]
+                    }
+
+
+
+
+
+
+
                 ]
             }
         ]   
