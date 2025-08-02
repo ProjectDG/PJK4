@@ -917,25 +917,54 @@
               "alt. batch": null
             },
             {
-              "name" : "Boulevardier",
-              "glass" : ["Rocks Glass"],
-              "rim" : null,
-              "wine" : null,
-              "liquor" : ["Bourbon - 1 oz"],
-              "liqueur" : ["Campari - 1 oz"],
-              "vermouth" : ["Sweet Vermouth - 1 oz"],
-              "mixers" : null,
-              "garnish" : ["Orange Twist"],
-              "section" : null,
-              "photo" : "boulevardier",
-              "instructions" : [
-                "Add bourbon, Campari, and sweet vermouth to a mixing glass with ice.",
-                "Stir until well chilled.",
-                "Strain into a rocks glass over a large cube or neat.",
-                "Garnish with an expressed orange twist."
+              "name": "Bloody Mary",
+              "glass": ["Highball Glass or", "Pint Glass"],
+              "rim": ["Celery Salt (optional)"],
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": [
+                "Tomato Juice - 4 oz",
+                "Lemon Juice - 0.5 oz",
+                "Worcestershire Sauce - 2 to 3 dashes",
+                "Hot Sauce - 2 to 3 dashes",
+                "Horseradish - 0.25 tsp (optional)",
+                "Salt and Pepper - Pinch"
               ],
-              "batch" : null,
-              "alt. batch" : null
+              "garnish": ["Celery Stalk", "Lemon Wedge", "Pickle", "Olives (optional)"],
+              "section": null,
+              "photo": "bloodyMary",
+              "instructions": [
+                "Optional: Rim the glass with celery salt.",
+                "Add vodka, tomato juice, lemon juice, Worcestershire sauce, hot sauce, horseradish (if using), salt, and pepper to a shaker filled with ice.",
+                "Roll the ingredients by pouring from one shaker to another a few times (or stir gently).",
+                "Strain into the prepared glass filled with fresh ice.",
+                "Garnish with a celery stalk, lemon wedge, and optional pickles or olives."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Boulevardier",
+              "glass": ["Old-Fashioned Glass or", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Whiskey - 1.25 oz"],
+              "liqueur": ["Campari - 1 oz", "Sweet Vermouth - 1 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": ["Orange Twist"],
+              "section": null,
+              "photo": "boulevardier",
+              "instructions": [
+                "Add bourbon (or rye), Campari, and sweet vermouth to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into an old-fashioned glass over a large ice cube or into a chilled coupe glass.",
+                "Garnish with an orange twist."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name" : "Daisy",
@@ -1346,6 +1375,19 @@
                 "category": "Rim Garnishes",
                 "items": [
                     {
+                      "name": "Celery Salt",
+                      "description": [
+                        "Non-alcoholic",
+                        "A blend of ground celery seeds and salt",
+                        "Celery salt is a savory seasoning often used in cocktails like the Bloody Mary. It imparts a subtle herbal bitterness and umami saltiness, enhancing the drink’s complexity and balance."
+                      ],
+                      "alternatives": [
+                        "Celery Seed + Salt (DIY blend)",
+                        "Old Bay Seasoning",
+                        "Seasoned Salt"
+                      ]
+                    },
+                  {
                         "name": "Salt",
                         "description": [
                           "A common mineral used to enhance flavor and balance sweetness or acidity in cocktails.",
@@ -1357,6 +1399,20 @@
                           "Kosher Salt",
                           "Flavored Salts (e.g., chili-lime salt)"
                         ]
+                    }
+                    ,
+                    {
+                      "name": "Salt and Pepper",
+                      "description": [
+                        "Non-alcoholic seasoning ingredients",
+                        "Salt enhances flavor and is often used to rim glasses (e.g., Margaritas), while pepper adds spice and aromatic complexity",
+                        "Both are used in savory cocktails like Bloody Marys or to provide balance in creative mixology"
+                      ],
+                      "alternatives": [
+                        "Celery Salt (for added herbal note)",
+                        "Tajin (for spice and citrus)",
+                        "Smoked Salt or Ground Chili for flavor variation"
+                      ]
                     }
                     ,
                     {
@@ -1401,12 +1457,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "category": "Batch Components",
                 "items": [
                 { "name": "Batch", "description": [], "alternatives": [] }
                 ]
             },
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1511,6 +1590,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "category": "Bitters",
                 "items": [
@@ -1573,6 +1667,20 @@
 
                 ]
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1966,6 +2074,17 @@
                   
                 ]
             },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2699,6 +2818,32 @@
                     ]
                   },
                   {
+                    "name": "Horseradish",
+                    "description": [
+                      "Non-alcoholic condiment",
+                      "A pungent root commonly used to add heat and sharpness to savory cocktails",
+                      "Most famously used in Bloody Marys to enhance spiciness and depth of flavor"
+                    ],
+                    "alternatives": [
+                      "Wasabi (use sparingly)",
+                      "Prepared mustard",
+                      "Hot sauce (for heat without texture)"
+                    ]
+                  },
+                  {
+                    "name": "Hot Sauce",
+                    "description": [
+                      "Non-alcoholic condiment",
+                      "Made from chili peppers, vinegar, and salt, with regional variations across the globe",
+                      "Hot sauce adds heat, tang, and complexity to cocktails like the Bloody Mary or Michelada, enhancing flavor and intensity."
+                    ],
+                    "alternatives": [
+                      "Chili Oil (sparingly)",
+                      "Sriracha",
+                      "Tabasco or other regional pepper sauces"
+                    ]
+                  },
+                  {
                       "name": "My Oh Mai Tai Batch",
                       "description": [
                         "ABV varies depending on the rum base and dilution",
@@ -2753,19 +2898,48 @@
                       "Lavender-Infused Vodka"
                       ]
                   }
+                  ,
+                  {
+                    "name": "Tomato Juice",
+                    "description": [
+                      "Non-alcoholic",
+                      "Made from fresh, ripe tomatoes—sometimes with added salt, spices, or citric acid",
+                      "Tomato juice is a savory mixer known for its use in cocktails like the Bloody Mary. It adds body, acidity, and umami richness, balancing bold spirits and spices."
+                    ],
+                    "alternatives": [
+                      "Vegetable Juice (e.g., V8)",
+                      "Clamato Juice",
+                      "Homemade Tomato Purée (thinned with water)"
+                    ]
+                  }
+                  ,
+                  {
+                    "name": "White Peach Puree",
+                    "description": [
+                      "Non-alcoholic",
+                      "Made from ripe white peaches blended into a smooth, thick purée",
+                      "White peach puree adds a delicate, sweet, and slightly floral fruitiness to cocktails. It is often used in Bellinis and other fruit-forward drinks for its soft flavor and natural texture."
+                    ],
+                    "alternatives": [
+                      "Yellow Peach Puree",
+                      "Apricot Puree",
+                      "White Peach Juice"
+                    ]
+                  }
                   ,{
-                      "name": "White Peach Puree",
-                      "description": [
-                        "Non-alcoholic",
-                        "Made from ripe white peaches blended into a smooth, thick purée",
-                        "White peach puree adds a delicate, sweet, and slightly floral fruitiness to cocktails. It is often used in Bellinis and other fruit-forward drinks for its soft flavor and natural texture."
-                      ],
-                      "alternatives": [
-                        "Yellow Peach Puree",
-                        "Apricot Puree",
-                        "White Peach Juice"
-                      ]
-                    }
+                    "name": "Worcestershire Sauce",
+                    "description": [
+                      "Non-alcoholic condiment",
+                      "Originally from England, made with vinegar, molasses, anchovies, tamarind, garlic, and various seasonings",
+                      "Worcestershire sauce is a savory, umami-rich ingredient commonly used to enhance depth in cocktails like the Bloody Mary, as well as in marinades and sauces."
+                    ],
+                    "alternatives": [
+                      "Soy Sauce (with a dash of vinegar and sugar)",
+                      "Fish Sauce (used sparingly)",
+                      "Homemade Worcestershire blend"
+                    ]
+                  }
+
 
 
 
