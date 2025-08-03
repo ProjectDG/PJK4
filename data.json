@@ -1011,6 +1011,33 @@
               "alt. batch": null
             },
             {
+              "name": "Caipirinha",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Cachaca - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime", "Sugar - 2 tsp"],
+              "garnish": ["Lime Wheel or Wedge"],
+              "section": null,
+              "photo": "caipirinha",
+              "instructions": [
+                "Add whole lime cut into wedges and sugar to an old-fashioned glass.",
+                "Muddle well to extract juice and dissolve sugar.",
+                "Fill the glass with ice.",
+                "Pour in cachaca.",
+                "Stir well to mix and chill.",
+                "Garnish with a lime wheel or wedge.",
+                "Note:",
+                "Caipiroska – Instead of Cachaça use Vodka;",
+                "Caipirissima – Instead of Cachaça use Rum.",
+                "Caipirão – Instead of Cachaça use Licor Beirão."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Daisy",
               "glass" : ["Coupe Glass"],
               "rim" : null,
@@ -2721,6 +2748,19 @@
                 "category": "Fresh & Garnishes",
                 "items": [
                 { "name": "Egg White", "description": [], "alternatives": [] },
+                {
+                  "name": "Lime",
+                  "description": [
+                    "Citrus fruit known for its tart, acidic juice and fragrant zest",
+                    "Commonly used in cocktails for balance and brightness",
+                    "Fresh lime juice is preferred for its sharp flavor; also used as a garnish or rim enhancer"
+                  ],
+                  "alternatives": [
+                    "Lemon (slightly different acidity)",
+                    "Citric acid solution",
+                    "Bottled lime juice (less preferred due to flavor loss)"
+                  ]
+                },
                 { "name": "Mint Leaves", "description": [], "alternatives": [] },
                 { "name": "Mint Sprig", "description": [], "alternatives": [] },
                 { "name": "Shiso Leaf", "description": [], "alternatives": [] }
@@ -2805,6 +2845,19 @@
                       "Cruzan Black Strap Rum",
                       "Lamb's Navy Rum",
                       "Gosling's Black Seal"
+                    ]
+                  },
+                  {
+                    "name": "Cachaca",
+                    "description": [
+                      "Typically 38–48% ABV",
+                      "A Brazilian spirit made from fermented sugarcane juice, similar to rum but with a distinct grassy, earthy flavor",
+                      "Used primarily in the Caipirinha cocktail, it's a key component of Brazilian mixology and varies from industrial to artisanal expressions"
+                    ],
+                    "alternatives": [
+                      "White rum (for general use)",
+                      "Rhum Agricole",
+                      "Pisco (in some cocktails with citrus-forward profiles)"
                     ]
                   },
                   {
