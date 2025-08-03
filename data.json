@@ -967,6 +967,50 @@
               "alt. batch": null
             },
             {
+              "name": "Bramble",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1.5 oz"],
+              "liqueur": ["Blackberry Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Simple Syrup - 0.5 oz"],
+              "garnish": ["Blackberries", "Lemon Slice"],
+              "section": null,
+              "photo": "bramble",
+              "instructions": [
+                "Add gin, lemon juice, and simple syrup to a shaker filled with ice.",
+                "Shake until well chilled.",
+                "Strain into an old-fashioned glass filled with crushed ice.",
+                "Drizzle creme de mure over the top.",
+                "Garnish with blackberries and a lemon slice."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Brandy Crusta",
+              "glass": ["Coupe Glass"],
+              "rim": ["Sugar"],
+              "wine": null,
+              "liquor": ["Brandy - 2 oz"],
+              "liqueur": ["Cointreau - 0.25 oz", "Luxardo Cherry liqueur - .25 oz,"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.5 oz", "Simple Syrup - 0.25 oz", "Angostura Bitters - 1 dash"],
+              "garnish": ["Long Lemon Peel (inside glass)"],
+              "section": null,
+              "photo": "brandyCrusta",
+              "instructions": [
+                "Rim a chilled coupe glass with sugar and set aside.",
+                "Add brandy, orange liqueur, maraschino liqueur, lemon juice, simple syrup, and bitters to a shaker filled with ice.",
+                "Shake until well chilled.",
+                "Line the inside of the glass with a long lemon peel.",
+                "Strain the cocktail into the prepared glass."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Daisy",
               "glass" : ["Coupe Glass"],
               "rim" : null,
@@ -2734,6 +2778,20 @@
                       "Marie Brizard Apry",
                       "Giffard Abricot du Roussillon",
                       "Apricot Schnapps"
+                    ]
+                  },
+                  {
+                    "name": "Blackberry Liqueur",
+                    "description": [
+                      "Typically 15–25% ABV (varies by brand and recipe)",
+                      "A sweet, dark purple liqueur made by infusing blackberries into a neutral spirit, often with added sugar",
+                      "Used in cocktails for its fruity, tart flavor—often interchangeable with Crème de Mûre"
+                    ],
+                    "alternatives": [
+                      "Chambord",
+                      "Crème de Mûre",
+                      "Blackberry brandy",
+                      "Homemade blackberry syrup with a touch of vodka or rum"
                     ]
                   },
                   {
