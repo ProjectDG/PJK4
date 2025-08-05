@@ -1038,6 +1038,91 @@
               "alt. batch": null
             },
             {
+              "name": "Canchanchara",
+              "glass": ["Old-Fashioned Glass or", "Clay Cup (traditional)"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Aguardiente or", "Cuban Rum - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - .75 oz", "Honey Syrup - .75 oz"],
+              "garnish": ["Lime Wheel (optional)"],
+              "section": null,
+              "photo": "canchanchara",
+              "instructions": [
+                "Add honey syrup and lime juice to a glass or clay cup.",
+                "Stir to combine.",
+                "Add aguardiente or Cuban rum and fill with ice.",
+                "Stir gently to chill.",
+                "Garnish with a lime wheel, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Cardinale",
+              "glass": ["Coupe Glass", "Nick and Nora Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": ["Dry Vermouth - 1 oz"],
+              "mixers": ["Campari - 0.5 oz"],
+              "garnish": ["Lemon Twist"],
+              "section": null,
+              "photo": "cardinale",
+              "instructions": [
+                "Add gin, dry vermouth, and Campari to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled coupe or Nick and Nora glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Casino",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Old Tom Gin - 1.5 oz"],
+              "liqueur": ["Luxardo Cherry Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.5 oz", "Orange Bitters - 1 dash"],
+              "garnish": ["Luxardo Cherry", "Lemon Twist (optional)"],
+              "section": null,
+              "photo": "casino",
+              "instructions": [
+                "Add Old Tom gin, maraschino liqueur, lemon juice, and orange bitters to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Double strain into a chilled coupe glass.",
+                "Garnish with a Luxardo cherry and optional lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Champagne Cocktail",
+              "glass": ["Champagne Flute"],
+              "rim": null,
+              "wine": ["Champagne - 3 oz"],
+              "liquor": ["Cognac - .5 oz"],
+              "liqueur": ["Grand Marnier - Few Drops (optional)"],
+              "vermouth": null,
+              "mixers": ["Angostura Bitters - 2 to 3 dashes", "Sugar Cube"],
+              "garnish": ["Lemon Twist"],
+              "section": null,
+              "photo": "champagneCocktail",
+              "instructions": [
+                "Place a sugar cube in a chilled champagne flute.",
+                "Saturate the sugar cube with Angostura bitters.",
+                "Slowly top with chilled Champagne.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Daisy",
               "glass" : ["Coupe Glass"],
               "rim" : null,
@@ -2807,6 +2892,15 @@
                 "category": "Missing Ingredients",
                 "items": [
                   {
+                    "name": "Aguardiente",
+                    "description": [
+                      "29–60% ABV",
+                      "Traditionally produced in countries like Colombia, Ecuador, and Spain",
+                      "Aguardiente is a strong anise-flavored spirit derived from sugarcane, commonly enjoyed as a shot or in cocktails across Latin American cultures."
+                    ],
+                    "alternatives": ["Ouzo", "Pastis", "Sambuca"]
+                  },
+                  {
                     "name": "Apricot Brandy",
                     "description": [
                       "Typically 20–30% ABV",
@@ -2901,6 +2995,15 @@
                     ]
                   },
                   {
+                    "name": "Cuban Rum",
+                    "description": [
+                      "Typically 35–40% ABV",
+                      "Produced in Cuba, under strict government regulations and traditional methods",
+                      "Cuban Rum is known for its smooth, light-bodied profile with notes of molasses, vanilla, and subtle oak, making it ideal for classic cocktails like the Mojito and Daiquiri."
+                    ],
+                    "alternatives": ["Puerto Rican Rum", "Flor de Caña", "Ron Diplomático"]
+                  },
+                  {
                     "name": "Dark Creme de Cacao",
                     "description": [
                       "Sweet chocolate-flavored liqueur",
@@ -2966,8 +3069,16 @@
                         "Clarified Daiquiri",
                         "Clarified Rum Punch"
                       ]
-                  }
-                  ,
+                  },
+                  {
+                      "name": "Old Tom Gin",
+                      "description": [
+                        "Typically 40–45% ABV",
+                        "Historically produced in England, now crafted by various distillers worldwide",
+                        "Old Tom Gin is a slightly sweeter and fuller-bodied style of gin, bridging the gap between Dutch Genever and London Dry. It features botanicals similar to dry gin but with a softer, rounder profile, making it ideal for classic cocktails like the Tom Collins and Martinez."
+                      ],
+                      "alternatives": ["Hayman's Old Tom", "Ransom Old Tom", "Barr Hill Tom Cat"]
+                    },
                     {
                       "name": "Pisco",
                       "description": [
@@ -3010,6 +3121,15 @@
                       ]
                   }
                   ,
+                  {
+                      "name": "Sugar Cube",
+                      "description": [
+                        "Solid form of sugar, typically made from white granulated sugar pressed into cube shapes",
+                        "Used for precise sugar measurement and slow dissolution in cocktails",
+                        "Common in classic drinks like the Old Fashioned or Champagne Cocktail, often muddled with bitters or liquids to create a base"
+                      ],
+                      "alternatives": ["Simple Syrup", "Demerara Sugar", "Honey"]
+                    },
                   {
                     "name": "Tomato Juice",
                     "description": [
