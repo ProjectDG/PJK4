@@ -1123,6 +1123,31 @@
               "alt. batch": null
             },
             {
+              "name": "Chartreuse Swizzle",
+              "glass": ["Tiki Glass", "Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Green Chartreuse - 1.5 oz"],
+              "vermouth": null,
+              "mixers": [
+                "Pineapple Juice - 1 oz",
+                "Lime Juice - 0.75 oz",
+                "Falernum - 0.5 oz"
+              ],
+              "garnish": ["Mint Sprig", "Grated Nutmeg (optional)"],
+              "section": null,
+              "photo": "chartreuseSwizzle",
+              "instructions": [
+                "Add all ingredients to a glass filled with crushed ice.",
+                "Swizzle (or stir vigorously) until the glass is frosty.",
+                "Top with more crushed ice if needed.",
+                "Garnish with a mint sprig and optionally a dusting of grated nutmeg."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Daisy",
               "glass" : ["Coupe Glass"],
               "rim" : null,
@@ -2436,6 +2461,16 @@
                       }
                       ,
                       {
+                        "name": "Green Chartreuse",
+                        "description": [
+                          "55% ABV",
+                          "Produced by Carthusian monks in Voiron, France",
+                          "Green Chartreuse is a vibrant herbal liqueur made from a secret blend of 130 herbs and botanicals. It has a bold, complex flavor with notes of mint, anise, citrus, and spices, and a vivid green color derived naturally from its ingredients."
+                        ],
+                        "alternatives": ["Yellow Chartreuse", "Benedictine", "Dolín Genepy"]
+                      }
+                      ,
+                      {
                         "name": "Luxardo Cherry Liqueur",
                         "description": [
                           "32% ABV",
@@ -2803,7 +2838,15 @@
                     "Blood orange juice"
                   ]
                 },                
-                { "name": "Pineapple Juice", "description": [], "alternatives": [] },
+                {
+                  "name": "Pineapple Juice",
+                  "description": [
+                    "Tropical fruit juice made from pressed or blended pineapple",
+                    "Offers a sweet and tangy flavor with a bright acidity",
+                    "Commonly used in tiki and tropical cocktails to add body, sweetness, and a fruity aroma"
+                  ],
+                  "alternatives": ["Mango Juice", "Passion Fruit Juice", "Orange Juice"]
+                },
                 {
                   "name": "Pomegranate Juice",
                   "description": [
@@ -3016,6 +3059,15 @@
                       "Mozart Dark Chocolate Liqueur",
                       "Chocolate Brandy"
                     ]
+                  },
+                  {
+                    "name": "Falernum",
+                    "description": [
+                      "A sweet Caribbean syrup or liqueur flavored with lime, almond, ginger, and cloves",
+                      "Available in both alcoholic and non-alcoholic versions",
+                      "Commonly used in tiki and tropical cocktails to add depth, spice, and citrus complexity"
+                    ],
+                    "alternatives": ["Orgeat", "Ginger Syrup", "Spiced Syrup"]
                   },
                   {
                     "name": "Grenadine",
