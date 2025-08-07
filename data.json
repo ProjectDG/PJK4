@@ -1148,6 +1148,54 @@
               "alt. batch": null
             },
             {
+              "name": "Clover Club",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": [
+                "Lemon Juice - 0.75 oz",
+                "Raspberry Syrup - 0.5 oz",
+                "Egg White - 0.5 oz"
+              ],
+              "garnish": ["Raspberries (optional)"],
+              "section": null,
+              "photo": "cloverClub",
+              "instructions": [
+                "Add gin, lemon juice, raspberry syrup, and egg white to a shaker without ice.",
+                "Dry shake for 10–15 seconds to emulsify the egg white.",
+                "Add ice and shake again until well chilled.",
+                "Double strain into a chilled coupe glass.",
+                "Garnish with raspberries, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Corpse Reviver #2",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 0.75 oz"],
+              "liqueur": ["Cointreau - 0.75 oz", "Lillet Blanc - 0.75 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Absinthe - rinse"],
+              "garnish": ["Orange Twist"],
+              "section": null,
+              "photo": "corpseReviver2",
+              "instructions": [
+                "Rinse a chilled coupe glass with absinthe and discard the excess.",
+                "Add gin, Cointreau, Lillet Blanc, and lemon juice to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into the prepared coupe glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Daisy",
               "glass" : ["Coupe Glass"],
               "rim" : null,
@@ -2875,7 +2923,6 @@
             {
                 "category": "Fresh & Garnishes",
                 "items": [
-                { "name": "Egg White", "description": [], "alternatives": [] },
                 {
                   "name": "Lime",
                   "description": [
@@ -2906,6 +2953,15 @@
                 "category": "Specialty & Misc",
                 "items": [
                 { "name": "Chili Tincture", "description": [], "alternatives": [] },
+                {
+                  "name": "Egg White",
+                  "description": [
+                    "Used in cocktails to add a smooth, silky texture and a frothy head",
+                    "Common in classic drinks like the Whiskey Sour and Pisco Sour",
+                    "Flavor is neutral; it's primarily used for texture and visual appeal"
+                  ],
+                  "alternatives": ["Aquafaba", "Foaming bitters", "Pasteurized egg white from carton"]
+                },
                 { "name": "Espresso", "description": [], "alternatives": [] },
                 {
                   "name": "Heavy Cream",
@@ -2934,6 +2990,15 @@
             {
                 "category": "Missing Ingredients",
                 "items": [
+                  {
+                    "name": "Absinthe",
+                    "description": [
+                      "A high-proof spirit flavored with anise, fennel, and wormwood",
+                      "Known for its intense herbal, licorice-like flavor and green hue",
+                      "Traditionally used in small quantities to rinse or mist glassware in cocktails like the Sazerac or Corpse Reviver No. 2"
+                    ],
+                    "alternatives": ["Pastis", "Herbsaint", "Pernod", "Anise liqueur"]
+                  },
                   {
                     "name": "Aguardiente",
                     "description": [
@@ -3158,7 +3223,17 @@
                         "Crémant"
                       ]
                   }
-                  ,                      
+                  , 
+                  {
+                    "name": "Raspberry Syrup",
+                    "description": [
+                      "A sweet, fruit-based syrup made from raspberries, sugar, and water",
+                      "Adds a tart berry flavor and vibrant red color to cocktails",
+                      "Often used in drinks like Clover Club or for custom raspberry infusions"
+                    ],
+                    "alternatives": ["Grenadine", "Strawberry Syrup", "Raspberry Purée", "Homemade berry simple syrup"]
+                  }
+                  ,                    
                   {
                       "name": "Rose Bud Infused Vodka",
                       "description": [
