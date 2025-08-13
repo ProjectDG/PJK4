@@ -1301,6 +1301,27 @@
               "alt. batch" : null
             },
             {
+              "name": "Don's Special Daiquiri",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Jamaican Gold Rum - 1 oz", "Rum - .5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - .5 oz", "Honey Syrup - .5 oz", "Passion Fruit Syrup - .5 oz"],
+              "garnish": ["Passion Fruit or Lime Wheel"],
+              "section": null,
+              "photo": "donsSpecialDaiquiri",
+              "instructions": [
+                "Add ingredients to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with passion fruit or lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "French 75",
               "glass" : ["Champagne Flute"],
               "rim" : null,
@@ -2118,6 +2139,15 @@
                     ]
                     }
                     ,
+                    {
+                    "name": "Jamaican Gold Rum",
+                    "description": [
+                      "A medium-bodied rum with a rich golden color from aging in oak barrels",
+                      "Known for bold, funky esters and tropical fruit notes characteristic of Jamaican distillation methods",
+                      "Adds depth and complexity to tiki cocktails, punches, and classic rum drinks"
+                    ],
+                    "alternatives": ["Amber rum", "Barbados rum", "Aged agricole rum", "Dark Jamaican rum"]
+                  },
                 {
                     "name": "Los Vecinos Mezcal",
                     "description": [
@@ -3221,6 +3251,15 @@
                         "Old Tom Gin is a slightly sweeter and fuller-bodied style of gin, bridging the gap between Dutch Genever and London Dry. It features botanicals similar to dry gin but with a softer, rounder profile, making it ideal for classic cocktails like the Tom Collins and Martinez."
                       ],
                       "alternatives": ["Hayman's Old Tom", "Ransom Old Tom", "Barr Hill Tom Cat"]
+                    },
+                    {
+                      "name": "Passion Fruit Syrup",
+                      "description": [
+                        "A sweet and tangy syrup made from passion fruit pulp and sugar",
+                        "Offers vibrant tropical aromas with tart, citrusy notes",
+                        "Commonly used in tiki cocktails, lemonades, and exotic punches"
+                      ],
+                      "alternatives": ["Passion fruit purée", "Passion fruit liqueur", "Mango syrup", "Pineapple syrup"]
                     },
                     {
                       "name": "Pisco",
