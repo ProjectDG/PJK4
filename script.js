@@ -23,7 +23,7 @@ fetch('data.json')
 
     function sanitizeIngredient(str) {
       return str.toLowerCase()
-        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|or|to taste|to|top|few|fill|as needed|ea|garnish(ed)?( with)?)\b/g, '')
+        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|or|to taste|to|top|few|rinse|fill|as needed|ea|garnish(ed)?( with)?)\b/g, '')
         .replace(/\d+(\.\d+)?\s*(oz|ml|tsp|tbsp|teaspoon|tablespoon|parts)?/gi, '')
         .replace(/\(.*?\)/g, '')
         .replace(/[^\w\s]/g, '')
@@ -154,7 +154,8 @@ fetch('data.json')
 
     let drinkInfo = data[0].drinks;
     let style = "color: yellow;"
-    console.log("%cThere are currently " + drinkInfo.length + " drinks in your database.", style);
+    let finalDrinkCount = drinkInfo.length - 22;
+    console.log("%cThere are currently " + drinkInfo.length + " recipes in your database. Less 22 house recipes is: " + finalDrinkCount, style);
 
     // Flatten inventory structure
     let inventoryRaw = data[0].inventory;
