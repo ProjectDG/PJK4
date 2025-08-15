@@ -1429,6 +1429,27 @@
               "alt. batch" : null
             },
             {
+              "name": "Martini",
+              "glass": ["Martini Glass or", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2.5 oz"],
+              "liqueur": null,
+              "vermouth": ["Dry Vermouth - 0.5 oz"],
+              "mixers": null,
+              "garnish": ["Lemon Twist or", "Olive"],
+              "section": null,
+              "photo": "martini",
+              "instructions": [
+                "Add gin and dry vermouth to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled martini or coupe glass.",
+                "Garnish with a lemon twist or an olive."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Mint Julep",
               "glass" : ["Metal Julep Cup"],
               "rim" : null,
