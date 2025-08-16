@@ -23,7 +23,7 @@ fetch('data.json')
 
     function sanitizeIngredient(str) {
       return str.toLowerCase()
-        .replace(/\b(topped with|top with|drops|dashes|dash|float|floated|splash|pinch|or|to taste|to|top|few|rinse|fill|as needed|ea|garnish(ed)?( with)?)\b/g, '')
+        .replace(/\b(topped with|top with|drops|dashes|dash|muddled|float|floated|splash|pinch|or|to taste|to|top|few|rinse|fill|as needed|ea|garnish(ed)?( with)?)\b/g, '')
         .replace(/\d+(\.\d+)?\s*(oz|ml|tsp|tbsp|teaspoon|tablespoon|parts)?/gi, '')
         .replace(/\(.*?\)/g, '')
         .replace(/[^\w\s]/g, '')

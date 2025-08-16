@@ -1424,6 +1424,28 @@
               "alt. batch": null
             },
             {
+              "name": "Gin Basil Smash",
+              "glass": ["Rocks Glass", "Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Basil - Muddled", "Lemon Juice - 1 oz", "Simple Syrup - 0.75 oz"],
+              "garnish": ["Basil Leaf"],
+              "section": null,
+              "photo": "ginBasilSmash",
+              "instructions": [
+                "In a shaker, muddle a generous handful of fresh basil leaves with lemon juice and simple syrup.",
+                "Add gin and fill the shaker with ice.",
+                "Shake vigorously until well chilled.",
+                "Double strain into a rocks glass filled with ice.",
+                "Garnish with a fresh basil leaf."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Jungle Bird",
               "glass" : ["Rocks Glass"],
               "rim" : null,
@@ -3123,6 +3145,18 @@
             {
                 "category": "Fresh & Garnishes",
                 "items": [
+                  {
+                  "name": "Basil",
+                  "description": [
+                    "A fragrant green herb with a sweet, slightly peppery flavor and hints of anise and clove.",
+                    "Used in cocktails for fresh, aromatic notes and as a vibrant garnish."
+                  ],
+                  "alternatives": [
+                    "Mint",
+                    "Shiso leaf",
+                    "Thai basil"
+                  ]
+                },
                   {
                   "name": "Espresso",
                   "description": [
