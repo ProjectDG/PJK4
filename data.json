@@ -563,9 +563,9 @@
                 "rim" : null,
                 "wine" : null,
                 "liquor" : ["Vodka - 2 oz"],
-                "liqueur" : ["Chambord - .25 oz"],
+                "liqueur" : ["Chambord - .5 oz"],
                 "vermouth" : null,
-                "mixers" : ["Pineapple Juice - 1.75 oz"],
+                "mixers" : ["Pineapple Juice - 1 oz"],
                 "garnish" : null,
                 "section" : "searchDrinks",
                 "photo" : "frenchMartini",
@@ -1344,6 +1344,28 @@
               "alt. batch": null
             },
             {
+              "name": "Fernandito",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Fernet-Branca - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Coke - to top"],
+              "garnish": ["Lime Wedge (optional)"],
+              "section": null,
+              "photo": "fernandito",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Pour Fernet-Branca over the ice.",
+                "Top with cola.",
+                "Stir gently to combine.",
+                "Garnish with a lime wedge if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "French 75",
               "glass" : ["Champagne Flute"],
               "rim" : null,
@@ -1352,12 +1374,54 @@
               "liqueur" : null,
               "vermouth" : null,
               "mixers" : ["Lemon Juice - .5 oz", "Simple Syrup - .5 oz"],
-              "garnish" : ["Lemon Twist"],
+              "garnish" : ["Lemon Twist (optional)"],
               "section" : null,
               "photo" : "french75",
               "instructions" : ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled", "Strain into a Champagne flute" ,"Top with the Champagne or sparkling wine of choice", "Garnish with a lemon twist"],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+              "name": "French Connection",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Cognac - 1.5 oz"],
+              "liqueur": ["Amaretto - 1.5 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": null,
+              "section": null,
+              "photo": "frenchConnection",
+              "instructions": [
+                "Fill an old-fashioned glass with ice.",
+                "Add cognac and amaretto.",
+                "Stir gently to combine."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Garibaldi",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Campari - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Orange Juice - 4 oz"],
+              "garnish": ["Orange Wedge"],
+              "section": null,
+              "photo": "garibaldi",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add Campari.",
+                "Top with freshly squeezed orange juice (ideally whipped or aerated for a fluffy texture).",
+                "Stir gently to combine.",
+                "Garnish with an orange wedge."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name" : "Jungle Bird",
