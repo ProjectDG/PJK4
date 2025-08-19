@@ -1446,6 +1446,49 @@
               "alt. batch": null
             },
             {
+              "name": "Gin Fizz",
+              "glass": ["Highball Glass or", "Collins Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 1 oz", "Simple Syrup - 0.75 oz", "Club Soda - 2 oz"],
+              "garnish": ["Lemon Wheel (optional)"],
+              "section": null,
+              "photo": "ginFizz",
+              "instructions": [
+                "Add gin, lemon juice, and simple syrup to a shaker filled with ice.",
+                "Shake vigorously until well chilled.",
+                "Strain into a highball or Collins glass filled with ice.",
+                "Top with club soda.",
+                "Garnish with a lemon wheel if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Grasshopper",
+              "glass": ["Coupe Glass or", "Cocktail Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Creme de Menthe (Green) - 1 oz", "Creme de Cacao (White) - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Heavy Cream - 1 oz"],
+              "garnish": ["Grated Chocolate or Mint Leaf (optional)"],
+              "section": null,
+              "photo": "grasshopper",
+              "instructions": [
+                "Add creme de menthe, creme de cacao, and cream to a shaker filled with ice.",
+                "Shake vigorously until well chilled and creamy.",
+                "Strain into a chilled coupette or cocktail glass.",
+                "Garnish with grated chocolate or a mint leaf if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Jungle Bird",
               "glass" : ["Rocks Glass"],
               "rim" : null,
@@ -3332,6 +3375,30 @@
                       "Coconut Milk + Simple Syrup",
                       "Coconut Cream",
                       "Coco Real"
+                    ]
+                  },
+                  {
+                  "name": "Creme de Cacao (White)",
+                  "description": [
+                    "A clear, sweet liqueur with flavors of chocolate and vanilla.",
+                    "Used in dessert cocktails and classics like the Alexander."
+                  ],
+                  "alternatives": [
+                    "Creme de Cacao (Dark)",
+                    "Chocolate Liqueur",
+                    "Godiva White Chocolate Liqueur"
+                  ]
+                },
+                  {
+                    "name": "Creme De Menthe (Green)",
+                    "description": [
+                      "A sweet, mint-flavored liqueur with a vibrant green color.",
+                      "Often used in dessert cocktails and classics like the Grasshopper."
+                    ],
+                    "alternatives": [
+                      "Creme de Menthe (White)",
+                      "Peppermint Schnapps",
+                      "Menthe-Pastille"
                     ]
                   },
                   {
