@@ -137,7 +137,7 @@
                 "mixers" : null,
                 "garnish" : ["Plum Wine Foam & Dehydrated Plum"],
                 "section" : "cocktails",
-                "photo" : null,
+                "photo" : "lotusBlossom",
                 "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Top With Plum Wine Foam & Dehydrated Plum"],
                 "batch" : ["Egg Whites - 2","Plum Wine - 6 oz", "Agave - 5 oz", "Lemon Juice - 3 oz"],
                 "alt. batch" : null
@@ -287,7 +287,7 @@
                 ],
                 "garnish" : ["Flower"],
                 "section" : "cocktails",
-                "photo" : null,
+                "photo" : "crouchingTiger",
                 "instructions" : ["Build In Glass", "Stir Lightly", "Add Ice", "Garnish With Flower"],
                 "batch" : ["Simple Syrup - 1 Quart", "Matcha - 1 Scoop", "Bring to a boil.", "Let cool."],
                 "alt. batch" : null
