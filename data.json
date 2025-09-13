@@ -1510,6 +1510,27 @@
               "alt. batch": null
             },
             {
+              "name": "Hemingway Special",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz"],
+              "liqueur": ["Luxardo Cherry liqueur - .25 oz,"],
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.75 oz", "Grapefruit Juice - 0.5 oz"],
+              "garnish": ["Lime Wheel or Cherry (optional)"],
+              "section": null,
+              "photo": "hemingwaySpecial",
+              "instructions": [
+                "Add rum, maraschino liqueur, lime juice, and grapefruit juice to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lime wheel or cherry if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Jungle Bird",
               "glass" : ["Rocks Glass"],
               "rim" : null,
