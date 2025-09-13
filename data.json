@@ -1489,6 +1489,27 @@
               "alt. batch": null
             },
             {
+              "name": "Hanky Panky",
+              "glass": ["Cocktail Glass or", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1.5 oz"],
+              "liqueur": ["Fernet-Branca - 2 dashes"],
+              "vermouth": ["Sweet Vermouth - 1.5 oz"],
+              "mixers": null,
+              "garnish": ["Orange Twist"],
+              "section": null,
+              "photo": "hankyPanky",
+              "instructions": [
+                "Add gin, sweet vermouth, and Fernet-Branca to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled cocktail or coupette glass.",
+                "Express the oils of an orange twist over the drink and use as garnish."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Jungle Bird",
               "glass" : ["Rocks Glass"],
               "rim" : null,
