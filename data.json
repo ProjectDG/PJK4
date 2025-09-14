@@ -1424,6 +1424,27 @@
               "alt. batch": null
             },
             {
+              "name": "Gimlet",
+              "glass": ["Coupe Glass or", "Martini Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 1.5 oz", "Simple Syrup - 1 oz"],
+              "garnish": ["Lime Wheel"],
+              "section": null,
+              "photo": "gimlet",
+              "instructions": [
+                "Add gin, lime juice, and simple syrup to a shaker with ice.",
+                "Shake until well chilled.",
+                "Double strain into a chilled coupe or martini glass.",
+                "Garnish with a lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name": "Gin Basil Smash",
               "glass": ["Rocks Glass", "Old-Fashioned Glass"],
               "rim": null,
@@ -1526,6 +1547,28 @@
                 "Shake until well chilled.",
                 "Strain into a chilled coupe glass.",
                 "Garnish with a lime wheel or cherry if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Horse's Neck",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Brandy - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Ginger Ale - to top", "Angostura Bitters - 2 dashes (optional)"],
+              "garnish": ["Long Lemon Peel Spiral"],
+              "section": null,
+              "photo": "horsesNeck",
+              "instructions": [
+                "Place a long spiral of lemon peel in a highball glass, letting one end hang over the rim.",
+                "Fill the glass with ice.",
+                "Add brandy (and bitters if using).",
+                "Top with ginger ale.",
+                "Stir gently to combine."
               ],
               "batch": null,
               "alt. batch": null
@@ -2049,6 +2092,18 @@
                     "Pepsi",
                     "Mexican Coke",
                     "Cola Syrup + Soda Water"
+                  ]
+                },
+                {
+                  "name": "Ginger Ale",
+                  "description": [
+                    "A sweetened, carbonated soft drink flavored with ginger.",
+                    "Commonly used as a mixer in highballs and light cocktails such as a Whiskey Ginger."
+                  ],
+                  "alternatives": [
+                    "Ginger Beer",
+                    "Club Soda with Ginger Syrup",
+                    "Lemon-Lime Soda"
                   ]
                 },
                 {
