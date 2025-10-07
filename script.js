@@ -44,6 +44,8 @@ fetch('data.json')
     function initialize() {
       d3.select("body").append("div").attr("id", "menu");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "drinksSection").text("Drinks");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "shotsSection").text("Shots");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "favoritesSection").text("Favorites");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "inventorySection").text("Inventory");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "sectionSetUpSection").text("Section Set Up");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "settingsSection").text("Settings");

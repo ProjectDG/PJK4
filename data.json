@@ -1573,6 +1573,28 @@
               "batch": null,
               "alt. batch": null
             },
+
+            {
+              "name": "Irish Coffee",
+              "glass": ["Irish Coffee Mug"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Irish Whiskey - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Hot Coffee - 4 oz", "Demerara Sugar - 1 tsp", "Lightly Whipped Cream - 1 oz (float)"],
+              "garnish": null,
+              "section": null,
+              "photo": "irishCoffee",
+              "instructions": [
+                "Warm an Irish coffee mug with hot water, then discard the water.",
+                "Add demerara sugar and Irish whiskey to the mug.",
+                "Fill with hot coffee and stir until the sugar dissolves.",
+                "Float lightly whipped cream on top by pouring it gently over the back of a spoon."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
             {
               "name" : "Jungle Bird",
               "glass" : ["Rocks Glass"],
@@ -2443,8 +2465,20 @@
                         "Wheat Vodka",
                         "Potato Vodka"
                     ]
-                    }
-                    ,
+                    },
+                    {
+                      "name": "Irish Whiskey",
+                      "description": [
+                        "Typically triple-distilled and aged for at least three years in wooden casks.",
+                        "Known for its smooth, light, and slightly sweet flavor profile with notes of vanilla, honey, and toasted wood.",
+                        "Produced exclusively in Ireland under strict regulations ensuring quality and authenticity."
+                      ],
+                      "alternatives": [
+                        "Jameson Irish Whiskey",
+                        "Tullamore D.E.W.",
+                        "Bushmills Original"
+                      ]
+                    },
                     {
                     "name": "Jamaican Gold Rum",
                     "description": [
@@ -3297,6 +3331,19 @@
                     "Thai basil"
                   ]
                 },
+                {
+                  "name": "Coffee",
+                  "description": [
+                    "A brewed beverage made from roasted coffee beans, typically served hot.",
+                    "Known for its rich aroma, bold flavor, and stimulating caffeine content.",
+                    "Commonly used as a base for coffee cocktails like the Irish Coffee or Espresso Martini."
+                  ],
+                  "alternatives": [
+                    "Cold Brew Coffee",
+                    "Espresso",
+                    "Americano"
+                  ]
+                },
                   {
                   "name": "Espresso",
                   "description": [
@@ -3306,6 +3353,19 @@
                   "alternatives": [
                     "Strong brewed coffee",
                     "Cold brew concentrate"
+                  ]
+                },
+                {
+                  "name": "Hot Coffee",
+                  "description": [
+                    "A brewed beverage made from roasted coffee beans, typically served hot.",
+                    "Known for its rich aroma, bold flavor, and stimulating caffeine content.",
+                    "Commonly used as a base for coffee cocktails like the Irish Coffee or Espresso Martini."
+                  ],
+                  "alternatives": [
+                    "Cold Brew Coffee",
+                    "Espresso",
+                    "Americano"
                   ]
                 },
                 {
@@ -3350,6 +3410,19 @@
                 { "name": "Espresso", "description": [], "alternatives": [] },
                 {
                   "name": "Heavy Cream",
+                  "description": [
+                    "Contains about 36–40% milk fat",
+                    "Widely produced in dairy farms across the world",
+                    "Heavy cream is a rich, thick cream commonly used in cocktails for texture and body. It adds a smooth, velvety mouthfeel and helps balance stronger or more bitter ingredients."
+                  ],
+                  "alternatives": [
+                    "Half-and-Half (lighter substitute)",
+                    "Coconut Cream (non-dairy alternative)",
+                    "Whipping Cream"
+                  ]
+                },
+                {
+                  "name": "Lightly Whipped Cream",
                   "description": [
                     "Contains about 36–40% milk fat",
                     "Widely produced in dairy farms across the world",
@@ -3533,6 +3606,19 @@
                       "Mozart Dark Chocolate Liqueur",
                       "Chocolate Brandy"
                     ]
+                  },
+                  {
+                  "name": "Demerara Sugar",
+                  "description": [
+                    "A type of raw cane sugar with large, golden-brown crystals and a subtle molasses flavor.",
+                    "It is less refined than white sugar, retaining more of its natural minerals and caramel notes.",
+                    "Commonly used in cocktails and baking for added depth and texture."
+                  ],
+                  "alternatives": [
+                    "Turbinado Sugar",
+                    "Brown Sugar",
+                    "Raw Cane Sugar"
+                  ]
                   },
                   {
                     "name": "Falernum",
