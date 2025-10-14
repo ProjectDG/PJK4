@@ -1702,6 +1702,28 @@
               "alt. batch" : null
             },
             {
+              "name": "Mojito",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.75 oz", "Simple Syrup - 0.5 oz", "Club Soda - to top"],
+              "garnish": ["Mint Sprig", "Lime Wheel"],
+              "section": null,
+              "photo": "mojito",
+              "instructions": [
+                "In a highball glass, muddle mint leaves with lime juice and simple syrup.",
+                "Fill the glass with ice.",
+                "Add rum and top with club soda.",
+                "Stir gently to combine.",
+                "Garnish with a mint sprig and lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name": "Old Fashioned",
               "glass": ["Old-Fashioned Glass"],
               "rim": null,
