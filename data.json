@@ -737,7 +737,7 @@
             },
             {
               "name": "Amaretto Sour",
-              "glass": ["Old-Fashioned Glass"],
+              "glass": ["Coupe glass or,", "Old-Fashioned Glass"],
               "rim": null,
               "wine": null,
               "liquor": null,
