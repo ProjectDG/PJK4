@@ -98,7 +98,7 @@
                     "Simple Syrup - .5 oz"
                 ],
                 "garnish" : ["Flower"],
-                "section" : "originals",
+                "section" : null,
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Dry Shake", "Add Ice & Shake Vigorously" , "Double Strain Over Big Rock", "Let Settle", "Float with Butterfly Pea / Honeysuckle Gin", "Garnish With Flower"],
                 "batch" : ["Coming Soon..."],
@@ -120,7 +120,7 @@
                     "Lemon Juice - 1 oz,"
                 ],
                 "garnish" : ["Dehydrated Lemon & Flower"],
-                "section" : "originals",
+                "section" : "null",
                 "photo" : null,
                 "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" , "Double Strain Into Coupe Glass", "Garnish With Dehydrated Lime & Flower"],
                 "batch" : null,
@@ -147,7 +147,7 @@
                 "glass" : ["Rocks Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Redemption Rye - 2.5 oz"],
+                "liquor" : ["Sazerac Rye - 2.5 oz"],
                 "liqueur" : null,
                 "vermouth" : null,
                 "mixers" : [
@@ -214,7 +214,7 @@
               "rim" : ["Salt (optional)"],
               "wine" : null,
               "liquor" : ["Corazon Blanco - 1.5 oz"],
-              "liqueur" : ["Cointreau - .5 oz"],
+              "liqueur" : ["Gran Gala - .5 oz"],
               "vermouth" : null,
               "mixers" : [
                   "Lime Juice - 1.5 oz,",
@@ -255,7 +255,7 @@
                 "rim" : ["Tajin"],
                 "wine" : null,
                 "liquor" : ["Casamigos Reposado - 1.5 oz"],
-                "liqueur" : ["Cointreau - .75 oz"],
+                "liqueur" : ["Gran Gala - .75 oz"],
                 "vermouth" : null,
                 "mixers" : [
                     "Chili Tincture - 3 drops,",
@@ -446,7 +446,7 @@
                 "glass" : ["Rocks Glass"],
                 "rim" : null,
                 "wine" : null,
-                "liquor" : ["Rittenhouse Rye - 2 oz"],
+                "liquor" : ["Sazerac Rye - 2 oz"],
                 "liqueur" : ["Aperol - .5 oz,", "Fernet-Branca - .5 oz"],
                 "vermouth" : null,
                 "mixers" : ["Angostura Bitters - 1 Dash"],
@@ -1612,6 +1612,28 @@
               "alt. batch" : null
             },
             {
+              "name": "Lemon Drop Martini",
+              "glass": ["Martini Glass", "Coupe Glass"],
+              "rim": ["Sugar"],
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["Triple Sec - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 1.5 oz", "Simple Syrup - 1 oz"],
+              "garnish": ["Lemon Twist"],
+              "section": null,
+              "photo": "lemonDropMartini",
+              "instructions": [
+                "Rim a chilled martini glass with sugar and set aside.",
+                "Add vodka, triple sec, lemon juice, and simple syrup to a shaker with ice.",
+                "Shake vigorously until well chilled.",
+                "Strain into the prepared glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Long Island Iced Tea",
               "glass" : ["Pint Glass"],
               "rim" : null,
@@ -1669,7 +1691,7 @@
               "glass": ["Martini Glass or", "Coupe Glass"],
               "rim": null,
               "wine": null,
-              "liquor": ["Gin - 2.5 oz"],
+              "liquor": ["Vodka or Gin - 3 oz"],
               "liqueur": null,
               "vermouth": ["Dry Vermouth - 0.5 oz"],
               "mixers": null,
@@ -2553,20 +2575,7 @@
                     ]
                     }
                     ,
-                    {
-                      "name": "Redemption Rye",
-                      "description": [
-                        "42%–46% ABV depending on the expression",
-                        "Distilled in Indiana and bottled in Kentucky, USA",
-                        "Redemption Whiskey is a high-rye bourbon or rye whiskey (depending on the expression) known for its bold spice, smooth vanilla undertones, and classic American whiskey character. It’s crafted to highlight the rye content and is popular in both sipping and classic cocktails like the Old Fashioned or Manhattan."
-                      ],
-                      "alternatives": [
-                        "Bulleit Rye",
-                        "Rittenhouse Rye",
-                        "Knob Creek Rye"
-                      ]
-                    }
-                    ,                    
+                                       
                 {
                     "name": "Rittenhouse Rye",
                     "description": [
@@ -2619,6 +2628,19 @@
                     ]
                   }
                   ,
+                  {
+                    "name": "Sazerac Rye",
+                    "description": [
+                      "45% ABV (90 Proof)",
+                      "Produced by Buffalo Trace Distillery in Frankfort, Kentucky.",
+                      "Sazerac Rye is a classic American rye whiskey with bold notes of clove, vanilla, anise, and pepper, finishing smooth with a touch of sweetness. It’s famously used in the Sazerac cocktail."
+                    ],
+                    "alternatives": [
+                      "Rittenhouse Rye",
+                      "Bulleit Rye",
+                      "Redemption Rye"
+                    ]
+                  },
                 {
                     "name": "St. George Botanivore",
                     "description": [
@@ -2913,6 +2935,19 @@
                       }
                       ,
                       {
+                        "name": "Gran Gala",
+                        "description": [
+                          "An Italian orange liqueur made from brandy and natural orange essence.",
+                          "It has a rich, smooth flavor with notes of sweet orange, vanilla, and caramel.",
+                          "Often used as a substitute for Grand Marnier in cocktails, adding depth and sweetness."
+                        ],
+                        "alternatives": [
+                          "Grand Marnier",
+                          "Cointreau",
+                          "Triple Sec"
+                        ]
+                      },
+                      {
                         "name": "Grand Marnier",
                         "description": [
                           "40% ABV",
@@ -3175,7 +3210,6 @@
                 "items": [
                 { "name": "Agave", "description": [], "alternatives": [] },
                 { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
-                { "name": "Demerara Syrup", "description": [], "alternatives": [] },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
                 {
                   "name": "Honey Syrup",
@@ -3643,6 +3677,19 @@
                   ]
                   },
                   {
+                    "name": "Demerara Syrup",
+                    "description": [
+                      "Rich, dark simple syrup made from Demerara sugar.",
+                      "Known for its deep caramel and molasses flavor that adds body and complexity to cocktails.",
+                      "Commonly used in tropical and spirit-forward drinks like the Old Fashioned or Mai Tai."
+                    ],
+                    "alternatives": [
+                      "Turbinado Syrup",
+                      "Brown Sugar Syrup",
+                      "Simple Syrup"
+                    ]
+                  },
+                  {
                     "name": "Falernum",
                     "description": [
                       "A sweet Caribbean syrup or liqueur flavored with lime, almond, ginger, and cloves",
@@ -3759,7 +3806,33 @@
                     ],
                     "alternatives": ["Grenadine", "Strawberry Syrup", "Raspberry Purée", "Homemade berry simple syrup"]
                   }
-                  ,                    
+                  ,
+                  {
+                      "name": "Redemption Rye",
+                      "description": [
+                        "42%–46% ABV depending on the expression",
+                        "Distilled in Indiana and bottled in Kentucky, USA",
+                        "Redemption Whiskey is a high-rye bourbon or rye whiskey (depending on the expression) known for its bold spice, smooth vanilla undertones, and classic American whiskey character. It’s crafted to highlight the rye content and is popular in both sipping and classic cocktails like the Old Fashioned or Manhattan."
+                      ],
+                      "alternatives": [
+                        "Bulleit Rye",
+                        "Rittenhouse Rye",
+                        "Knob Creek Rye"
+                      ]
+                    },
+                    {
+                      "name": "Rittenhouse Rye",
+                      "description": [
+                          "50% ABV (100 Proof)",
+                          "Produced in Kentucky, USA by Heaven Hill Distillery",
+                          "Rittenhouse Rye is a bold, bonded straight rye whiskey known for its spicy, dry profile with notes of cocoa, citrus peel, and baking spice. It's a favorite among bartenders for classic cocktails like the Manhattan or Old Fashioned."
+                      ],
+                      "alternatives": [
+                          "Wild Turkey 101 Rye",
+                          "Bulleit Rye",
+                          "Old Forester Rye"
+                      ]
+                    },                
                   {
                       "name": "Rose Bud Infused Vodka",
                       "description": [
