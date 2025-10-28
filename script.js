@@ -46,6 +46,7 @@ fetch('data.json')
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "drinksSection").text("Drinks");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "shotsSection").text("Shots");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "favoritesSection").text("Favorites");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "batchRecipesSection").text("Batch Recipes");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "inventorySection").text("Inventory");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "sectionSetupSection").text("Section Setup");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "settingsSection").text("Settings");
@@ -149,6 +150,87 @@ fetch('data.json')
         });
       }
     });
+
+    $('body').on('click', '#shotsSection, #favoritesSection, #settingsSection', function(event) {
+      $('#menu').hide();
+      $("#mainContainer").empty();
+      d3.select("#mainContainer").append("h1").attr("class", "under-construction").text("...Under Construction...");
+    });
+
+
+    $('body').on('click', '#batchRecipesSection', function(event) {
+    $('#menu').hide();
+    $("#mainContainer").empty();
+
+    // Filter drinks that are in the "cocktails" section AND have a batch or alt. batch
+    const cocktailsWithBatch = drinkInfo.filter(drink => 
+        drink.section === "cocktails" &&
+        ((drink.batch && drink.batch.length > 0) || 
+        (drink["alt. batch"] && drink["alt. batch"].length > 0))
+    );
+
+    if (cocktailsWithBatch.length === 0) {
+        d3.select("#mainContainer")
+          .append("p")
+          .text("No batch recipes available for cocktails.")
+          .style("font-size", "3vh")
+          .style("text-align", "center")
+          .style("width", "100%");
+        return;
+    }
+
+    // Create cards container
+    const container = document.createElement("div");
+    container.style.display = "flex";
+    container.style.flexWrap = "wrap";
+    container.style.justifyContent = "center";
+    container.style.alignItems = "flex-start";
+    container.style.width = "100%";
+    container.style.padding = "2%";
+    $("#mainContainer").append(container);
+
+    cocktailsWithBatch.forEach(drink => {
+        const card = document.createElement("div");
+        card.classList.add("batch-cards");
+
+        // Title
+        const title = document.createElement("h2");
+        title.textContent = `${drink.name} Batches`;
+        card.appendChild(title);
+
+        // Main batch
+        if (drink.batch && drink.batch.length > 0) {
+            const ul = document.createElement("ul");
+            drink.batch.forEach(recipe => {
+                const li = document.createElement("li");
+                li.textContent = recipe;
+                ul.appendChild(li);
+            });
+            card.appendChild(ul);
+        }
+
+        // Alt batch(es)
+        if (drink["alt. batch"] && drink["alt. batch"].length > 0) {
+            drink["alt. batch"].forEach((altRecipe, i) => {
+                const altTitle = document.createElement("p");
+                altTitle.textContent = i === 0 ? "Alternative Batch:" : `Alternative Batch ${i+1}:`;
+                altTitle.classList.add("alt-title");
+                card.appendChild(altTitle);
+
+                const ulAlt = document.createElement("ul");
+                const liAlt = document.createElement("li");
+                liAlt.textContent = altRecipe;
+                ulAlt.appendChild(liAlt);
+                card.appendChild(ulAlt);
+            });
+        }
+
+        container.appendChild(card);
+    });
+});
+
+
+
 
     $('body').on('click', '#inventorySection', function(event) {
       window.open("https://projectdg.github.io/PJKInventory/", "_blank");
