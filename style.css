@@ -49,18 +49,17 @@ body{
   display: none;
   z-index: 1000;
   width: 40%;
-  max-height: 85%;
+  max-height: 83%;
   border: .5vh outset rgb(227, 191, 127);;
   background-color: #000000dd;
   position: absolute;
   top: 10vh;
   left: 1.25vw;
-  padding: 4vh 2vh;
 }
 
 .menu-sections{
   cursor: pointer;
-  margin: 7% 5%;
+  margin: 6% 5%;
   padding: 2% 3%;
   font-size: 3vh;
   background-color: rgba(54, 45, 31, 0.809);
@@ -74,6 +73,29 @@ body{
 .under-construction{
   font-size: 7vh;
   text-shadow: 10px 10px 10px #000000;
+}
+
+#qrDiv{
+  height: 100%;
+}
+
+#qrTitle{
+  color: antiquewhite;
+  text-shadow: 10px 10px 10px #000000;
+  text-align: center;
+}
+
+#qrImgDiv{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+#qrCode{
+  border: 1px solid #000000;
+  box-shadow: 5px 5px 10px #313131;
+  height: 100%;
+  margin: auto;
 }
 
 #drinkList{
@@ -717,12 +739,16 @@ button{
   
   .menu-sections{
     cursor: pointer;
-    margin: 10% 5%;
+    margin: 6% 5%;
     padding: 3%;
     font-size: 3vh;
     background-color: rgba(54, 45, 31, 0.809);
     border-radius: 20px;
   }
+
+  #qrCode{
+  height: 80%;
+}
 
   .under-construction{
   font-size: 3.5vh;

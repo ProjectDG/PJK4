@@ -50,6 +50,7 @@ fetch('data.json')
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "inventorySection").text("Inventory");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "sectionSetupSection").text("Section Setup");
       d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "settingsSection").text("Settings");
+      d3.select("#menu").append("h1").attr("class", "menu-sections").attr("id", "qrCodeSection").text("QR Code");
       d3.select("body").append("div").attr("id", "topNav");
       d3.select("#topNav").append("div").attr("id", "hamburgerMenu").attr("class", "hamburger-menu").html(`<div class="bar"></div><div class="bar"></div><div class="bar"></div>`);
       d3.select("#topNav").append("button").text("Cocktails").attr("class", "button nav-buttons").attr("id", "cocktails");
@@ -238,6 +239,15 @@ fetch('data.json')
 
     $('body').on('click', '#sectionSetupSection', function(event) {
       window.open("https://projectdg.github.io/PJKv4SectionSetup/", "_blank");
+    });
+
+    $('body').on('click', '#qrCodeSection', function(event) { 
+      $('#menu').hide();
+      $("#mainContainer").empty();
+      d3.select("#mainContainer").append("div").attr("id", "qrDiv");
+      d3.select("#qrDiv").append("h1").attr("id", "qrTitle").text("Scan for link to this website");
+      d3.select("#qrDiv").append("div").attr("id", "qrImgDiv");
+      d3.select("#qrImgDiv").append("img").attr("src", "./images/qrCode.jpg").attr("id", "qrCode");
     });
 
     let drinkInfo = data[0].drinks;
