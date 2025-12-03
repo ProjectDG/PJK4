@@ -2,13 +2,13 @@
     {
       "Contents" : 
       {
-        "Menu Drinks" :                  45,
+        "Menu Drinks" :                  42,
 
-        "Retired Drinks" :               300,
+        "Retired Drinks" :               330,
 
         "Search Menu Drinks" :           500,
 
-        "All Other Drinks" :             690,
+        "All Other Drinks" :             718,
 
         "Inventory / Rim Garnishes" :    1660,
 
@@ -42,6 +42,222 @@
         "drinks" : 
         [
           {
+            "name" : "Call Me 'Koko'",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "Rivi Gin - 1.5 oz,",
+                "Cincoro Tequila - .5 oz"
+            ],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : [
+                "Lychee Syrup - .5 oz,",
+                "Lemon Juice - .75 oz,",
+                "Pomegranate Juice - .75 oz"
+            ],
+            "garnish" : ["Dehydrated Lemon & Basil Sprig"],
+            "section" : "cocktails",
+            "photo" : "callMeKokoTequila",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Dehydrated Lemon & Basil Sprig"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Give Me Park Avenue",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sazerac Rye - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : ["Sweet Vermouth - 1 oz"],
+            "mixers" : ["Angostura Bitters - 2 to 3 Dashes"],
+            "garnish" : ["Cherry or Orange Twist"],
+            "section" : "cocktails",
+            "photo" : "giveMeParkAvenue",
+            "instructions" : [
+              "Add rye whiskey, sweet vermouth, and bitters to a mixing glass filled with ice.",
+              "Stir until well chilled.",
+              "Strain into a  rocks glass with big cube.",
+              "Garnish with a cherry or orange twist."
+            ],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Olive Your Dirty",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Vodka or Gin - 2.5 oz"],
+            "liqueur" : null,
+            "vermouth" : ["Dry Vermouth - .5 oz"],
+            "mixers" : ["Barsmith Dirty Martini - .75 oz"],
+            "garnish" : ["1 to 3 Olives"],
+            "section" : "cocktails",
+            "photo" : "oliveYouDirty",
+            "instructions" : ["In a mixing glass or Shaker, add gin ( or vodka ), dry vermouth and olive brine.", "Fill with ice and stir ( for a smoother, clearer drink ) or shake ( for a cloudier, more aerated and chilled drink ).", "Strain into a chilled martini glass.", "Garnish with olives."],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Mary Not Martha",
+            "glass" : ["Martini Glass"],
+            "rim" : ["Tajin"],
+            "wine" : null,
+            "liquor" : ["Vodka - 1.5 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Blood Mary Mix - 2 oz (Pour First)"],
+            "garnish" : ["Olive, Chili & Pickled Carrot"],
+            "section" : "cocktails",
+            "photo" : "maryNotMartha",
+            "instructions" : ["Pour Chilled Bloody Mary Mix into Tajin Rimmed Martini Glass", "Add Vodka to Mixing Tin", "Shake & Double Strain to Float Over Bloody Mary Mix", "Garnish With Olive & Pickled Carrot"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Negroni",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Gin or Mezcal- 1 oz"],
+            "liqueur" : ["Campari - 1 oz"],
+            "vermouth" : ["Sweet Vermouth - 1 oz"],
+            "mixers" : null,
+            "garnish" : ["Orange Twist"],
+            "section" : "cocktails",
+            "photo" : "negroni",
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Fresh Ice", "Garnish With Orange Or Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Pink Horizon",
+            "glass" : ["Collins Glass"],
+            "rim" : ["Half Salt or", "Guest Choice"],
+            "wine" : null,
+            "liquor" : ["Blanco Tequila - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .5 oz", "Grapefruit Soda - 2 oz"],
+            "garnish" : ["Grapefruit Slice or Lime Wheel"],
+            "section" : "cocktails",
+            "photo" : "pinkHorizon",
+            "instructions" : ["Rim Glass (optional)", "Fill Collins Glass with Ice.", "Add Tequila & Lime Juice", "Top with Grapefruit Soda", "Garnish with Grapefruit Wedge or Lime Wheel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Spicy T & M",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Tajin (Half)"],
+            "wine" : null,
+            "liquor" : ["Jalapeno Infused Tequila - 1.5 oz"],
+            "liqueur" : ["Cointreau - .5 oz"],
+            "vermouth" : null,
+            "mixers" : ["Butterfly Pea Flower Syrup - .5 oz", "Lime Juice - .5 oz", "Pineapple Juice - 2 oz,"],
+            "garnish" : ["Pineapple Frond," ,"Dehydrated Lime & Jalapeno Slice"],
+            "section" : "cocktails",
+            "photo" : "spicyTM",
+            "instructions" : ["Add ice to rocks glass & pour .5 oz butterfly pea flower syrup", "In Shaker the rest of the ingredients with ice & shake vigorously", "Strain over fresh ice in rocks glass with butterfly pea flower syrup", "Garnish with pineapple frond, dehydrated lime & jalapeno slice"],
+            "batch" : ["Jalapeno Infused Tequila Batch - 1 Liter", "Fresh Jalapenos - 2 to 3 ea (Sliced)", "Tequila - 1 Liter", "Combine ingredients in a sealed container.", "Let sit for 72 hours depending on desired spice level.", "Strain out jalapenos and store tequila for service."],
+            "alt. batch" : ["Butterfly pea flower syrup", "Sugar - 2 cups", "Hot water - 1 cup", "butterfly pea Flowers - 4 Tbsp", "Whisk & let stand for 10 minutes or until dark blue in color", "Strain out flowers and let cool"]
+          },
+          {
+            "name" : "Sunset Sangria",
+            "glass" : ["Wine Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : null,
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : null,
+            "garnish" : null,
+            "section" : "cocktails",
+            "photo" : "sunsetSangria",
+            "instructions" : null,
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Crouching Tiger",
+            "glass" : ["Pint Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : null,
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : [
+                "Lime Juice - 1 oz,",
+                "Matcha Syrup - 1 oz,",
+                "Pineapple Juice - .25 oz,",
+                "Shiso Leaf - 1,",
+                "Soda Water (Topped)"
+            ],
+            "garnish" : ["Flower"],
+            "section" : "cocktails",
+            "photo" : "crouchingTiger",
+            "instructions" : ["Build In Glass", "Stir Lightly", "Add Ice", "Garnish With Flower"],
+            "batch" : ["Simple Syrup - 1 Quart", "Matcha - 1 Scoop", "Bring to a boil.", "Let cool."],
+            "alt. batch" : null
+          },
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {
+            "name" : "After Hours",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "St. George Botanivore - 2 oz,",
+                "St. George Citrus - 1 oz"
+            ],
+            "liqueur" : null,
+            "vermouth" : ["Lillet Blanc - 1 oz"],
+            "mixers" : ["2 Dashes Orange Bitters"],
+            "garnish" : ["Orange Peel"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Garnish With Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
             "name" : "Beachy Lemonade",
             "glass" : ["Collins Glass"],
             "rim" : null,
@@ -51,444 +267,346 @@
             "vermouth" : null,
             "mixers" : ["House Made Lemonade - Fill to Top"],
             "garnish" : ["Dehydrated Lemon & Mint Sprig"],
-            "section" : "cocktails",
+            "section" : null,
             "photo" : "beachyLemonade",
             "instructions" : ["Build in glass", "Garnish with dehydrated lemon & mint sprig"],
             "batch" : ["Fresh Squeezed Lemon Juice - 8 oz", "Water - 4 cups", "Sugar - 6 oz", "Make Double or Triple Batch Depending on Popularity"],
             "alt. batch" : null
-        },
-            {
-                "name" : "Call Me 'Koko'",
-                "glass" : ["Rocks Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : [
-                    "Rivi Gin - 1.5 oz,",
-                    "Los Vecinos Mezcal - .5 oz"
-                ],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : [
-                    "Lychee Syrup - .5 oz,",
-                    "Lemon Juice - .75 oz,",
-                    "Pomegranate Juice - .75 oz"
-                ],
-                "garnish" : ["Dehydrated Lemon & Basil Sprig"],
-                "section" : "cocktails",
-                "photo" : "callMeKoko",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Dehydrated Lemon & Basil Sprig"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "The Butterfly Effect",
-                "glass" : ["Rocks Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : [
-                    "Los Vecinos Mezcal - 1 oz,",
-                    "Butterfly Pea Gin - .5 oz (Float)" 
-                ],
-                "liqueur" : ["St. Germain - .5 oz"],
-                "vermouth" : null,
-                "mixers" : [
-                    "Egg White - 1 oz,",
-                    "Lemon Juice - .5 oz,",
-                    "Lime Juice - .5 oz,",
-                    "Simple Syrup - .5 oz"
-                ],
-                "garnish" : ["Flower"],
-                "section" : null,
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Dry Shake", "Add Ice & Shake Vigorously" , "Double Strain Over Big Rock", "Let Settle", "Float with Butterfly Pea / Honeysuckle Gin", "Garnish With Flower"],
-                "batch" : ["Coming Soon..."],
-                "alt. batch" : null
-            },
-            {
-                "name" : "Dragon's Hive",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : [
-                    "Dos Hombres Mezcal - 1.5 oz,",
-                    "Butterfly Pea Gin - .25 oz" 
-                ],
-                "liqueur" : ["Chinola Passion Fruit - .5 oz"],
-                "vermouth" : null,
-                "mixers" : [
-                    "Honey Syrup - .75 oz,",
-                    "Lemon Juice - 1 oz,"
-                ],
-                "garnish" : ["Dehydrated Lemon & Flower"],
-                "section" : "null",
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" , "Double Strain Into Coupe Glass", "Garnish With Dehydrated Lime & Flower"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Lotus Blossom",
-                "glass" : ["Martini Glass"],
-                "rim" : null,
-                "wine" : ["Living Jewel Sake - 1.5 oz"],
-                "liquor" : ["Vodka or Gin - 1.5 oz"],
-                "liqueur" : null,
-                "vermouth" : ["Lillet Blanc - .25 oz"],
-                "mixers" : null,
-                "garnish" : ["Plum Wine Foam & Dehydrated Plum"],
-                "section" : "cocktails",
-                "photo" : "lotusBlossom",
-                "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Top With Plum Wine Foam & Dehydrated Plum"],
-                "batch" : ["Egg Whites - 2","Plum Wine - 6 oz", "Agave - 5 oz", "Lemon Juice - 3 oz"],
-                "alt. batch" : null
-            },
-            {
-                "name" : "PJK Old Fashioned",
-                "glass" : ["Rocks Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Sazerac Rye - 2.5 oz"],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : [
-                    "Angostura Bitters - 4 Dashes,",
-                    "Orange Bitters - 4 Dashes,",
-                    "Black Tea Syrup - .25 oz"
-                ],
-                "garnish" : ["Orange Peel & Cherry"],
-                "section" : "cocktails",
-                "photo" : "pjkOldFashioned",
-                "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel & Cherry"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "PJ Killa",
-                "glass" : ["Collins Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Coconut Rum - 1.5 oz"],
-                "liqueur" : [
-                    "Luxardo Cherry liqueur - .5 oz,",
-                    "Drambuie - .25 oz,"
-                ],
-                "vermouth" : ["Lillet Blanc - .25 oz"],
-                "mixers" : [
-                    "Lime Juice - .75 oz,",
-                    "Demerara Syrup - .5 oz,",
-                    "Pineapple Juice - .5 oz"
-                ],
-                "garnish" : [
-                    "Cinnamon Stick & Shavings,",
-                    "Dehydrated Lime"
-                ],
-                "section" : "originals",
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Cinnamon Stick & Shavings", "Dehydrated Lime"],
-                "batch" : ["Coconut Rum - 18 oz", "Luxardo Cherry liqueur - 6 oz", "Drambuie - 3 oz", "Lillet Blanc - 3 oz", "Pour Into Liter Bottle & Mix", "NOTE: 2.5 oz of batch per drink"],
-                "alt. batch" : null
-            },
-            {
-                "name" : "Shiso Lovely",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Wheatley Vodka - 1.5 oz"],
-                "liqueur" : ["St. Germain - 1 oz"],
-                "vermouth" : null,
-                "mixers" : [
-                    "Shiso Leaf - 1,",
-                    "Lemon Juice - 1 oz,",
-                    "Simple Syrup - .5 oz"
-                ],
-                "garnish" : ["Shiso Leaf"],
-                "section" : "cocktails",
-                "photo" : "shisoLovely",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Club Soda", "Garnish With Shiso Leaf"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-              "name" : "Salt & Sun",
-              "glass" : ["Rocks Glass"],
-              "rim" : ["Salt (optional)"],
-              "wine" : null,
-              "liquor" : ["Corazon Blanco - 1.5 oz"],
-              "liqueur" : ["Gran Gala - .5 oz"],
-              "vermouth" : null,
-              "mixers" : [
-                  "Lime Juice - 1.5 oz,",
-                  "Agave - 1 oz"
-              ],
-              "garnish" : ["Dehydrated Lime Wheel"],
-              "section" : "cocktails",
-              "photo" : "saltAndSun",
-              "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass", "Garnish With Dehydrated Lime Wheel"],
-              "batch" : null,
-              "alt. batch" : null
-            },
-            {
-                "name" : "Up All Night",
-                "glass" : ["Martini Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Wheatley Vodka - 2 oz"],
-                "liqueur" : [
-                    "Caffe Borghetti Espresso - .75 oz,",
-                    "Montenegro - .25 oz"
-                ],
-                "vermouth" : null,
-                "mixers" : [
-                    "Five Spice Syrup - .5 oz,",
-                    "Espresso - 1 oz"
-                ],
-                "garnish" : ["Espresso Beans - 3 ea"],
-                "section" : "cocktails",
-                "photo" : "upAllNight",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Martini Glass", "Garnish With 3 Espresso Beans"],
-                "batch" : ["Star Anise - 5 Pods", "Fennel Seeds - 1 Tbsp", "Cinnamon Stick - 1 ea", "Szechuan Peppercorn (or Black Pepper) - 1 Tbsp", "Grind spices into a powder.", "Water - 2 Cups", "Sugar - 1.75 Cups", "Add ingredients together and bring to a boil until thickened."],
-                "alt. batch" : null
-            },
-            {
-                "name" : "Zen Inferno",
-                "glass" : ["Rocks Glass"],
-                "rim" : ["Tajin"],
-                "wine" : null,
-                "liquor" : ["Casamigos Reposado - 1.5 oz"],
-                "liqueur" : ["Gran Gala - .75 oz"],
-                "vermouth" : null,
-                "mixers" : [
-                    "Chili Tincture - 3 drops,",
-                    "Lime Juice - .5 oz,",
-                    "Mango Puree - 1 oz,",
-                    "Pineapple Juice - .75 oz"
-                ],
-                "garnish" : ["Pineapple Frond &", "Dehydrated Chile De Arbol"],
-                "section" : "cocktails",
-                "photo" : "zenInferno",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Pineapple Frond & Dehydrated Chile De Arbol"],
-                "batch" : ["Mangos - 2", "Rice Vinegar - 2 tbsp","Sugar - 2 tbsp"],
-                "alt. batch" : null
-            },
-            {
-                "name" : "Crouching Tiger",
-                "glass" : ["Pint Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : null,
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : [
-                    "Lime Juice - 1 oz,",
-                    "Matcha Syrup - 1 oz,",
-                    "Pineapple Juice - .25 oz,",
-                    "Shiso Leaf - 1,",
-                    "Soda Water (Topped)"
-                ],
-                "garnish" : ["Flower"],
-                "section" : "cocktails",
-                "photo" : "crouchingTiger",
-                "instructions" : ["Build In Glass", "Stir Lightly", "Add Ice", "Garnish With Flower"],
-                "batch" : ["Simple Syrup - 1 Quart", "Matcha - 1 Scoop", "Bring to a boil.", "Let cool."],
-                "alt. batch" : null
-            },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            {
-                "name" : "After Hours",
-                "glass" : ["Martini Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : [
-                    "St. George Botanivore - 2 oz,",
-                    "St. George Citrus - 1 oz"
-                ],
-                "liqueur" : null,
-                "vermouth" : ["Lillet Blanc - 1 oz"],
-                "mixers" : ["2 Dashes Orange Bitters"],
-                "garnish" : ["Orange Peel"],
-                "section" : "originals",
-                "photo" : null,
-                "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Garnish With Orange Peel"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Empress Wu",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Wheatley Vodka - 1.5 oz"],
-                "liqueur" : ["Aqua Perfecta: Basil Brandy - 1 oz"],
-                "vermouth" : null,
-                "mixers" : ["Lime Juice - .75 oz,", "Simple Syrup - .75 oz"],
-                "garnish" : ["Basil Sprig"],
-                "section" : "originals",
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Midnight Hour",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Plantation Dark Rum - 2.5 oz"],
-                "liqueur" : ["Aqua Perfecta Basil Brandy - 1 oz"],
-                "vermouth" : null,
-                "mixers" : ["Lime Juice - .5 oz,", "Five Spice Syrup - .75 oz"],
-                "garnish" : ["Star Anise"],
-                "section" : "originals",
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "My Oh Mai Tai",
-                "glass" : ["Rocks Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["My Oh Mai Tai Batch - 3 oz"],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : null,
-                "garnish" : ["Top with Foam,", "Dehydrated Orange & Cherry"],
-                "section" : null,
-                "photo" : null,
-                "instructions" : ["Pour Into Cambro", "Stir Until Thoroughly Mixed", "Refridgerate for 24 Hours"],
-                "batch" : ["White Rum - 1 Cup", "Dry Curacao - 1/2 Cup", "Lime Juice - 3/4 Cup,", "Milk - 2 Cups", "Orgeat - 1/2 Cup"],
-                "alt. batch" : ["Egg White - 2", "Passion Fruit Liqueur - 5 oz", "Cherry Liqueur - 5 oz", "Lime Juice - 5 oz", "Shake Vigorously in Foam Canister", "Let Sit for 25 minutes"]
-            },
-            {
-                "name" : "Open Sesame",
-                "glass" : ["Rocks Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Sesame Gin - 1 oz,", "St. George Terroir - 1 oz"],
-                "liqueur" : ["Domaine De Canton - .5 oz,", "Dry Curacao - .25 oz"],
-                "vermouth" : ["Lillet Blanc - .25 oz"],
-                "mixers" : ["Lemon Bitters - 3 Dashes"],
-                "garnish" : ["Flashed Orange Peel"],
-                "section" : null,
-                "photo" : null,
-                "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish with Flashed Orange Peel"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Rose Colored Glasses",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Rose Bud Infused Vodka - 1.5 oz"],
-                "liqueur" : ["Campari - .25 oz,", "Cointreau - .75 oz"],
-                "vermouth" : null,
-                "mixers" : ["Honey Fig Foam", "Lemon Juice - 1 oz,", "Simple Syrup - .5 oz"],
-                "garnish" : ["Gold Dust & Dehydrated Rose Bud"],
-                "section" : null,
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass", "Garnish With Dehydrated Rose Bud & Gold Dust"],
-                "batch" : ["Honey / Fig Foam Batch Coming Soon..."],
-                "alt. batch" : null
-            },
-            {
-                "name" : "Sake Sangria",
-                "glass" : ["Wine Glass"],
-                "rim" : null,
-                "wine" : ["Living Jewel Sake - 2 oz"],
-                "liquor" : null,
-                "liqueur" : ["Domaine De Canton - .5 oz,", "Chambord - .25 oz,", "Dry Curacao - .25 oz"],
-                "vermouth" : null,
-                "mixers" : ["Pineapple Juice - .75 oz,", "Pomegranate Juice - .75 oz,", "Lemon Juice - .5 oz"],
-                "garnish" : ["Pineapple Frond & Dehydrated Orange"],
-                "section" : "originals",
-                "photo" : "sakeSangria",
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Dirty Dump Into Wine Glass & Top with Club Soda", "Garnish With Dehydrated Orange & Pineapple Frond"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Shanghai Street Fight",
-                "glass" : ["Rocks Glass"],
-                "rim" : null,
-                "wine" : null,
-                "liquor" : ["Sazerac Rye - 2 oz"],
-                "liqueur" : ["Aperol - .5 oz,", "Fernet-Branca - .5 oz"],
-                "vermouth" : null,
-                "mixers" : ["Angostura Bitters - 1 Dash"],
-                "garnish" : ["Orange Peel"],
-                "section" : "originals",
-                "photo" : null,
-                "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel"],
-                "batch" : null,
-                "alt. batch" : null
-            },
-            {
-                "name" : "Snow On Fuji",
-                "glass" : ["Coupe Glass"],
-                "rim" : null,
-                "wine" : ["Topped with Albert Bichot Brut"],
-                "liquor" : ["Fuji Apple Infused Gin - 2 oz"],
-                "liqueur" : null,
-                "vermouth" : null,
-                "mixers" : ["Lemon Juice - 1 oz,", "Lychee Syrup - .75 oz"],
-                "garnish" : ["Lychee & Mint Sprig"],
-                "section" : null,
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Brut", "Garnish With Lychee & Mint Sprig"],
-                "batch" : ["Blend 2 Fuji Apples with Gin of Choice", "Let Sit for 24 to 48 Hours", "Strain & Prepare for Service"],
-                "alt. batch" : null
-            },
-            {
-                "name" : "That Yuzu, That You Do",
-                "glass" : ["Rocks Glass"],
-                "rim" : ["Salt"],
-                "wine" : null,
-                "liquor" : ["Corazon Blanco - 2 oz"],
-                "liqueur" : ["Grand Marnier - .5 oz"],
-                "vermouth" : null,
-                "mixers" : ["Lime Juice - .75 oz,", "Yuzu - .25 oz,", "Agave - .25 oz"],
-                "garnish" : ["Dehydrated Lime"],
-                "section" : "originals",
-                "photo" : null,
-                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Dehydrated Lime"],
-                "batch" : null,
-                "alt. batch" : null
-            },
+          },
+          {
+            "name" : "Butterfly Effect",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "Los Vecinos Mezcal - 1 oz,",
+                "Butterfly Pea Gin - .5 oz (Float)" 
+            ],
+            "liqueur" : ["St. Germain - .5 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Egg White - 1 oz,",
+                "Lemon Juice - .5 oz,",
+                "Lime Juice - .5 oz,",
+                "Simple Syrup - .5 oz"
+            ],
+            "garnish" : ["Flower"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Dry Shake", "Add Ice & Shake Vigorously" , "Double Strain Over Big Rock", "Let Settle", "Float with Butterfly Pea / Honeysuckle Gin", "Garnish With Flower"],
+            "batch" : ["Coming Soon..."],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Dragon's Hive",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "Dos Hombres Mezcal - 1.5 oz,",
+                "Butterfly Pea Gin - .25 oz" 
+            ],
+            "liqueur" : ["Chinola Passion Fruit - .5 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Honey Syrup - .75 oz,",
+                "Lemon Juice - 1 oz,"
+            ],
+            "garnish" : ["Dehydrated Lemon & Flower"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" , "Double Strain Into Coupe Glass", "Garnish With Dehydrated Lime & Flower"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Empress Wu",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 1.5 oz"],
+            "liqueur" : ["Aqua Perfecta: Basil Brandy - 1 oz"],
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .75 oz,", "Simple Syrup - .75 oz"],
+            "garnish" : ["Basil Sprig"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Lotus Blossom",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : ["Living Jewel Sake - 1.5 oz"],
+            "liquor" : ["Vodka or Gin - 1.5 oz"],
+            "liqueur" : null,
+            "vermouth" : ["Lillet Blanc - .25 oz"],
+            "mixers" : ["Plum Wine Foam (To Top)"],
+            "garnish" : ["Plum Wine Foam & Edible Flower"],
+            "section" : null,
+            "photo" : "lotusBlossom",
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Top With Plum Wine Foam & Dehydrated Plum"],
+            "batch" : ["Egg Whites - 2","Plum Wine - 6 oz", "Agave - 5 oz", "Lemon Juice - 3 oz"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Midnight Hour",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Plantation Dark Rum - 2.5 oz"],
+            "liqueur" : ["Aqua Perfecta Basil Brandy - 1 oz"],
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .5 oz,", "Five Spice Syrup - .75 oz"],
+            "garnish" : ["Star Anise"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "My Oh Mai Tai",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["My Oh Mai Tai Batch - 3 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : null,
+            "garnish" : ["Top with Foam,", "Dehydrated Orange & Cherry"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Cambro", "Stir Until Thoroughly Mixed", "Refridgerate for 24 Hours", "Strain Through Coffee Filter into New Container"],
+            "batch" : ["White Rum - 1 Cup", "Dry Curacao - 1/2 Cup", "Lime Juice - 3/4 Cup,", "Milk - 2 Cups", "Orgeat - 1/2 Cup"],
+            "alt. batch" : ["Egg White - 2", "Passion Fruit Liqueur - 5 oz", "Cherry Liqueur - 5 oz", "Lime Juice - 5 oz", "Shake Vigorously in Foam Canister", "Let Sit for 25 minutes"]
+          },
+          {
+            "name" : "Open Sesame",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sesame Gin - 1 oz,", "St. George Terroir - 1 oz"],
+            "liqueur" : ["Domaine De Canton - .5 oz,", "Dry Curacao - .25 oz"],
+            "vermouth" : ["Lillet Blanc - .25 oz"],
+            "mixers" : ["Lemon Bitters - 3 Dashes"],
+            "garnish" : ["Flashed Orange Peel"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish with Flashed Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "PJ Killa",
+            "glass" : ["Collins Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Coconut Rum - 1.5 oz"],
+            "liqueur" : [
+                "Luxardo Cherry liqueur - .5 oz,",
+                "Drambuie - .25 oz,"
+            ],
+            "vermouth" : ["Lillet Blanc - .25 oz"],
+            "mixers" : [
+                "Lime Juice - .75 oz,",
+                "Demerara Syrup - .5 oz,",
+                "Pineapple Juice - .5 oz"
+            ],
+            "garnish" : [
+                "Cinnamon Stick & Shavings,",
+                "Dehydrated Lime"
+            ],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Cinnamon Stick & Shavings", "Dehydrated Lime"],
+            "batch" : ["Coconut Rum - 18 oz", "Luxardo Cherry liqueur - 6 oz", "Drambuie - 3 oz", "Lillet Blanc - 3 oz", "Pour Into Liter Bottle & Mix", "NOTE: 2.5 oz of batch per drink"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "PJK Old Fashioned",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sazerac Rye - 2.5 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : [
+                "Angostura Bitters - 4 Dashes,",
+                "Orange Bitters - 4 Dashes,",
+                "Black Tea Syrup - .25 oz"
+            ],
+            "garnish" : ["Orange Peel & Cherry"],
+            "section" : "originals",
+            "photo" : "pjkOldFashioned",
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel & Cherry"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Rose Colored Glasses",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Rose Bud Infused Vodka - 1.5 oz"],
+            "liqueur" : ["Campari - .25 oz,", "Cointreau - .75 oz"],
+            "vermouth" : null,
+            "mixers" : ["Honey Fig Foam", "Lemon Juice - 1 oz,", "Simple Syrup - .5 oz"],
+            "garnish" : ["Gold Dust & Dehydrated Rose Bud"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass", "Garnish With Dehydrated Rose Bud & Gold Dust"],
+            "batch" : ["Honey / Fig Foam Batch Coming Soon..."],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Sake Sangria",
+            "glass" : ["Wine Glass"],
+            "rim" : null,
+            "wine" : ["Living Jewel Sake - 2 oz"],
+            "liquor" : null,
+            "liqueur" : ["Domaine De Canton - .5 oz,", "Chambord - .25 oz,", "Dry Curacao - .25 oz"],
+            "vermouth" : null,
+            "mixers" : ["Pineapple Juice - .75 oz,", "Pomegranate Juice - .75 oz,", "Lemon Juice - .5 oz"],
+            "garnish" : ["Pineapple Frond & Dehydrated Orange"],
+            "section" : "originals",
+            "photo" : "sakeSangria",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Dirty Dump Into Wine Glass & Top with Club Soda", "Garnish With Dehydrated Orange & Pineapple Frond"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Salt & Sun",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Salt (optional)"],
+            "wine" : null,
+            "liquor" : ["Corazon Blanco - 1.5 oz"],
+            "liqueur" : ["Gran Gala - .5 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Lime Juice - 1.5 oz,",
+                "Agave - 1 oz"
+            ],
+            "garnish" : ["Dehydrated Lime Wheel"],
+            "section" : "originals",
+            "photo" : "saltAndSun",
+            "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass", "Garnish With Dehydrated Lime Wheel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Shanghai Street Fight",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sazerac Rye - 2 oz"],
+            "liqueur" : ["Aperol - .5 oz,", "Fernet-Branca - .5 oz"],
+            "vermouth" : null,
+            "mixers" : ["Angostura Bitters - 1 Dash"],
+            "garnish" : ["Orange Peel"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Shiso Lovely",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 1.5 oz"],
+            "liqueur" : ["St. Germain - 1 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Shiso Leaf - 1,",
+                "Lemon Juice - 1 oz,",
+                "Simple Syrup - .5 oz"
+            ],
+            "garnish" : ["Shiso Leaf"],
+            "section" : "originals",
+            "photo" : "shisoLovely",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Club Soda", "Garnish With Shiso Leaf"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Snow On Fuji",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : ["Topped with Albert Bichot Brut"],
+            "liquor" : ["Fuji Apple Infused Gin - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Lemon Juice - 1 oz,", "Lychee Syrup - .75 oz"],
+            "garnish" : ["Lychee & Mint Sprig"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Brut", "Garnish With Lychee & Mint Sprig"],
+            "batch" : ["Blend 2 Fuji Apples with Gin of Choice", "Let Sit for 24 to 48 Hours", "Strain & Prepare for Service"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "That Yuzu, That You Do",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Salt"],
+            "wine" : null,
+            "liquor" : ["Corazon Blanco - 2 oz"],
+            "liqueur" : ["Grand Marnier - .5 oz"],
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .75 oz,", "Yuzu - .25 oz,", "Agave - .25 oz"],
+            "garnish" : ["Dehydrated Lime"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Dehydrated Lime"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Up All Night",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 2 oz"],
+            "liqueur" : [
+                "Caffe Borghetti Espresso - .75 oz,",
+                "Montenegro - .25 oz"
+            ],
+            "vermouth" : null,
+            "mixers" : [
+                "Five Spice Syrup - .5 oz,",
+                "Espresso - 1 oz"
+            ],
+            "garnish" : ["Espresso Beans - 3 ea"],
+            "section" : "originals",
+            "photo" : "upAllNight",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Martini Glass", "Garnish With 3 Espresso Beans"],
+            "batch" : ["Star Anise - 5 Pods", "Fennel Seeds - 1 Tbsp", "Cinnamon Stick - 1 ea", "Szechuan Peppercorn (or Black Pepper) - 1 Tbsp", "Grind spices into a powder.", "Water - 2 Cups", "Sugar - 1.75 Cups", "Add ingredients together and bring to a boil until thickened."],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Zen Inferno",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Tajin"],
+            "wine" : null,
+            "liquor" : ["Casamigos Reposado - 1.5 oz"],
+            "liqueur" : ["Gran Gala - .75 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Chili Tincture - 3 drops,",
+                "Lime Juice - .5 oz,",
+                "Mango Puree - 1 oz,",
+                "Pineapple Juice - .75 oz"
+            ],
+            "garnish" : ["Pineapple Frond &", "Dehydrated Chile De Arbol"],
+            "section" : null,
+            "photo" : "zenInferno",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Pineapple Frond & Dehydrated Chile De Arbol"],
+            "batch" : ["Mangos - 2", "Rice Vinegar - 2 tbsp","Sugar - 2 tbsp"],
+            "alt. batch" : null
+          },
 
 
 
@@ -590,7 +708,7 @@
                 "alt. batch" : null
             },
             {
-                "name": "Classic Lychee Martini",
+                "name": "Lychee Martini (Classic)",
                 "glass": ["Martini Glass"],
                 "rim": null,
                 "wine": null,
@@ -2023,6 +2141,34 @@
                         "Seasoned Salt"
                       ]
                     },
+                    {
+                      "name": "Guest Choice",
+                      "description": [
+                        "A customizable rim option chosen by the guest based on their taste preferences.",
+                        "Common choices include salt, sugar, or Tajín—each enhancing cocktails in different ways.",
+                        "Salt highlights savory and citrus flavors, sugar balances tart ingredients, and Tajín adds a spicy, tangy kick."
+                      ],
+                      "alternatives": [
+                        "Salt",
+                        "Sugar",
+                        "Tajín",
+                        "Cinnamon Sugar",
+                        "Spiced Salt"
+                      ]
+                    },
+                    {
+                        "name": "Half Salt",
+                        "description": [
+                          "A common mineral used to enhance flavor and balance sweetness or acidity in cocktails.",
+                          "Often used to rim glasses, especially in drinks like Margaritas or Palomas.",
+                          "Can be added as a pinch in the drink itself to deepen complexity and round out flavors."
+                        ],
+                        "alternatives": [
+                          "Sea Salt",
+                          "Kosher Salt",
+                          "Flavored Salts (e.g., chili-lime salt)"
+                        ]
+                    },
                   {
                         "name": "Salt",
                         "description": [
@@ -2368,20 +2514,7 @@
                     ]
                     } 
                 ,
-                {
-                    "name": "Butterfly Pea Gin",
-                    "description": [
-                        "A floral-infused variation of Rivi Gin featuring butterfly pea flower and honeysuckle.",
-                        "Naturally colored with butterfly pea flower, which gives the gin a vibrant indigo hue that can change color with pH (e.g., when mixed with citrus).",
-                        "Offers a delicate balance of floral notes and subtle sweetness, making it ideal for visually striking cocktails."
-                    ],
-                    "alternatives": [
-                        "Empress 1908 Gin",
-                        "Bloom Jasmine & Rose Gin",
-                        "Lavender-Infused Gin"
-                    ]
-                    }
-                    ,
+                
                 {
                     "name": "Casamigos Reposado",
                     "description": [
@@ -2395,8 +2528,20 @@
                         "El Tesoro Reposado",
                         "Cazadores Reposado"
                     ]
-                    }
-                    ,
+                    },
+                    {
+                      "name": "Cincoro Tequila",
+                      "description": [
+                        "A premium tequila known for its smooth, rich mouthfeel.",
+                        "Typically features notes of vanilla, caramel, and cooked agave.",
+                        "Excellent for sipping or elevated tequila cocktails."
+                      ],
+                      "alternatives": [
+                        "Clase Azul",
+                        "Don Julio 1942",
+                        "Casa Dragones"
+                      ]
+                    },
                 {
                     "name": "Coconut Rum",
                     "description": [
@@ -2494,8 +2639,7 @@
                         "Old Tom Gin",
                         "Plymouth Gin"
                     ]
-                    }
-                    ,
+                    },
                 {
                     "name": "Vodka or Gin",
                     "description": [
@@ -2521,6 +2665,19 @@
                         "Jameson Irish Whiskey",
                         "Tullamore D.E.W.",
                         "Bushmills Original"
+                      ]
+                    },
+                    {
+                      "name": "Jalapeno Infused Tequila",
+                      "description": [
+                        "A tequila infusion made by steeping fresh jalapeño slices in blanco tequila until the desired heat level is reached.",
+                        "Bright, vegetal, and spicy, with natural heat from jalapeño oils balanced by the clean character of blanco tequila.",
+                        "Commonly used in spicy margaritas, palomas, and other cocktails requiring a controlled kick of heat."
+                      ],
+                      "alternatives": [
+                        "Ancho Reyes Verde",
+                        "Habanero-Infused Tequila",
+                        "Jalapeño Simple Syrup (for a milder spice)"
                       ]
                     },
                     {
@@ -2641,20 +2798,7 @@
                       "Redemption Rye"
                     ]
                   },
-                {
-                    "name": "St. George Botanivore",
-                    "description": [
-                      "45% ABV",
-                      "Crafted in Alameda, California, USA",
-                      "St. George Botanivore is a vibrant American gin distilled with 19 botanicals, including bay laurel, coriander, and dill seed. It offers a fresh, herbaceous flavor profile with floral and citrus notes, making it highly versatile for both classic and modern cocktails."
-                    ],
-                    "alternatives": [
-                      "Hendrick's Gin",
-                      "The Botanist Islay Dry Gin",
-                      "Greenhook Ginsmiths American Dry"
-                    ]
-                  }
-                  ,
+                
                 {
                     "name": "St. George Citrus",
                     "description": [
@@ -2806,22 +2950,7 @@
                           "Chartreuse (for herbal notes)",
                           "Basil-infused vodka or gin"
                         ]
-                      }
-                      ,
-                      {
-                        "name": "Caffe Borghetti Espresso",
-                        "description": [
-                          "25% ABV",
-                          "Produced in Italy",
-                          "Caffè Borghetti is an authentic Italian coffee liqueur crafted from real espresso made with Arabica and Robusta beans. Based on a recipe dating back to 1860, it offers a rich, intense aroma and a sweet, enveloping taste with notes of freshly brewed coffee, dark chocolate, and hints of vanilla. Its smooth and velvety texture makes it ideal for sipping neat, over ice, or as a key ingredient in coffee-based cocktails."
-                        ],
-                        "alternatives": [
-                          "Mr Black Cold Brew Coffee Liqueur",
-                          "St. George NOLA Coffee Liqueur",
-                          "Kahlúa"
-                        ]
-                      }
-                      ,
+                      },
                       {
                         "name": "Campari",
                         "description": [
@@ -3210,6 +3339,19 @@
                 "items": [
                 { "name": "Agave", "description": [], "alternatives": [] },
                 { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
+                {
+                  "name": "Butterfly Pea Flower Syrup",
+                  "description": [
+                    "A vibrant indigo syrup made from butterfly pea flowers.",
+                    "Changes color to pink or purple when mixed with acidic ingredients.",
+                    "Adds light floral notes and dramatic visual effect to cocktails."
+                  ],
+                  "alternatives": [
+                    "Lavender syrup",
+                    "Hibiscus syrup",
+                    "Blue curaçao (for color, not flavor)"
+                  ]
+                },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
                 {
                   "name": "Honey Syrup",
@@ -3282,21 +3424,11 @@
             {
                 "category": "Juices",
                 "items": [
-                { "name": "Cranberry Juice", "description": [], "alternatives": [] },
-                {
-                  "name": "House Made Lemonade",
-                  "description": [
-                    "Non-alcoholic",
-                    "Made in-house using fresh lemons, water, and sugar",
-                    "House Made Lemonade is a fresh, tart, and slightly sweet citrus mixer commonly used in cocktails for brightness or served on its own as a refreshing beverage."
-                  ],
-                  "alternatives": [
-                    "Fresh Lemon Juice with Simple Syrup",
-                    "Store-Bought Lemonade",
-                    "Lemon-Lime Soda (as a lighter alternative)"
-                  ]
-                }
-                ,                
+                { 
+                  "name": "Cranberry Juice", 
+                  "description": [], 
+                  "alternatives": [] 
+                },               
                 {
                   "name": "Lemon Juice",
                   "description": [
@@ -3453,6 +3585,19 @@
             {
                 "category": "Specialty & Misc",
                 "items": [
+                  {
+                    "name": "Barsmith Dirty Martini",
+                    "description": [
+                      "A pre-made dirty martini mix crafted from premium olive brine and filtered water.",
+                      "Designed to create a consistent, balanced dirty martini with the ideal level of salinity.",
+                      "Offers a clean, savory olive flavor without the bitterness sometimes found in raw brines."
+                    ],
+                    "alternatives": [
+                      "Filthy Olive Brine",
+                      "Stirrings Dirty Martini Mix",
+                      "Homemade Olive Brine"
+                    ]
+                  },
                 { "name": "Chili Tincture", "description": [], "alternatives": [] },
                 {
                   "name": "Egg White",
@@ -3489,8 +3634,7 @@
                     "Coconut Cream (non-dairy alternative)",
                     "Whipping Cream"
                   ]
-                },
-                { "name": "Mango Puree", "description": [], "alternatives": [] }
+                }
                 ]
             },
 
@@ -3564,6 +3708,19 @@
                     ]
                   },
                   {
+                    "name": "Butterfly Pea Gin",
+                    "description": [
+                        "A floral-infused variation of Rivi Gin featuring butterfly pea flower and honeysuckle.",
+                        "Naturally colored with butterfly pea flower, which gives the gin a vibrant indigo hue that can change color with pH (e.g., when mixed with citrus).",
+                        "Offers a delicate balance of floral notes and subtle sweetness, making it ideal for visually striking cocktails."
+                    ],
+                    "alternatives": [
+                        "Empress 1908 Gin",
+                        "Bloom Jasmine & Rose Gin",
+                        "Lavender-Infused Gin"
+                    ]
+                  },
+                  {
                     "name": "Cachaca",
                     "description": [
                       "Typically 38–48% ABV",
@@ -3574,6 +3731,20 @@
                       "White rum (for general use)",
                       "Rhum Agricole",
                       "Pisco (in some cocktails with citrus-forward profiles)"
+                    ]
+                  },
+                  {
+                    "name": "Caffe Borghetti Espresso",
+                    "description": [
+                      "25% ABV",
+                      "Produced in Italy",
+                      "Caffè Borghetti is an authentic Italian coffee liqueur crafted from real espresso made with Arabica and Robusta beans. Based on a recipe dating back to 1860, it offers a rich, intense aroma and a sweet, enveloping taste with notes of freshly brewed coffee, dark chocolate, and hints of vanilla. Its smooth and velvety texture makes it ideal for sipping neat, over ice, or as a key ingredient in coffee-based cocktails."
+                    ],
+                    "alternatives": [
+                      "Tia Maria",
+                      "Mr Black Cold Brew Coffee Liqueur",
+                      "St. George NOLA Coffee Liqueur",
+                      "Kahlúa"
                     ]
                   },
                   {
@@ -3739,6 +3910,23 @@
                     ]
                   },
                   {
+                    "name": "House Made Lemonade",
+                    "description": [
+                      "Non-alcoholic",
+                      "Made in-house using fresh lemons, water, and sugar",
+                      "House Made Lemonade is a fresh, tart, and slightly sweet citrus mixer commonly used in cocktails for brightness or served on its own as a refreshing beverage."
+                    ],
+                    "alternatives": [
+                      "Fresh Lemon Juice with Simple Syrup",
+                      "Store-Bought Lemonade",
+                      "Lemon-Lime Soda (as a lighter alternative)"
+                    ]
+                  },
+                  { 
+                    "name": "Mango Puree", 
+                    "description": [], 
+                    "alternatives": [] },
+                  {
                       "name": "My Oh Mai Tai Batch",
                       "description": [
                         "ABV varies depending on the rum base and dilution",
@@ -3845,8 +4033,21 @@
                       "Elderflower Vodka",
                       "Lavender-Infused Vodka"
                       ]
-                  }
-                  ,
+                  },
+                  {
+                    "name": "St. George Botanivore",
+                    "description": [
+                      "45% ABV",
+                      "Crafted in Alameda, California, USA",
+                      "St. George Botanivore is a vibrant American gin distilled with 19 botanicals, including bay laurel, coriander, and dill seed. It offers a fresh, herbaceous flavor profile with floral and citrus notes, making it highly versatile for both classic and modern cocktails."
+                    ],
+                    "alternatives": [
+                      "St. George Terroir Gin",
+                      "Hendrick's Gin",
+                      "The Botanist Islay Dry Gin",
+                      "Greenhook Ginsmiths American Dry"
+                    ]
+                  },
                   {
                       "name": "Sugar Cube",
                       "description": [
