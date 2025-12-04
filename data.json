@@ -48,7 +48,7 @@
             "wine" : null,
             "liquor" : [
                 "Rivi Gin - 1.5 oz,",
-                "Cincoro Tequila - .5 oz"
+                "Cincoro Reposado - .5 oz"
             ],
             "liqueur" : null,
             "vermouth" : null,
@@ -93,7 +93,7 @@
             "liquor" : ["Vodka or Gin - 2.5 oz"],
             "liqueur" : null,
             "vermouth" : ["Dry Vermouth - .5 oz"],
-            "mixers" : ["Barsmith Dirty Martini - .75 oz"],
+            "mixers" : ["Olive Brine - .75 oz"],
             "garnish" : ["1 to 3 Olives"],
             "section" : "cocktails",
             "photo" : "oliveYouDirty",
@@ -109,7 +109,7 @@
             "liquor" : ["Vodka - 1.5 oz"],
             "liqueur" : null,
             "vermouth" : null,
-            "mixers" : ["Blood Mary Mix - 2 oz (Pour First)"],
+            "mixers" : ["Bloody Mary Mix - 3 oz (Pour First)"],
             "garnish" : ["Olive, Chili & Pickled Carrot"],
             "section" : "cocktails",
             "photo" : "maryNotMartha",
@@ -122,7 +122,7 @@
             "glass" : ["Rocks Glass"],
             "rim" : null,
             "wine" : null,
-            "liquor" : ["Gin or Mezcal- 1 oz"],
+            "liquor" : ["Gin - 1 oz"],
             "liqueur" : ["Campari - 1 oz"],
             "vermouth" : ["Sweet Vermouth - 1 oz"],
             "mixers" : null,
@@ -169,16 +169,16 @@
             "name" : "Sunset Sangria",
             "glass" : ["Wine Glass"],
             "rim" : null,
-            "wine" : null,
-            "liquor" : null,
-            "liqueur" : null,
+            "wine" : ["Pinot Grigio - 2 oz"],
+            "liquor" : ["Captain Morgan - .5 oz"],
+            "liqueur" : ["Gran Gala - .5 oz"],
             "vermouth" : null,
-            "mixers" : null,
-            "garnish" : null,
+            "mixers" : ["Five Spice Syrup - .25 oz,", "Pineapple Juice - 2 oz,"],
+            "garnish" : ["Pineapple Frond,", "2 Cherries & 3 Orange Slices"],
             "section" : "cocktails",
-            "photo" : "sunsetSangria",
-            "instructions" : null,
-            "batch" : null,
+            "photo" : "sunsetSangriaWhite",
+            "instructions" : ["Pour 6 oz of Sunset Sangria Batch into wine glass", "Add Ice", "Garnish with pineapple frond, 2 cherries & 3 Orange Slices"],
+            "batch" : ["Pinot Grigio - 38 oz", "Captain Morgan - 10 oz", "Gran Gala - 10 oz", "Five Spice Syrup - 4 oz", "Pineapple Juice - 34 oz", "Combine all ingredients in a large container and stir to mix."],
             "alt. batch" : null
           },
           {
@@ -2514,7 +2514,20 @@
                     ]
                     } 
                 ,
-                
+                {
+                  "name": "Captain Morgan",
+                  "description": [
+                    "35% ABV",
+                    "Caribbean spiced rum",
+                    "Captain Morgan Original Spiced Rum is a smooth Caribbean rum infused with warm spices and natural flavors, offering notes of vanilla, cinnamon, brown sugar, and subtle oak for a sweet and approachable profile."
+                  ],
+                  "alternatives": [
+                    "Sailor Jerry Spiced Rum",
+                    "Kraken Black Spiced Rum",
+                    "Bumbu Original",
+                    "Chairman’s Reserve Spiced Rum"
+                  ]
+                },
                 {
                     "name": "Casamigos Reposado",
                     "description": [
@@ -2530,16 +2543,17 @@
                     ]
                     },
                     {
-                      "name": "Cincoro Tequila",
+                      "name": "Cincoro Reposado",
                       "description": [
-                        "A premium tequila known for its smooth, rich mouthfeel.",
-                        "Typically features notes of vanilla, caramel, and cooked agave.",
-                        "Excellent for sipping or elevated tequila cocktails."
+                        "40% ABV",
+                        "Produced in Jalisco, Mexico",
+                        "Cincoro Reposado is aged 8–10 months in American whiskey barrels, delivering a smooth, rich profile with notes of caramel, vanilla, toasted oak, and cooked agave, balanced by a soft pepper finish."
                       ],
                       "alternatives": [
-                        "Clase Azul",
-                        "Don Julio 1942",
-                        "Casa Dragones"
+                        "Casamigos Reposado",
+                        "Don Julio Reposado",
+                        "Clase Azul Reposado",
+                        "Herradura Reposado"
                       ]
                     },
                 {
@@ -3255,6 +3269,20 @@
                       }
                       ,
                       {
+                        "name": "Pinot Grigio",
+                        "description": [
+                          "Typically 12–13.5% ABV",
+                          "Primarily produced in Italy, France, and the United States",
+                          "Pinot Grigio is a light-bodied, crisp white wine known for its clean acidity and refreshing notes of green apple, pear, citrus, and subtle floral tones, making it ideal for spritzers and lighter cocktails."
+                        ],
+                        "alternatives": [
+                          "Sauvignon Blanc",
+                          "Pinot Blanc",
+                          "Albariño",
+                          "Dry Riesling"
+                        ]
+                      },
+                      {
                         "name": "Sweet Vermouth",
                         "description": [
                           "Typically 15–18% ABV",
@@ -3586,16 +3614,17 @@
                 "category": "Specialty & Misc",
                 "items": [
                   {
-                    "name": "Barsmith Dirty Martini",
+                    "name": "Bloody Mary Mix",
                     "description": [
-                      "A pre-made dirty martini mix crafted from premium olive brine and filtered water.",
-                      "Designed to create a consistent, balanced dirty martini with the ideal level of salinity.",
-                      "Offers a clean, savory olive flavor without the bitterness sometimes found in raw brines."
+                      "0% ABV",
+                      "Tomato-based cocktail mixer",
+                      "Bloody Mary Mix is a savory, spiced blend of tomato juice, citrus, and seasonings such as Worcestershire sauce, hot sauce, celery salt, and black pepper, designed to create a balanced, bold base for Bloody Mary cocktails."
                     ],
                     "alternatives": [
-                      "Filthy Olive Brine",
-                      "Stirrings Dirty Martini Mix",
-                      "Homemade Olive Brine"
+                      "Zing Zang Bloody Mary Mix",
+                      "Mr & Mrs T Bloody Mary Mix",
+                      "The Real Dill Bloody Mary Mix",
+                      "House-made Bloody Mary Mix"
                     ]
                   },
                 { "name": "Chili Tincture", "description": [], "alternatives": [] },
@@ -3634,8 +3663,21 @@
                     "Coconut Cream (non-dairy alternative)",
                     "Whipping Cream"
                   ]
+                },
+                {
+                  "name": "Olive Brine",
+                  "description": [
+                    "The salty liquid from cured green olives.",
+                    "Essential ingredient for Dirty Martinis and other savory cocktails.",
+                    "Adds salinity, umami, and depth to spirits—especially gin and vodka."
+                  ],
+                  "alternatives": [
+                    "Pickle Brine",
+                    "Caper Brine",
+                    "Salt Water Solution"
+                  ]
                 }
-                ]
+              ]
             },
 
 
