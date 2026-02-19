@@ -1608,6 +1608,27 @@
               "alt. batch": null
             },
             {
+              "name": "Godfather",
+              "glass": ["Old Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Scotch Whisky - 2 oz"],
+              "liqueur": ["Amaretto - 0.5 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": ["Orange or Lemon Twist (optional)"],
+              "section": null,
+              "photo": "godfather",
+              "instructions": [
+                "Fill an Old Fashioned glass with ice.",
+                "Add Scotch whisky and amaretto.",
+                "Stir gently until chilled.",
+                "Serve over ice."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name": "Grasshopper",
               "glass": ["Coupe Glass or", "Cocktail Glass"],
               "rim": null,
@@ -2897,7 +2918,22 @@
                       "Irish Whiskey",
                       "Japanese Whisky"
                     ]
+                  },
+                  {
+                    "name": "Scotch Whisky",
+                    "description": [
+                      "Typically 40–46% ABV",
+                      "Produced exclusively in Scotland",
+                      "Scotch whisky is distilled from malted barley (and sometimes other grains) and aged a minimum of three years in oak casks. Flavor profiles range from light and floral to rich and smoky, often featuring notes of malt, caramel, dried fruit, vanilla, and peat."
+                    ],
+                    "alternatives": [
+                      "Irish Whiskey",
+                      "Bourbon",
+                      "Rye Whiskey",
+                      "Japanese Whisky"
+                    ]
                   }
+
 
                   
                 ]
