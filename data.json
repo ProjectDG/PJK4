@@ -155,7 +155,8 @@
             "rim" : ["Tajin (Half)"],
             "wine" : null,
             "liquor" : ["Jalapeno Infused Tequila - 1.5 oz"],
-            "liqueur" : ["Gran Gala - .5 oz"],
+            "liqueur" : ["Gran Gala - .5 oz"
+          ],
             "vermouth" : null,
             "mixers" : ["Butterfly Pea Flower Syrup - .5 oz", "Lime Juice - .5 oz", "Pineapple Juice - 2 oz,"],
             "garnish" : ["Pineapple Frond," ,"Dehydrated Lime & Jalapeno Slice"],
@@ -163,7 +164,7 @@
             "photo" : "spicyTM",
             "instructions" : ["Add ice to rocks glass & pour .5 oz butterfly pea flower syrup", "In Shaker the rest of the ingredients with ice & shake vigorously", "Strain over fresh ice in rocks glass with butterfly pea flower syrup", "Garnish with pineapple frond, dehydrated lime & jalapeno slice"],
             "batch" : ["Jalapeno Infused Tequila Batch - 1 Liter", "Fresh Jalapenos - 2 to 3 ea (Sliced)", "Tequila - 1 Liter", "Combine ingredients in a sealed container.", "Let sit for 72 hours depending on desired spice level.", "Strain out jalapenos and store tequila for service."],
-            "alt. batch" : ["Butterfly pea flower syrup", "Sugar - 2 cups", "Hot water - 1 cup", "butterfly pea Flowers - 4 Tbsp", "Whisk & let stand for 10 minutes or until dark blue in color", "Strain out flowers and let cool"]
+            "alt. batch" : ["Butterfly pea flower syrup", "Sugar - half quart", "Hot water - half quart", "butterfly pea flowers - 4 Tbsp", "Whisk & let stand for 10 minutes or until dark blue in color", "Strain out flowers and let cool"]
           },
           {
             "name" : "Sunset Sangria",
