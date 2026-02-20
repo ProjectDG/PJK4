@@ -1798,6 +1798,28 @@
               "alt. batch": null
             },
             {
+              "name": "Kentucky Mule",
+              "glass": ["Copper Mug", "Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Bourbon - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.5 oz", "Ginger Beer - 4 oz"],
+              "garnish": ["Lime Wedge", "Mint Sprig (optional)"],
+              "section": null,
+              "photo": "kentuckyMule",
+              "instructions": [
+                "Fill a copper mug or highball glass with ice.",
+                "Add bourbon and fresh lime juice.",
+                "Top with ginger beer.",
+                "Stir gently to combine.",
+                "Garnish with a lime wedge and optional mint sprig."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name" : "Jungle Bird",
               "glass" : ["Rocks Glass"],
               "rim" : null,
@@ -2033,6 +2055,28 @@
               "alt. batch" : null
             },
             {
+              "name": "Pornstar Martini",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": ["Prosecco - 2 oz (served on the side)"],
+              "liquor": ["Vanilla Vodka - 1.5 oz"],
+              "liqueur": ["Passion Fruit Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Passion Fruit Puree - 1 oz", "Lime Juice - 0.5 oz", "Simple Syrup - 0.5 oz"],
+              "garnish": ["Half Passion Fruit"],
+              "section": null,
+              "photo": "pornstarMartini",
+              "instructions": [
+                "Add vanilla vodka, passion fruit liqueur, passion fruit puree, lime juice, and simple syrup to a shaker with ice.",
+                "Shake vigorously until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with half a passion fruit.",
+                "Serve with a chilled shot of prosecco on the side."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name": "Rusty Nail",
               "glass": ["Old Fashioned Glass"],
               "rim": null,
@@ -2073,6 +2117,27 @@
               ],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+              "name": "Scorpion Bowl",
+              "glass": ["Scorpion Bowl", "Large Tiki Bowl"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz", "Dark Rum - 2 oz"],
+              "liqueur": ["Orange Liqueur - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Pineapple Juice - 4 oz", "Lemon Juice - 2 oz", "Orgeat - 1 oz", "Simple Syrup - 0.5 oz"],
+              "garnish": ["Orange Slices", "Mint Sprigs", "Brandied Cherries"],
+              "section": null,
+              "photo": "scorpionBowl",
+              "instructions": [
+                "Add all ingredients to a shaker with ice and shake briefly to combine.",
+                "Pour into a large scorpion bowl filled with crushed ice.",
+                "Garnish with orange slices, mint sprigs, and cherries.",
+                "Serve with long straws for sharing."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name": "Sidecar",
