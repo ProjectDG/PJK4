@@ -86,6 +86,22 @@
             "alt. batch" : null
           },
           {
+            "name" : "Golden Crane",
+            "glass" : ["Rocks Glass (Big Cube)"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sesame Whiskey - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Ginger Bitters - 4 Dashes"],
+            "garnish" : ["Lemon Twist & Candy Ginger"],
+            "section" : "cocktails",
+            "photo" : null,
+            "instructions" : ["Add whiskey and bitters to a mixing glass filled with ice.", "Stir until well chilled.", "Strain into a rocks glass with big cube.", "Garnish with a lemon twist."],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
             "name" : "Olive Your Dirty",
             "glass" : ["Martini Glass"],
             "rim" : null,
@@ -2585,9 +2601,21 @@
                         "Regans’ Orange Bitters No. 6",
                         "Bitter Truth Aromatic Bitters"
                     ]
-                    }
-                    
-                    ,
+                    },
+                    {
+                      "name": "Ginger Bitters",
+                      "description": [
+                        "Typically 35–45% ABV",
+                        "Concentrated cocktail bitters infused with ginger and botanicals",
+                        "Ginger bitters deliver a sharp, spicy ginger kick layered with aromatic herbs and citrus peel. Used in small dashes, they add warmth, brightness, and complexity to cocktails such as whiskey drinks, dark 'n' stormy variations, and winter-inspired recipes."
+                      ],
+                      "alternatives": [
+                        "Orange Bitters",
+                        "Angostura Bitters",
+                        "Cardamom Bitters",
+                        "Fresh Ginger Juice"
+                      ]
+                    },
                     {
                     "name": "Lemon Bitters",
                     "description": [
@@ -2982,6 +3010,7 @@
                       "Redemption Rye"
                     ]
                   },
+                  {"name" : "Sesame Whiskey"},
                 
                 {
                     "name": "St. George Citrus",
