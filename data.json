@@ -170,7 +170,7 @@
             "name" : "Sunset Sangria",
             "glass" : ["Wine Glass"],
             "rim" : null,
-            "wine" : ["Pinot Grigio - 2 oz"],
+            "wine" : ["Pinot Grigio or Pinot Noir - 2 oz"],
             "liquor" : ["Captain Morgan - .5 oz"],
             "liqueur" : ["Gran Gala - .5 oz"],
             "vermouth" : null,
@@ -179,8 +179,8 @@
             "section" : "cocktails",
             "photo" : "sunsetSangriaWhite",
             "instructions" : ["Pour 6 oz of Sunset Sangria Batch into wine glass", "Add Ice", "Garnish with pineapple frond, 2 cherries & 3 Orange Slices"],
-            "batch" : ["Pinot Grigio - 38 oz", "Captain Morgan - 10 oz", "Gran Gala - 10 oz", "Five Spice Syrup - 4 oz", "Pineapple Juice - 34 oz", "Combine all ingredients in a large container and stir to mix."],
-            "alt. batch" : null
+            "batch" : ["Pinot Grigio or Pinot Noir - 38 oz ", "Captain Morgan - 10 oz", "Gran Gala - 10 oz", "Five Spice Syrup - 4 oz", "Pineapple Juice - 34 oz", "Combine all ingredients in a large container and stir to mix."],
+            "alt. batch" : ["Star Anise - 5 Pods", "Fennel Seeds - 1 Tbsp", "Cinnamon Stick - 1 ea", "Szechuan Peppercorn (or Black Pepper) - 1 Tbsp", "Grind spices into a powder.", "Water - 2 Cups", "Sugar - 1.75 Cups", "Add ingredients together and bring to a boil until thickened."]
           },
           {
             "name" : "Crouching Tiger",
@@ -832,7 +832,27 @@
 
 
 
-
+            {
+                "name": ".38 Special",
+                "glass": ["Coupe Glass"],
+                "rim": null,
+                "wine": null,
+                "liquor": ["Gin - 1.5 oz"],
+                "liqueur": ["Apricot Liqueur - 0.5 oz"],
+                "vermouth": null,
+                "mixers": ["Lemon Juice - 0.75 oz", "Simple Syrup - 0.5 oz"],
+                "garnish": ["Lemon Twist"],
+                "section": null,
+                "photo": "38Special",
+                "instructions": [
+                  "Add gin, apricot liqueur, lemon juice, and simple syrup to a shaker with ice.",
+                  "Shake well until chilled.",
+                  "Strain into a chilled coupe glass.",
+                  "Garnish with a lemon twist."
+                ],
+                "batch": null,
+                "alt. batch": null
+            },
             {
                 "name": "Alexander",
                 "glass": ["Coupe Glass,", "Martini Glass"],
@@ -1175,6 +1195,27 @@
                 "Add aguardiente or Cuban rum and fill with ice.",
                 "Stir gently to chill.",
                 "Garnish with a lime wheel, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Cape Codder",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Cranberry Juice - 4 oz"],
+              "garnish": ["Lime Wedge"],
+              "section": null,
+              "photo": "capeCodder",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add vodka and top with cranberry juice.",
+                "Stir gently to combine.",
+                "Garnish with a lime wedge."
               ],
               "batch": null,
               "alt. batch": null
@@ -1629,6 +1670,27 @@
               "alt. batch": null
             },
             {
+              "name": "Godmother",
+              "glass": ["Old Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["Amaretto - 0.5 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": ["Orange or Lemon Twist (optional)"],
+              "section": null,
+              "photo": "godMother",
+              "instructions": [
+                "Fill an Old Fashioned glass with ice.",
+                "Add vodka and amaretto.",
+                "Stir gently until chilled.",
+                "Serve over ice."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name": "Grasshopper",
               "glass": ["Coupe Glass or", "Cocktail Glass"],
               "rim": null,
@@ -1969,6 +2031,27 @@
               ],
               "batch" : null,
               "alt. batch" : null
+            },
+            {
+              "name": "Rusty Nail",
+              "glass": ["Old Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Scotch Whisky - 2 oz"],
+              "liqueur": ["Drambuie - 0.5 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": ["Lemon Twist (optional)"],
+              "section": null,
+              "photo": "rustyNail",
+              "instructions": [
+                "Fill an Old Fashioned glass with ice.",
+                "Add Scotch whisky and Drambuie.",
+                "Stir gently until chilled.",
+                "Garnish with a lemon twist if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
             },
             {
               "name" : "Sazerac",
@@ -3311,6 +3394,20 @@
                           "Typically 12–13.5% ABV",
                           "Primarily produced in Italy, France, and the United States",
                           "Pinot Grigio is a light-bodied, crisp white wine known for its clean acidity and refreshing notes of green apple, pear, citrus, and subtle floral tones, making it ideal for spritzers and lighter cocktails."
+                        ],
+                        "alternatives": [
+                          "Sauvignon Blanc",
+                          "Pinot Blanc",
+                          "Albariño",
+                          "Dry Riesling"
+                        ]
+                      },
+                      {
+                        "name": "Pinot Grigio or Pinot Noir - 2 oz",
+                        "description": [
+                          "Typically 12–13.5% ABV",
+                          "Primarily produced in Italy, France, and the United States",
+                          "Pinot Grigio or Pinot Noir is a light-bodied, crisp white wine known for its clean acidity and refreshing notes of green apple, pear, citrus, and subtle floral tones, making it ideal for spritzers and lighter cocktails."
                         ],
                         "alternatives": [
                           "Sauvignon Blanc",
