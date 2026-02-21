@@ -2269,7 +2269,7 @@
             },
             {
               "name": "Whiskey Sour",
-              "glass": ["Old Fashioned Glass", "Coupe Glass"],
+              "glass": ["Old Fashioned Glass or", "Coupe Glass"],
               "rim": null,
               "wine": null,
               "liquor": ["Bourbon - 2 oz"],
