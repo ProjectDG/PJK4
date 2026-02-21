@@ -2268,6 +2268,28 @@
               "alt. batch" : null
             },
             {
+              "name": "Whiskey Sour",
+              "glass": ["Old Fashioned Glass", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Bourbon - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Simple Syrup - 0.5 oz", "Egg White (optional)"],
+              "garnish": ["Lemon Wheel", "Cherry"],
+              "section": null,
+              "photo": "whiskeySour",
+              "instructions": [
+                "Add bourbon, lemon juice, simple syrup, and egg white (if using) to a shaker.",
+                "Dry shake (without ice) vigorously if using egg white.",
+                "Add ice and shake again until well chilled.",
+                "Strain into an Old Fashioned glass over fresh ice or into a chilled coupe.",
+                "Garnish with a lemon wheel and cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
             "name": "White Russian",
             "glass": ["Old-Fashioned Glass"],
             "rim": null,
