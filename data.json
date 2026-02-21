@@ -2093,6 +2093,27 @@
               "alt. batch": null
             },
             {
+              "name": "Rum Runner",
+              "glass": ["Hurricane Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 1 oz", "Dark Rum - 1 oz"],
+              "liqueur": ["Banana Liqueur - 0.5 oz", "Blackberry Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Orange Juice - 2 oz", "Pineapple Juice - 2 oz", "Grenadine - 0.5 oz"],
+              "garnish": ["Orange Slice", "Cherry"],
+              "section": null,
+              "photo": "rumRunner",
+              "instructions": [
+                "Add light rum, dark rum, banana liqueur, blackberry liqueur, orange juice, pineapple juice, and grenadine to a shaker with ice.",
+                "Shake well until chilled.",
+                "Strain into a hurricane glass filled with fresh ice.",
+                "Garnish with an orange slice and cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
               "name": "Rusty Nail",
               "glass": ["Old Fashioned Glass"],
               "rim": null,
