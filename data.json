@@ -1811,7 +1811,39 @@
               "batch": null,
               "alt. batch": null
             },
-
+            {
+              "name": "Hurricane",
+              "glass": ["Hurricane Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": [
+                "Light Rum - 2 oz",
+                "Dark Rum - 2 oz"
+              ],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": [
+                "Passion Fruit Juice - 2 oz",
+                "Orange Juice - 1 oz",
+                "Lime Juice - 0.5 oz",
+                "Simple Syrup - 0.5 oz",
+                "Grenadine - 0.5 oz"
+              ],
+              "garnish": [
+                "Orange Slice",
+                "Maraschino Cherry"
+              ],
+              "section": "Classics",
+              "photo": "hurricane",
+              "instructions": [
+                "Add the light rum, dark rum, passion fruit juice, orange juice, fresh lime juice, simple syrup, and grenadine to a shaker with ice.",
+                "Shake well until chilled.",
+                "Strain into a hurricane glass filled with ice.",
+                "Garnish with an orange slice and a maraschino cherry."
+              ],
+              "batch": null,
+              "alt batch": null
+            },
             {
               "name": "Irish Coffee",
               "glass": ["Irish Coffee Mug"],
@@ -2070,6 +2102,36 @@
               "alt. batch": null
             },
             {
+              "name": "Penicillin",
+              "glass": ["Old Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": [
+                "Blended Scotch Whisky - 2 oz",
+                "Islay Scotch Whisky (float) - 0.25 oz"
+              ],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": [
+                "Lemon Juice - 0.75 oz",
+                "Honey‑Ginger Syrup - 0.75 oz"
+              ],
+              "garnish": [
+                "Candied Ginger"
+              ],
+              "section": "Modern Classics",
+              "photo": "penicillin",
+              "instructions": [
+                "Add the blended Scotch whisky, fresh lemon juice, and honey‑ginger syrup to a shaker filled with ice.",
+                "Shake vigorously until well chilled.",
+                "Strain into an Old Fashioned glass filled with fresh ice.",
+                "Float the Islay Scotch whisky over the back of a spoon onto the top of the drink.",
+                "Garnish with a piece of candied ginger."
+              ],
+              "batch": null,
+              "alt batch": null
+            },
+            {
               "name" : "Pisco Sour",
               "glass" : ["Nick & Nora Glass"],
               "rim" : null,
@@ -2111,6 +2173,35 @@
               ],
               "batch": null,
               "alt. batch": null
+            },
+            {
+              "name": "Rob Roy",
+              "glass": ["Cocktail Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": [
+                "Scotch Whisky - 2 oz"
+              ],
+              "liqueur": null,
+              "vermouth": [
+                "Sweet Vermouth - 0.75 oz"
+              ],
+              "mixers": [
+                "Angostura Bitters - 2 dashes"
+              ],
+              "garnish": [
+                "Maraschino Cherry"
+              ],
+              "section": "Classics",
+              "photo": "robRoy",
+              "instructions": [
+                "Add Scotch whisky, sweet vermouth, and Angostura bitters to a mixing glass with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled cocktail glass.",
+                "Garnish with a maraschino cherry."
+              ],
+              "batch": null,
+              "alt batch": null
             },
             {
               "name": "Rum Runner",
@@ -2760,7 +2851,20 @@
                         "Corn Whiskey"
                     ]
                     }
-                    ,
+                ,
+                {
+                    "name": "Blended Scotch Whisky",
+                    "description": [
+                      "Typically around 40% ABV",
+                      "Made by blending single malt and single grain Scotch whiskies from different distilleries",
+                      "Blended Scotch offers a balanced, smooth flavor profile with notes of smoke, malt, vanilla, and sometimes fruit, depending on the brands used."
+                    ],
+                    "alternatives": [
+                      "Johnnie Walker Black Label",
+                      "Dewar's",
+                      "Chivas Regal"
+                    ]
+                  },
                 {
                     "name": "Brandy",
                     "description": [
