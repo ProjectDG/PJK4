@@ -3068,6 +3068,19 @@
                     ],
                     "alternatives": ["Amber rum", "Barbados rum", "Aged agricole rum", "Dark Jamaican rum"]
                   },
+                  {
+                    "name": "Light Rum",
+                    "description": [
+                      "Typically ranges from 35% to 50% ABV",
+                      "Produced globally, especially in the Caribbean, Central and South America, and parts of Asia",
+                      "Rum is a distilled spirit made from sugarcane byproducts such as molasses or directly from sugarcane juice. It varies in style from light and crisp white rums to rich, aged dark rums, and is a cornerstone of tropical and tiki-style cocktails."
+                    ],
+                    "alternatives": [
+                      "Cachaça",
+                      "Aguardiente",
+                      "Overproof Rum"
+                    ]
+                  },
                 {
                     "name": "Los Vecinos Mezcal",
                     "description": [
