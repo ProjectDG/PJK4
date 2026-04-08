@@ -280,6 +280,12 @@ button{
   height: 10vh;
 }
 
+.originals{
+  width: 16vw;  
+  height: 20%;
+  border-radius: 20px;
+}
+
 #searchDrinks{
   width: 96%;
   height: 10vh;

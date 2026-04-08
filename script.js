@@ -318,6 +318,9 @@ fetch('data.json')
       console.clear();
       console.log("%cThere are currently " + drinkInfo.length + " drinks in your database.", style);
       createButtons(this.id);
+      if (this.id === "originals") {
+        $(".drink-buttons").addClass("originals");
+      }
     });
 
     $('#searchDrinks').on('click', function() {
