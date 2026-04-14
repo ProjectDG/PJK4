@@ -43,23 +43,27 @@
         [
           {
             "name" : "Mothers Day Special",
-            "glass" : ["Rocks Glass"],
+            "glass" : ["Coupe Glass"],
             "rim" : null,
             "wine" : ["Living Jewel Sake - 1 oz"],
             "liquor" : [
               "Wheatley Vodka - 2 oz"
             ],
-            "liqueur" : ["Cointreau - .25 oz"],
+            "liqueur" : [
+              "Cointreau - .25 oz",
+              "St. Germain - 2 Drops"
+            ],
             "vermouth" : null,
             "mixers" : [
-                "Lychee Syrup - .25 oz,"
+                "Cherry Syrup - 2 Drops",
+                "Lychee Syrup - .25 oz"
             ],
             "garnish" : ["Orchid"],
             "section" : "cocktails",
             "photo" : "mothersDaySpecial",
-            "instructions" : ["Pour Ingredients Into Shaker", "Add Ice & Shake Vigorously", "Strain Into Rocks Glass", "Garnish With Orchid"],
-            "batch" : ["Wheatly - 18 oz", "Living Jewel - 9 oz", "Cointreau - 2.25 oz", "Lychee Syrup - 2.25 oz", "Pour Into Liter Bottle & Mix", "NOTE: 3.5 oz of batch per drink"],
-            "alt. batch" : ["2 Egg Whites", "Lemon Juice - 1 oz", "Cherry Syrup - 1 oz", "St. Germain - 3 oz","Shake Vigorously in Foam Canister", "Let Sit for 5 minutes", "Charge Foam Canister & Test for Consistency (Recharge if Necessary)"]
+            "instructions" : ["Pour Ingredients Into Shaker", "Add Ice & Shake Vigorously", "Strain Into Coupe Glass", "Garnish With Orchid"],
+            "batch" : ["Wheatly - 18 oz", "Living Jewel - 9 oz", "Cointreau - 2.25 oz", "Lychee Syrup - 2.25 oz", "Cherry Syrup - .25 oz","St. Germain - .25 oz", "Pour Into Liter Bottle & Mix", "NOTE: 3.5 oz of batch per drink"],
+            "alt. batch" : ["2 Egg Whites", "Coming Soon...", "Let Sit for 5 minutes", "Charge Foam Canister & Test for Consistency (Recharge if Necessary)"]
           },
           {
             "name" : "Call Me 'Koko'",
@@ -2342,6 +2346,36 @@
               "alt. batch" : null
             },
             {
+              "name": "The Last Word",
+              "glass": ["Cocktail Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": [
+                "Gin - 0.75 oz"
+              ],
+              "liqueur": [
+                "Green Chartreuse - 0.75 oz",
+                "Luxardo Cherry liqueur - .75 oz,"
+              ],
+              "vermouth": null,
+              "mixers": [
+                "Lime Juice - 0.75 oz"
+              ],
+              "garnish": [
+                "Brandied Cherry"
+              ],
+              "section": null,
+              "photo": "theLastWord",
+              "instructions": [
+                "Add gin, Green Chartreuse, maraschino liqueur, and fresh lime juice to a shaker with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled cocktail glass.",
+                "Garnish with a brandied cherry."
+              ],
+              "batch": null,
+              "alt batch": null
+            },
+            {
             "name" : "Tom Collins",
             "glass" : ["Collins Glass"],
             "rim" : null,
@@ -3800,6 +3834,19 @@
                     "Lavender syrup",
                     "Hibiscus syrup",
                     "Blue curaçao (for color, not flavor)"
+                  ]
+                },
+                {
+                  "name": "Cherry Syrup",
+                  "description": [
+                    "Non-alcoholic sweetener",
+                    "Made from cherries, sugar, and water (sometimes with added flavoring or preservatives)",
+                    "Cherry syrup provides a sweet, fruity flavor with a slightly tart edge, commonly used in cocktails, sodas, and desserts for color and depth."
+                  ],
+                  "alternatives": [
+                    "Grenadine",
+                    "Luxardo Cherry Syrup",
+                    "Monin Cherry Syrup"
                   ]
                 },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
