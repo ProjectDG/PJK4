@@ -165,7 +165,7 @@ fetch('data.json')
 
     // Filter drinks that are in the "cocktails" section AND have a batch or alt. batch
     const cocktailsWithBatch = drinkInfo.filter(drink => 
-        drink.section === "cocktails" &&
+        // drink.section === "cocktails" &&
         ((drink.batch && drink.batch.length > 0) || 
         (drink["alt. batch"] && drink["alt. batch"].length > 0))
     );

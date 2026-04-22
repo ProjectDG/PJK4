@@ -42,7 +42,7 @@
         "drinks" : 
         [
           {
-            "name" : "Mothers Day Special",
+            "name" : "Sakura Tini",
             "glass" : ["Coupe Glass"],
             "rim" : null,
             "wine" : ["Living Jewel Sake - 1 oz"],
@@ -60,10 +60,10 @@
             ],
             "garnish" : ["Orchid"],
             "section" : "cocktails",
-            "photo" : "mothersDaySpecial",
+            "photo" : "sakuraTini",
             "instructions" : ["Pour Ingredients Into Shaker", "Add Ice & Shake Vigorously", "Strain Into Coupe Glass", "Garnish With Orchid"],
             "batch" : ["Wheatly - 18 oz", "Living Jewel - 9 oz", "Cointreau - 2.25 oz", "Lychee Syrup - 2.25 oz", "Cherry Syrup - .25 oz","St. Germain - .25 oz", "Pour Into Liter Bottle & Mix", "NOTE: 3.5 oz of batch per drink"],
-            "alt. batch" : ["2 Egg Whites", "Coming Soon...", "Let Sit for 5 minutes", "Charge Foam Canister & Test for Consistency (Recharge if Necessary)"]
+            "alt. batch" : ["2 Egg Whites", "Cherrys Syrup - 2.5 oz", "Lemon Juice - 2.5 oz", "St. Germain - 5 oz", "Let Sit for 5 minutes", "Charge Foam Canister & Test for Consistency (Recharge if Necessary)"]
           },
           {
             "name" : "Call Me 'Koko'",
@@ -319,7 +319,7 @@
             "section" : null,
             "photo" : null,
             "instructions" : ["Pour Into Shaker", "Dry Shake", "Add Ice & Shake Vigorously" , "Double Strain Over Big Rock", "Let Settle", "Float with Butterfly Pea / Honeysuckle Gin", "Garnish With Flower"],
-            "batch" : ["Coming Soon..."],
+            "batch" : null,
             "alt. batch" : null
           },
           {
@@ -499,7 +499,7 @@
             "section" : null,
             "photo" : null,
             "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass", "Garnish With Dehydrated Rose Bud & Gold Dust"],
-            "batch" : ["Honey / Fig Foam Batch Coming Soon..."],
+            "batch" : null,
             "alt. batch" : null
           },
           {
@@ -1078,6 +1078,36 @@
               "alt. batch": null
             },
             {
+              "name": "Black Manhattan",
+              "glass": ["Cocktail Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": [
+                "Rye Whiskey - 2 oz"
+              ],
+              "liqueur": [
+                "Averna Amaro - 1 oz"
+              ],
+              "vermouth": null,
+              "mixers": [
+                "Angostura Bitters - 1 dash",
+                "Orange Bitters - 1 dash"
+              ],
+              "garnish": [
+                "Brandied Cherry"
+              ],
+              "section": null,
+              "photo": "blackManhattan",
+              "instructions": [
+                "Add rye whiskey, Averna amaro, Angostura bitters, and orange bitters to a mixing glass with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled cocktail glass.",
+                "Garnish with a brandied cherry."
+              ],
+              "batch": null,
+              "alt batch": null
+            },
+            {
               "name": "Black Russian",
               "glass": ["Old-Fashioned Glass"],
               "rim": null,
@@ -1600,6 +1630,34 @@
               ],
               "batch": null,
               "alt. batch": null
+            },
+            {
+              "name": "Fuzzy Navel",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": [
+                "Peach Schnapps - 1.5 oz"
+              ],
+              "vermouth": null,
+              "mixers": [
+                "Orange Juice - 3 oz"
+              ],
+              "garnish": [
+                "Orange Slice"
+              ],
+              "section": null,
+              "photo": "fuzzyNavel",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add peach schnapps.",
+                "Top with orange juice.",
+                "Stir gently to combine.",
+                "Garnish with an orange slice."
+              ],
+              "batch": null,
+              "alt batch": null
             },
             {
               "name": "Garibaldi",
@@ -4153,6 +4211,26 @@
 
 
 
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             
@@ -4189,6 +4267,19 @@
                       "Marie Brizard Apry",
                       "Giffard Abricot du Roussillon",
                       "Apricot Schnapps"
+                    ]
+                  },
+                  {
+                    "name": "Averna Amaro",
+                    "description": [
+                      "Typically around 29% ABV",
+                      "Origin: Sicily, Italy",
+                      "Averna Amaro is a traditional Italian herbal liqueur made from a secret blend of botanicals, herbs, roots, and citrus rinds. It has a rich, bittersweet flavor profile with notes of caramel, orange, licorice, and earthy herbs."
+                    ],
+                    "alternatives": [
+                      "Montenegro Amaro",
+                      "Nonino Amaro",
+                      "Ramazzotti Amaro"
                     ]
                   },
                   {
@@ -4467,6 +4558,19 @@
                         "Commonly used in tiki cocktails, lemonades, and exotic punches"
                       ],
                       "alternatives": ["Passion fruit purée", "Passion fruit liqueur", "Mango syrup", "Pineapple syrup"]
+                    },
+                    {
+                      "name": "Peach Schnapps",
+                      "description": [
+                        "Typically around 15–20% ABV",
+                        "Commonly produced in the United States and Europe, especially by large commercial brands",
+                        "Peach schnapps is a sweet, peach-flavored liqueur-style spirit made with a neutral base and added peach flavoring and sugar. It is lighter and more candy-like than traditional fruit liqueurs, with a bright, sweet peach taste."
+                      ],
+                      "alternatives": [
+                        "Peachtree Schnapps",
+                        "DeKuyper Peach Schnapps",
+                        "Archers Peach Schnapps"
+                      ]
                     },
                     {
                       "name": "Pisco",
