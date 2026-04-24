@@ -2475,22 +2475,32 @@
               "glass": ["Old Fashioned Glass or", "Coupe Glass"],
               "rim": null,
               "wine": null,
-              "liquor": ["Bourbon - 2 oz"],
+              "liquor": [
+                "Whiskey - 2 oz"
+              ],
               "liqueur": null,
               "vermouth": null,
-              "mixers": ["Lemon Juice - 0.75 oz", "Simple Syrup - 0.5 oz", "Egg White (optional)"],
-              "garnish": ["Lemon Wheel", "Cherry"],
+              "mixers": [
+                "Lemon Juice - 0.75 oz",
+                "Simple Syrup - 0.75 oz",
+                "Egg White - 1"
+              ],
+              "garnish": [
+                "Angostura Bitters",
+                "Cherry",
+                "Orange Slice"
+              ],
               "section": null,
               "photo": "whiskeySour",
               "instructions": [
-                "Add bourbon, lemon juice, simple syrup, and egg white (if using) to a shaker.",
-                "Dry shake (without ice) vigorously if using egg white.",
+                "Add bourbon, fresh lemon juice, simple syrup, and egg white to a shaker without ice.",
+                "Dry shake vigorously to emulsify the egg white.",
                 "Add ice and shake again until well chilled.",
-                "Strain into an Old Fashioned glass over fresh ice or into a chilled coupe.",
-                "Garnish with a lemon wheel and cherry."
+                "Strain into an Old Fashioned glass over fresh ice or double strain into coupe glass",
+                "Garnish with a few drops of Angostura bitters, a cherry, and an orange slice."
               ],
               "batch": null,
-              "alt. batch": null
+              "alt batch": null
             },
             {
             "name": "White Russian",
