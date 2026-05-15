@@ -42,30 +42,6 @@
         "drinks" : 
         [
           {
-            "name" : "Sakura Tini",
-            "glass" : ["Coupe Glass"],
-            "rim" : null,
-            "wine" : ["Living Jewel Sake - 1 oz"],
-            "liquor" : [
-              "Wheatley Vodka - 2 oz"
-            ],
-            "liqueur" : [
-              "Cointreau - .25 oz",
-              "St. Germain - 2 Drops"
-            ],
-            "vermouth" : null,
-            "mixers" : [
-                "Cherry Syrup - 2 Drops",
-                "Lychee Syrup - .25 oz"
-            ],
-            "garnish" : ["Orchid"],
-            "section" : "cocktails",
-            "photo" : "sakuraTini",
-            "instructions" : ["Pour Ingredients Into Shaker", "Add Ice & Shake Vigorously", "Strain Into Coupe Glass", "Garnish With Orchid"],
-            "batch" : ["Wheatly - 18 oz", "Living Jewel - 9 oz", "Cointreau - 2.25 oz", "Lychee Syrup - 2.25 oz", "Cherry Syrup - .25 oz","St. Germain - .25 oz", "Pour Into Liter Bottle & Mix", "NOTE: 3.5 oz of batch per drink"],
-            "alt. batch" : ["2 Egg Whites", "Cherrys Syrup - 2.5 oz", "Lemon Juice - 2.5 oz", "St. Germain - 5 oz", "Let Sit for 5 minutes", "Charge Foam Canister & Test for Consistency (Recharge if Necessary)"]
-          },
-          {
             "name" : "Call Me 'Koko'",
             "glass" : ["Rocks Glass"],
             "rim" : null,
@@ -517,6 +493,30 @@
             "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Dirty Dump Into Wine Glass & Top with Club Soda", "Garnish With Dehydrated Orange & Pineapple Frond"],
             "batch" : null,
             "alt. batch" : null
+          },
+          {
+            "name" : "Sakura Tini",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : ["Living Jewel Sake - 1 oz"],
+            "liquor" : [
+              "Wheatley Vodka - 2 oz"
+            ],
+            "liqueur" : [
+              "Cointreau - .25 oz",
+              "St. Germain - .25 "
+            ],
+            "vermouth" : null,
+            "mixers" : [
+                "Cherry Syrup - .25",
+                "Lychee Syrup - .25 oz"
+            ],
+            "garnish" : ["Orchid"],
+            "section" : "originals",
+            "photo" : "sakuraTini",
+            "instructions" : ["Pour Ingredients Into Shaker", "Add Ice & Shake Vigorously", "Strain Into Coupe Glass", "Garnish With Orchid"],
+            "batch" : ["Wheatly - 18 oz", "Living Jewel - 9 oz", "Cointreau - 2.25 oz", "Lychee Syrup - 2.25 oz", "Cherry Syrup - 2.25 oz","St. Germain - 2.25 oz", "Pour Into Liter Bottle & Mix", "NOTE: 3.5 oz of batch per drink"],
+            "alt. batch" : ["2 Egg Whites", "Cherrys Syrup - 2.5 oz", "Lemon Juice - 2.5 oz", "St. Germain - 5 oz", "Let Sit for 5 minutes", "Charge Foam Canister & Test for Consistency (Recharge if Necessary)"]
           },
           {
             "name" : "Salt & Sun",
