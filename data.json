@@ -4,11 +4,11 @@
       {
         "Menu Drinks" :                  42,
 
-        "Retired Drinks" :               330,
+        "Retired Drinks" :               243,
 
-        "Search Menu Drinks" :           500,
+        "Search Menu Drinks" :           688,
 
-        "All Other Drinks" :             718,
+        "All Other Drinks" :             876,
 
         "Inventory / Rim Garnishes" :    1660,
 
@@ -2009,9 +2009,9 @@
               "rim": null,
               "wine": null,
               "liquor": ["Vodka - 2 oz"],
-              "liqueur": ["St. Germain - 1 oz"],
+              "liqueur": ["St. Germain - .5 oz", "Cointreau - .25 oz"],
               "vermouth": null,
-              "mixers": ["Lychee Syrup - 1 oz"],
+              "mixers": ["Lemon Juice - .25 oz", "Lychee Syrup - 1 oz"],
               "garnish": ["Lychee Fruit", "Lemon Twist (optional)"],
               "section": null,
               "photo": "lycheeMartini",
